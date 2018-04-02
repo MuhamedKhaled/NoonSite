@@ -1,0 +1,206 @@
+.main-section-title{
+    position:relative;
+    height: 100px;
+    width: 140px;
+    border-bottom-left-radius:70px;
+    border-bottom-right-radius:70px;
+    background:#efefef;
+    margin-bottom: 20px;
+}
+
+.main-section-title p{
+    position: absolute;
+    left: 13%;
+    top: 20%;
+    color: #6b478f;
+    font: 30px BahijTheSansArabic-Plain;
+}
+
+.section_title{
+    position:relative;
+    height: 82px;
+    width: 85px;
+    border-bottom-left-radius:70px;
+    border-bottom-right-radius:70px;
+    background:#6b478f;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.section_title p{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    color: white;
+    font: 14px BahijTheSansArabic-Plain;
+}
+
+.section_start{
+    position: relative;
+}
+
+.section_start a{
+    position: absolute;
+    top: 10%;
+    right: 10%
+}
+
+.margin_section{
+    margin-bottom: 90px;
+}
+
+.section_card {
+    border: solid 1px rgba(0, 0, 0, 0.06);
+    /*margin-top: 20px;*/
+    padding: 25px;
+    max-width: 500px;
+}
+
+.section_card_img {
+    width: 100%;
+}
+
+.small_card .card-title{
+    font-size: 18px;
+    height: 60px;
+}
+
+.-min-ago {
+    width: 52px;
+    height: 13px;
+    font: 12px BahijTheSansArabic-Plain;
+    text-align: left;
+    font-weight: bold;
+    color: #cccccc;
+    margin: 10px 0px;
+}
+
+.card-title {
+    font: 22px BahijTheSansArabic-Plain;
+    font-weight: bold;
+    height: 70px;
+    overflow: hidden;
+    text-align: left;
+    color: #6b478f;
+}
+
+.card-text p{
+    font: 14px BahijTheSansArabic-ExtraLight;
+    font-weight: bold;
+    height: 128px;
+    overflow: hidden;
+    line-height: 19px;
+    text-align: left;
+    color: #cccccc;
+}
+
+.feature_card_title p, .feature_card_text p, .feature_card_share p{
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.feature_card_title{
+    max-height: 40px;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.feature_card_text{
+    height: 65px;
+    overflow: hidden;
+}
+
+.share-icon-c{
+    color: #cccccc;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.share-icon-c:hover , .share-icon-c:active , .share-icon-c:focus , .sing:active , .sing:hover , .sing:focus{
+    color: #6b478f;
+    text-decoration: none;
+}
+
+.more{
+    position: relative;
+}
+
+.read_more{
+    color: #cccccc;
+    font: 14px BahijTheSansArabic-Plain;
+    position: absolute;
+    right: 0;
+}
+
+.read_more:hover{
+    color: #cccccc;
+}
+
+.title_bar{
+    position: relative;
+}
+
+.all_page a{
+    position: absolute;
+    top: 45%;
+    right: 15px;
+    font: 14px BahijTheSansArabic-Plain;
+    font-weight: bold;
+    color: #6b478f;
+}
+
+.backgrounds{
+    background-color: #efefef;
+}
+
+.media_card_container{
+    position: relative;
+}
+.media_card_hover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 71, 143,0.7);
+}
+
+.media_card_container:hover .media_card_hover{
+    display: block;
+
+}
+
+.media_card_details{
+    color: white;
+    margin-left: 25px;
+    position: absolute;
+    bottom:0;
+}
+
+.hover_title{
+    font: 12px BahijTheSansArabic-Plain;
+    height: 10px;
+    margin-bottom: 15px;
+}
+
+.hover_text{
+    font: 16px BahijTheSansArabic-Plain;
+    height: 50px;
+    overflow: hidden;
+}
+
+.advertise{
+    background-color: #efefef;
+    color: #6b478f;
+    font: 14px BahijTheSansArabic-Plain;
+    font-weight: bold;
+    height: 245px;
+    width: 195px;
+}
+
+.advertise p{
+    text-align: center;
+}
