@@ -1,5 +1,5 @@
 /****************  Header Start ***************/
-.header-bar{    
+.header-bar{
     background-color: #FFFFFF;
 }
 .header-bar .date{
@@ -19,7 +19,7 @@
     margin-top: 10px;
 }
 .header-bar .search {
- 
+
   height: 20px;
   font: BahijTheSansArabic-Plain;
   font-size: 12px;
@@ -42,7 +42,7 @@ input[name=search]{
     color: #6b478f;
     padding-left: 10px;
     font-size: 14px;
-    
+
 }
 .search-btn{
     border: none;
@@ -81,7 +81,7 @@ input[name=search]{
 }
 .navbar-nav .nav-link{
     font: BahijTheSansArabic-Plain;
-    color:#FFFFFF !important; 
+    color:#FFFFFF !important;
     font-size: 13px;
     padding-right: 3px;
     font-weight: bold;
@@ -114,27 +114,195 @@ input[name=search]{
     outline: none;
 }
 .navbar-toggler{
-   margin-left: 50%; 
+   margin-left: 50%;
 }
-/**************** Navbar Start***************/
- 
+/**************** Navbar Start ***************/
+/**************** Slider Start **************/
+.main-slider{
+  margin-top: 100px;
+
+}
+.slickSlider{
+  width:  100%;
+  height: 60%;
+
+
+  /* background-color: #d3d3d3; */
+}
+.item{
+
+}
+.slick-dots li.slick-active button:before{
+  opacity: 1;
+  color: #6b478f;
+}
+.slick-dots li:hover{
+  opacity: 1;
+  color: #6b478f;
+}
+.slick-dots li{
+  margin: -4px;
+}
+.item .content {
+    background-color:rgb(255,255,255,0.9);
+    color: #6b478f;
+    padding: 20px; /* Some padding */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    position: absolute;
+}
+
+.back-image{
+  position:relative;
+  background-size:cover;
+}
+/**************** Slider End  **************/
+
+/**************** Details-Section start  **************/
+.details-section{
+  margin-top: 100px;
+}
+.Section-title{
+  background-color: #6b478f;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding-top: 45px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius:50px;
+}
+.sponsered-by{
+  background-color: #e81377;
+  height: 40px;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+/**************** Details-Section End  **************/
+/**************** Profiles-Section start  **************/
+.details-section-2{
+  margin-top: 100px;
+  background-color: #efefef;
+  padding-bottom: 40px;
+}
+.my-margin{
+  margin-top:20px;
+}
+.card-background{
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.image-adjustment{
+  margin-left:5%;
+  margin-top:5%;
+  width: 90%;
+}
+.profile-name{
+  color:#6b478f;
+  font-size:18px;
+  font-weight:bold;
+}
+.profile-text{
+  color:#cccccc;
+  font-size:14px;
+  font-weight:bold;
+}
+.font-place1{
+  font-size: 18px;
+  margin-left: 30.5%;
+}
+.font-place{
+  font-size: 18px;
+}
+/**************** Profiles-Section END  **************/
+/**************** photo-Section start *****************/
+.title_bar{
+    position: relative;
+}
+
+.all_page a{
+    position: absolute;
+    top: 45%;
+    right: 15px;
+    font: 14px BahijTheSansArabic-Plain;
+    font-weight: bold;
+    color: #6b478f;
+}
+
+.media_card_container{
+    position: relative;
+}
+.media_card_hover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 71, 143,0.7);
+}
+
+.media_card_container:hover .media_card_hover{
+    display: block;
+
+}
+
+.media_card_details{
+    color: white;
+    margin-left: 25px;
+    position: absolute;
+    bottom:0;
+}
+
+.hover_title{
+    font: 12px BahijTheSansArabic-Plain;
+    height: 10px;
+    margin-bottom: 15px;
+}
+
+.hover_text{
+    font: 16px BahijTheSansArabic-Plain;
+    height: 41px;
+    overflow: hidden;
+    font-weight: bold;
+}
+.card{
+  border: none;
+
+}
+.nopadding{
+  padding: 0;
+}
+.card-img-top{
+  padding:0;
+}
+/**************** photo-Section END *****************/
+/**************** Magazine-Section Start *****************/
+.magazine-card{
+  height: 400px;
+}
+
 /**************** Footer start *************/
 .customized-footer{
     background-color: #6b478f;
     padding-bottom: 50px;
     padding-top: 40px;
-    margin-top: 50%;
+    margin-top: 10%;
 }
-.home , .follow{
+.home , .follow , .about-us{
     color: #FFFFFF;
     font-size: 14px;
     font-weight: bold;
 }
-.sport-item{
+.sport-item , .about-item{
     color: #FFFFFF;
     font-size: 12px;
 }
-.sport-item:hover , .sport-item:active , .sport-item:focus{
+.sport-item:hover , .sport-item:active , .sport-item:focus , .about-item:hover , .about-item:active , .about-item:focus{
     color: #462f5e;
     text-decoration: none;
 }
@@ -157,7 +325,7 @@ input[type=text]{
 color: #FFFFFF;
     padding-left: 10px;
     font-size: 14px;
-    
+
 }
 .subscribe-btn{
     border-radius: 20px;
@@ -175,10 +343,11 @@ color: #FFFFFF;
 }
 /**************** Footer end **************/
 
-@media only screen and (max-width: 990px) {
-/*.header-bar{    
+
+@media screen and (max-width: 990px) and (min-width:768px) {
+.header-bar{
     background-color: violet;
-}*/
+}
 .header-bar .search {
  margin-top: 10px;
 }
@@ -201,5 +370,22 @@ color: #FFFFFF;
         padding-top: 5px;
         padding-bottom: 10px;
     }
+    .font-place1{
+      font-size: 14px;
+      margin-left: 22%;
+    }
+    .font-place{
+      font-size: 14px;
+    }
+    .img-div{
+        width: 100%;
+    }
+    .about-us{
+        margin-left: 20px;
+    }
+    .about-item{
+        margin-left: 33px;
+    }
+
 
 }

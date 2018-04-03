@@ -1,0 +1,71 @@
+/**************** Footer start *************/
+.customized-footer{
+    background-color: #6b478f;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    margin-top: 10%;
+}
+.home , .follow , .about-us{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sport-item , .about-item{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.sport-item:hover , .sport-item:active , .sport-item:focus , .about-item:hover , .about-item:active , .about-item:focus{
+    color: #462f5e;
+    text-decoration: none;
+}
+.second-column{
+    margin-top: 30px;
+}
+
+.subscribe-area{
+    border-radius: 20px;
+    background-color: #462f5e;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+input::placeholder {
+  color:#6b478f;
+    font-size: 14px;
+}
+input[type=text]{
+color: #FFFFFF;
+    padding-left: 10px;
+    font-size: 14px;
+
+}
+.subscribe-btn{
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 4px;
+    color: #462f5e;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.subscribe-btn:hover , .subscribe-btn:focus , .subscribe-btn:active{
+    outline: none;
+}
+/**************** Footer end **************/
+
+
+@media screen and (max-width: 990px) and (min-width:768px) {
+    .img-div{
+        width: 100%;
+    }
+    .about-us{
+        margin-left: 20px;
+    }
+    .about-item{
+        margin-left: 33px;
+    }
+
+
+}

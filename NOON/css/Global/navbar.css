@@ -1,5 +1,5 @@
 /****************  Header Start ***************/
-.header-bar{    
+.header-bar{
     background-color: #FFFFFF;
 }
 .header-bar .date{
@@ -19,7 +19,7 @@
     margin-top: 10px;
 }
 .header-bar .search {
- 
+
   height: 20px;
   font: BahijTheSansArabic-Plain;
   font-size: 12px;
@@ -42,7 +42,7 @@ input[name=search]{
     color: #6b478f;
     padding-left: 10px;
     font-size: 14px;
-    
+
 }
 .search-btn{
     border: none;
@@ -81,7 +81,7 @@ input[name=search]{
 }
 .navbar-nav .nav-link{
     font: BahijTheSansArabic-Plain;
-    color:#FFFFFF !important; 
+    color:#FFFFFF !important;
     font-size: 13px;
     padding-right: 3px;
     font-weight: bold;
@@ -114,12 +114,12 @@ input[name=search]{
     outline: none;
 }
 .navbar-toggler{
-   margin-left: 50%; 
+   margin-left: 50%;
 }
 /**************** Navbar Start***************/
 
-@media only screen and (max-width: 990px) {
-/*.header-bar{    
+@media screen and (max-width: 990px) and (min-width:768px) {
+/*.header-bar{
     background-color: violet;
 }*/
 .header-bar .search {
