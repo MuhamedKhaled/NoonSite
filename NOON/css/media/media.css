@@ -72,3 +72,11 @@
     color: white;
     font: 14px BahijTheSansArabic-Plain;
 }
+
+.hidden_photos{
+    display: none;
+}
+
+.hidden_videos{
+    display: none;
+}

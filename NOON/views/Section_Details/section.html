@@ -223,8 +223,6 @@
                     <div class="card mb-4">
                         <div class = "media_card_container">
                             <img class="card-img-top" src="../../img/Section/fashion.png"
-                                 srcset="../../img/Section/fashion@2x.png 2x
-                                      ../../img/Section/fashion@3x.png 3x"
                                  alt="little-girl">
                             <div class="media_card_hover">
                                 <div class="media_card_details">
@@ -239,8 +237,6 @@
                     <div class="card mb-4">
                         <div class = "media_card_container">
                             <img class="card-img-top" src="../../img/Section/football.png"
-                                 srcset="../../img/Section/football@2x.png 2x
-                                      ../../img/Section/football@3x.png 3x"
                                  alt="little-girl">
                             <div class="media_card_hover">
                                 <div class="media_card_details">
@@ -255,8 +251,6 @@
                     <div class="card mb-4">
                         <div class = "media_card_container">
                             <img class="card-img-top" src="../../img/Section/basketball.png"
-                                 srcset="../../img/Section/basketball@2x.png 2x
-                                      ../../img/Section/basketball@3x.png 3x"
                                  alt="little-girl">
                             <div class="media_card_hover">
                                 <div class="media_card_details">
@@ -271,8 +265,6 @@
                     <div class="card mb-4">
                         <div class = "media_card_container">
                             <img class="card-img-top" src="../../img/Section/girls.png"
-                                 srcset="../../img/Section/girls@2x.png 2x
-                                      ../../img/Section/girls@3x.png 3x"
                                  alt="little-girl">
                             <div class="media_card_hover">
                                 <div class="media_card_details">
@@ -287,8 +279,6 @@
                     <div class="card mb-4">
                         <div class = "media_card_container">
                             <img class="card-img-top" src="../../img/Section/football.png"
-                                 srcset="../../img/Section/football@2x.png 2x
-                                      ../../img/Section/football@3x.png 3x"
                                  alt="little-girl">
                             <div class="media_card_hover">
                                 <div class="media_card_details">
@@ -303,8 +293,6 @@
                     <div class="card mb-4">
                         <div class = "media_card_container">
                             <img class="card-img-top" src="../../img/Section/girls.png"
-                                 srcset="../../img/Section/girls@2x.png 2x
-                                      ../../img/Section/girls@3x.png 3x"
                                  alt="little-girl">
                             <div class="media_card_hover">
                                 <div class="media_card_details">
@@ -319,8 +307,6 @@
                     <div class="card mb-4">
                         <div class = "media_card_container">
                             <img class="card-img-top" src="../../img/Section/fashion.png"
-                                 srcset="../../img/Section/fashion@2x.png 2x
-                                      ../../img/Section/fashion@3x.png 3x"
                                  alt="little-girl">
                             <div class="media_card_hover">
                                 <div class="media_card_details">
@@ -335,8 +321,6 @@
                     <div class="card mb-4">
                         <div class = "media_card_container">
                             <img class="card-img-top" src="../../img/Section/basketball.png"
-                                 srcset="../../img/Section/basketball@2x.png 2x
-                                      ../../img/Section/basketball@3x.png 3x"
                                  alt="little-girl">
                             <div class="media_card_hover">
                                 <div class="media_card_details">
@@ -349,6 +333,19 @@
                 </div>
             </div>
         </section>
+    </div>
+
+    <div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <img src="" class="enlargeImageModalSource" style="width: 100%;">
+                </div>
+            </div>
+        </div>
     </div>
     <!-------------------------------------------Photos END--------------------------------------------------------------------------->
 
@@ -474,7 +471,7 @@
     <!-------------------------------------------Videos END--------------------------------------------------------------------------->
 
     <!-------------------------------------------News Start--------------------------------------------------------------------------->
-    <section class="container">
+    <section class="container margin_section">
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class = "section_card small_card">
@@ -643,6 +640,7 @@
     <script src="../../js/Global/jquery-3.3.1.min.js"></script>
     <script src="../../js/Global/popper.min.js"></script>
     <script src="../../js/Global/bootstrap.min.js"></script>
+    <script src="../../js/Photos/photos_modal.js"></script>
 
 </body>
 </html>
