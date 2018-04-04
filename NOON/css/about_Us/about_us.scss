@@ -21,6 +21,7 @@ body{
 }
 //******************************
 .about{
+    margin-top: 6%;
     .abouut_noon{
         background: #e81377;
         height: 260px;
@@ -97,9 +98,11 @@ body{
 
 }
 .vision{
-    background: url("../../img/about_us/layer-10-copy.png");
+    background: url("../../img/about_us/Laundry.jpg");
     margin-right: 14%;
+    margin-top: 2%;
     width: 78%;
+    background-size: 1052px;
     .row{
         color:#fff;
         background: rgba(107,71,143,0.79);
@@ -108,7 +111,7 @@ body{
     }
 }
 .message{
-
+    margin-top: 4%;
     .row{
         // width: 95%;
         .our_message{

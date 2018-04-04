@@ -25,6 +25,10 @@ body {
   font-family: Bahij_Arabic_plain;
 }
 
+.about {
+  margin-top: 6%;
+}
+
 .about .abouut_noon {
   background: #e81377;
   height: 260px;
@@ -103,15 +107,21 @@ body {
 }
 
 .vision {
-  background: url("../../img/about_us/layer-10-copy.png");
+  background: url("../../img/about_us/Laundry.jpg");
   margin-right: 14%;
+  margin-top: 2%;
   width: 78%;
+  background-size: 1052px;
 }
 
 .vision .row {
   color: #fff;
   background: rgba(107, 71, 143, 0.79);
   padding: 7% 5%;
+}
+
+.message {
+  margin-top: 4%;
 }
 
 .message .row .our_message {
