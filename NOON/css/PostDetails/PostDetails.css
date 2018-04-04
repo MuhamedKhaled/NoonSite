@@ -1,0 +1,431 @@
+.Rectangle-10 {
+     width: 100%;
+     height: fit-content;
+     background-color: #ffffff;
+     border: solid 1px rgba(0, 0, 0, 0.06);
+     margin-top: 5.2%;
+}
+ .Rectangle-8 {
+     width: 100%;
+     height: 294px;
+     background-color: #ffffff;
+     border: solid 1px rgba(0, 0, 0, 0.06);
+     margin-top: 5.2%;
+     align-items: center;
+}
+ .advertising-space{
+     width: 90%;
+     height: 90%;
+     align-self: center;
+     background-color: #efefef;
+     margin: auto;
+     position: relative;
+     align-items: center;
+     align-self: center;
+     top: 5%;
+     bottom: auto;
+}
+ .Layer-3 {
+     width: 100%;
+     object-fit: contain;
+     margin-top: 3%;
+}
+ .-min-ago {
+     font-family: BahijTheSansArabic-Plain;
+     font-size: 90%;
+     font-weight: normal;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: left;
+     color: #cccccc;
+     margin-top: 4%;
+}
+ .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettin {
+     width: fit-content;
+     font-family: BahijTheSansArabic-Plain;
+     font-size: 22px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     color: #6b478f;
+     margin-top:2%;
+}
+ .profile-header {
+     width: fit-content;
+     font-family: BahijTheSansArabic-Plain;
+     font-size: 22px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     color: #6b478f;
+     margin-top:2%;
+     text-align: center;
+}
+ .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettinSECOND{
+     width: fit-content;
+     height: fit-content;
+     font-family: BahijTheSansArabic-ExtraLight;
+     font-size: 14px;
+     font-weight: normal;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.36;
+     letter-spacing: normal;
+     text-align: left;
+     color: #cccccc;
+}
+ .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettinFORTH{
+     height: fit-content;
+     font-family: BahijTheSansArabic-ExtraLight;
+     font-size: 14px;
+     font-weight: normal;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.36;
+     letter-spacing: normal;
+     text-align: center;
+     color: #cccccc;
+     margin-top: 1.4%;
+     margin-bottom: 2%;
+}
+ .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettinThird {
+     width: fit-content;
+     font-family: BahijTheSansArabic-Plain;
+     font-size: 18px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     color: #6b478f;
+}
+ .bolds {
+     font-family: BahijTheSansArabic-Plain;
+     font-size: 22px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: left;
+     color: #6b478f;
+}
+ .noonaenewslink {
+     font-family: Cairo;
+     font-size: 16px;
+     font-weight: normal;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: left;
+     color: #6b478f;
+}
+ .Read-More {
+     font-family: BahijTheSansArabic;
+     font-size: small;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     color: #cccccc;
+}
+ .advertising-space-triangle{
+     margin-top: 5.2%;
+     background-color: #ffffff;
+     border: solid 1px rgba(0, 0, 0, 0.06);
+}
+ .mar-1{
+     margin-left: 4%;
+}
+ .mar-3{
+     margin-left: 2%;
+}
+ .mar-2{
+     margin-top: 60px;
+}
+ .Advertising-Space-word {
+     font-family: BahijTheSansArabic;
+     font-size: 120px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.36;
+     letter-spacing: normal;
+     color: #6b478f;
+     vertical-align: middle;
+}
+ .adv-font {
+     font-family: BahijTheSansArabic;
+     font-weight: bold;
+     color: #6b478f;
+     position:relative;
+     text-align: center;
+     top: 46%;
+}
+ img {
+     display: block;
+     max-width: 100%;
+     height: auto;
+}
+ .Rectangle-17 {
+     width: 100%;
+     height: fit-content;
+     margin: auto;
+     background-color: #efefef;
+     align-items: center;
+}
+ .related {
+     border-radius: 0px 0px 45px 45px;
+     background: #6b478f;
+     width: 73px;
+     height: 74px;
+}
+ .profiles {
+     border-radius: 0px 45px 45px 0px;
+     background: #6b478f;
+     width: 94px;
+     height: 24px;
+     align-self: center;
+}
+ .Related-Topics {
+     font-family: BahijTheSansArabic-Plain;
+     font-size: 14px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: center;
+     align-items: center;
+     color: #ffffff;
+     position: relative;
+     top: 16%;
+}
+ .More {
+     font-family: BahijTheSansArabic-Plain;
+     font-size: 14px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: left;
+     color: #6b478f;
+     position: absolute;
+     right: -3%;
+     top: 48%;
+}
+ .Profiles-font {
+     font-family: BahijTheSansArabic-Plain;
+     font-size: 14px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     color: #ffffff;
+     position: relative;
+     top: 50%;
+     transform: translateX(26%) translateY(-50%);
+}
+ .line-1 {
+     width: 244px;
+     height: 1px;
+     opacity: 0.3;
+     background-color: #cccccc;
+}
+/*Comments*/
+ .Rectangle-10-copy-2 {
+     width:100%;
+     height: fit-content;
+     background-color: #ffffff;
+     border: solid 1px rgba(0, 0, 0, 0.06);
+     margin-top: 2%;
+}
+ .Comments {
+     font-family: BahijTheSansArabic-Plain;
+     font-size: 22px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: left;
+     color: #6b478f;
+     margin-top: 28px;
+}
+ .Rectangle-25 {
+     width: 96%;
+     height: min-content;
+     border: solid 1px rgba(0, 0, 0, 0.06);
+     margin-top: 2%;
+     padding: 1%;
+}
+ .Write-a-comment {
+     font-family: BahijTheSansArabic-Plain;
+     font-size: 14px;
+     font-weight: 200;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: left;
+     color: #cccccc;
+}
+ .Rectangle-19-copy-2 {
+     object-fit: contain;
+     margin-top: 5%;
+}
+ .Maria-Sharapova {
+     width: 137px;
+     height: 19px;
+     font-family: BahijTheSansArabic-Plain;
+     font-size: 18px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: left;
+     color: #6b478f;
+}
+ .-min-ago-copy {
+     font-family: BahijTheSansArabic-ExtraLight;
+     font-size: 12px;
+     font-weight: normal;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: right;
+     color: #cccccc;
+     position: absolute;
+     right: 4%;
+}
+ .Like {
+     width: 2.52%;
+     height: 1.68%;
+     font-family: BahijTheSansArabic-ExtraLight;
+     font-size: 14px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.36;
+     letter-spacing: normal;
+     text-align: left;
+     color: #6b478f;
+}
+ .Reply {
+     width: 3.62%;
+     height: 2.1%;
+     font-family: BahijTheSansArabic-ExtraLight;
+     font-size: 14px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.36;
+     letter-spacing: normal;
+     text-align: left;
+     color: #6b478f;
+     margin-top: 15px;
+     margin-left: 40px;
+}
+ .Shape-4 {
+     width: 1px;
+     height: inherit;
+     opacity: 0.65;
+     background-color: #cccccc;
+}
+ .Layer-13-copy-3 {
+     width: 33px;
+     height: 42px;
+     margin-left: 1.4%;
+}
+ .Vector-Smart-Object-copy-2 {
+     width: 10px;
+     height: 8px;
+     object-fit: contain;
+     background-color: #5e3f7e;
+     margin-left: 15%;
+     margin-top: -0.5%;
+}
+ .View-more-replies {
+     font-family: BahijTheSansArabic-ExtraLight;
+     font-size: 14px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: 1.36;
+     letter-spacing: normal;
+     text-align: left;
+     color: #6b478f;
+}
+ .Shape-3 {
+     height: 1px;
+     opacity: 0.3;
+     background-color: #cccccc;
+     margin-left: 1.4%;
+     margin-top: 3%;
+     margin-bottom: 2%;
+}
+ .Rectangle-10-copy {
+     width: 292px;
+     height: 327px;
+     background-color: #ffffff;
+     border: solid 1px rgba(0, 0, 0, 0.06);
+}
+ .Vector-Smart-Object-copy-18 {
+     width: 134px;
+     height: 16px;
+     background-color: #cccccc;
+     margin-top:107px;
+}
+ .Layer-8-copy {
+     width: 247px;
+     height: 75px;
+     margin-top: 23px;
+     margin-left: 25px;
+     margin-right: 20px;
+     margin-bottom: 155px;
+}
+ .Read-More {
+     font-family: BahijTheSansArabic-ExtraLight;
+     font-size: 14.5px;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     color: #cccccc;
+}
+ .Vector-Smart-Object-copy-8 {
+     width: 292px;
+     height: 327px;
+}
+ Rectangle-4-copy-2 {
+     width: 247px;
+     height: 149px;
+     background-color: #6b478f;
+     border: solid 1px rgba(213, 213, 213, 0.24);
+}
+ input::placeholder {
+     font-family: BahijTheSansArabic-ExtraLight;
+}
+ .center{
+     text-align: center 
+}
+ .arrow{
+     font-size:100%;
+     color:#6b478f;
+}
+ .line-post{
+     width: 92%;
+     color:#cccccc;
+     height: 1px;
+}
