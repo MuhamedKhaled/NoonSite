@@ -81,7 +81,6 @@
      color: #cccccc;
 }
  .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettinFORTH{
-     width: fit-content;
      height: fit-content;
      font-family: BahijTheSansArabic-ExtraLight;
      font-size: 14px;
@@ -418,4 +417,15 @@
  input::placeholder {
      font-family: BahijTheSansArabic-ExtraLight;
 }
- 
+ .center{
+     text-align: center 
+}
+ .arrow{
+     font-size:100%;
+     color:#6b478f;
+}
+ .line-post{
+     width: 92%;
+     color:#cccccc;
+     height: 1px;
+}
