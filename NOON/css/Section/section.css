@@ -243,3 +243,11 @@
 .hey{
     padding: 0 !important;
 }
+
+.first_row_padding{
+    padding: 0 20px 20px 20px;
+}
+
+.second_row_padding{
+    padding: 20px 20px 0 20px;
+}
