@@ -1,0 +1,40 @@
+.live {
+    border-radius: 0px 0px 53px 53px;
+    background: #efefef;
+    width: 105px;
+    height: 86px;
+}
+ .live-streaming {
+    font-family: BahijTheSansArabic-Plain;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    color: #6B4791;
+    position: relative;
+    top: 11%;
+}
+}
+ .More {
+     font-family: BahijTheSansArabic-Plain;
+     font-size: 14px;
+     font-weight: bold;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align: left;
+     color: #6b478f;
+     position: absolute;
+     right: -3%;
+     top: 48%;
+}
+
+.media_card_details{
+    margin: 30% 40%;
+    text-align: center;
+    color: #FFF;
+}
+.liveStream{
+    margin: 0;
+}
