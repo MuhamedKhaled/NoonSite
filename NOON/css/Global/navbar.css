@@ -116,7 +116,54 @@ input[name=search]{
 .navbar-toggler{
    margin-left: 50%;
 }
-/**************** Navbar Start***************/
+.dropdown-submenu{
+    width: 230px;
+    position: relative;
+}
+.nested-list-link{
+    color: #d0d0d0;
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.nested-list-link:hover , .nested-list-link:active , .nested-list-link:focus{
+    text-decoration: none;
+    color: #6b478f;
+}
+.dropdown-divider{
+    padding-top: 10px;
+}
+.country{
+    margin-right: 4%;
+}
+.country-1{
+    padding: 0% 19% 0% 5%;
+    color: #d0d0d0;
+ /*   border-right: 1px solid #cccccc;*/
+}
+.country-2{
+padding-left: 5px;
+ color: #d0d0d0;
+}
+.country-2:hover , .country-2:active , .country-2:focus , .country-1:hover , .country-1:active , .country-1:focus{
+     text-decoration: none;
+    color: #6b478f;
+}
+.my-sport{
+    color: #6b478f;
+    font-size: 14px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    font-weight: bold;
+}
+.second-dropdown{
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    width: 400px;
+}
+/**************** Navbar End***************/
 
 @media screen and (max-width: 990px) and (min-width:768px) {
 /*.header-bar{
