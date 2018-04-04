@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: Bahij_Arabic_plain;
-  src: url("/NOON/css/fonts/Bahij TheSansArabic-Plain.ttf");
+  src: url("../../css/fonts/Bahij TheSansArabic-Plain.ttf");
 }
 
 body {
@@ -62,7 +62,7 @@ body {
 }
 
 .about .noon-img .about_image {
-  background: url("/NOON/img/about_us/gathering.png");
+  background: url("../../img/about_us/gathering.png");
   background-repeat: no-repeat;
   background-size: 340px 217px;
   background-position: center;
@@ -82,7 +82,7 @@ body {
 }
 
 .about .noon-img .noon_image {
-  background: url("/NOON/img/Global/navbar-logo.jpg");
+  background: url("../../img/Global/navbar-logo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid rgba(0, 0, 0, 0.07);
@@ -103,7 +103,7 @@ body {
 }
 
 .vision {
-  background: url("/NOON/img/about_us/layer-10-copy.png");
+  background: url("../../img/about_us/layer-10-copy.png");
   margin-right: 14%;
   width: 78%;
 }
@@ -139,7 +139,7 @@ body {
 }
 
 .message .row .left_noon .image {
-  background: url("/NOON/img/about_us/gathering.png");
+  background: url("../../img/about_us/gathering.png");
   height: 292px;
   width: 135%;
 }
@@ -167,7 +167,7 @@ body {
 }
 
 .noon .inner {
-  background: url("/NOON/img/about_us/noon white.png");
+  background: url("../../img/about_us/noon white.png");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #e81377;

@@ -14,10 +14,10 @@
 }
 @font-face {
     font-family: Bahij_Arabic_plain;
-    src: url("/NOON/css/fonts/Bahij TheSansArabic-Plain.ttf");
+    src: url("../../css/fonts/Bahij TheSansArabic-Plain.ttf");
 }
 body{
-    font-family: Bahij_Arabic_plain;  
+    font-family: Bahij_Arabic_plain;
 }
 //******************************
 .about{
@@ -54,13 +54,13 @@ body{
     }
     .noon-img{
         .about_image{
-            background: url("/NOON/img/about_us/gathering.png");
+            background: url("../../img/about_us/gathering.png");
             background-repeat: no-repeat;
             background-size: 340px 217px;
             background-position: center;
             margin-left: -38px;
             height: 340px;
-    
+
         }
         .about_image:before{
             position: absolute;
@@ -73,14 +73,14 @@ body{
             left: 126px;
         }
         .noon_image{
-            background: url("/NOON/img/Global/navbar-logo.jpg");
+            background: url("../../img/Global/navbar-logo.jpg");
             background-repeat: no-repeat;
             background-position: center;
             border: 1px solid rgba(0, 0, 0, 0.07);
             background-color: #fff;
             height: 140px;
             margin: 13px -10px 13px 40px;
-    
+
         }
         .noon_image:before{
             position: absolute;
@@ -92,33 +92,33 @@ body{
             bottom: 1px;
             left: 95px;
         }
-        
-    } 
-    
+
+    }
+
 }
 .vision{
-    background: url("/NOON/img/about_us/layer-10-copy.png");
+    background: url("../../img/about_us/layer-10-copy.png");
     margin-right: 14%;
     width: 78%;
     .row{
         color:#fff;
         background: rgba(107,71,143,0.79);
         padding: 7% 5%;
-        
+
     }
 }
 .message{
-    
+
     .row{
         // width: 95%;
         .our_message{
             background: #fff;
             border: 1px solid rgba(0, 0, 0, 0.07);
             color:#8f8f8f;
-            padding: 4% 4% 6% 4%; 
-            margin-top: 6%;  
+            padding: 4% 4% 6% 4%;
+            margin-top: 6%;
             h2{
-                color:#6b478f; 
+                color:#6b478f;
             }
             margin-bottom: 20%;
         }
@@ -130,11 +130,11 @@ body{
             content: '';
             width: 100%;
             bottom: -11px;
-            left: 16px; 
+            left: 16px;
         }
         .left_noon{
             .image{
-                background: url("/NOON/img/about_us/gathering.png");
+                background: url("../../img/about_us/gathering.png");
                 height: 292px;
                 width:135%;
             }
@@ -158,14 +158,14 @@ body{
                 bottom: 323px;
                 left: 16px;
             }
-            
+
         }
     }
 
 }
 .noon{
     .inner{
-        background: url("/NOON/img/about_us/noon white.png");
+        background: url("../../img/about_us/noon white.png");
         background-repeat: no-repeat;
         background-position: center;
         background-color: #e81377;
