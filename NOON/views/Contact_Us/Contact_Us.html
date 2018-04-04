@@ -6,13 +6,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="/NOON/css/Global/bootstrap.min.css">
-    <link rel="stylesheet" href="/NOON/css/Global/fontawsome.min.css">
-    <link rel="stylesheet" href="/NOON/css/contact_Us/Contact_Us.css">
+    <link rel="stylesheet" href="../../css/Global/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/Global/navbar.css">
+    <link rel="stylesheet" href="../../css/contact_Us/Contact_Us.css">
 </head>
 
 <body>
-    <header></header>
+    <!--***********************************************Header Start******************************-->
+    <div class="header-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 offset-md-9 col-sm-3 offset-sm-9 ">
+                    <label class="date">Tue 11:04 PM</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12" style="height: 40px;">
+                    <img src="../../img/Global/navbar-logo.jpg">
+                </div>
+                <div class="col-md-4 offset-md-2 offset-sm-12 flex-container">
+                    <div class="row search-div">
+                        <div class="search">Search</div>
+                        <div>
+                            <input class="search-part" name="search">
+                        </div>
+                        <div>
+                            <button class="search-btn" type="submit">
+                                <i class="fa fa-search search-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 offset-md-8">
+                    <a href="#" class="share-icon-c share fa fa-facebook"></a>
+                    <a href="#" class="share-icon-c share fa fa-twitter"></a>
+                    <a href="#" class="share-icon-c share fa fa-instagram"></a>
+                    <a href="#" class="share-icon-c fa fa-google-plus-g"></a>
+                    <a href="#" class="share-icon-c share fa fa-youtube"></a>
+                    <a href="#" class="share-icon-c share fa fa-ellipsis-h"></a>
+                    <a href="#" class="share-icon-c share sing">Sign Up</a>
+                    <span class="vertical-line"></span>
+                    <a href="#" class="share-icon-c share sing">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********************************************Header End******************************-->
+    <!--***********************************************Nav Start******************************-->
+    <nav class="navbar navbar-expand-lg navbar-dark customized-navbar">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Sports
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Articles</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Images</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Videos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Magazines</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item shop">
+                        <a class="shop" href="#">
+                            <i class="fa fa-shopping-bag"></i>&nbsp;Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="liveStream">
+                            <span>
+                                <i class="fa fa-signal"></i>&nbsp;LiveStram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--***********************************************Nav End******************************-->
     <section class="body container">
         <!-- ______________________________contact info Start______________________________ -->
         <section class="contact row">
@@ -101,10 +199,10 @@
         </section>
         <!-- ______________________________contact from End______________________________ -->
 
-        <!-- ______________________________Location End______________________________ -->
+        <!-- ______________________________Location Start______________________________ -->
         <section class=" location">
             <div class="dropdown show">
-                <button class="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Chose your country
+                <button class="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chose your country
                     <i class="fal fa-angle-down"></i>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -138,12 +236,12 @@
                 </div>
                 <div class="location_on_map col-lg-2 col-md-3 col-sm-3">
                     <h2>
-                        <Strong>Location</Strong><br>
-                        on map</h2>
+                        <Strong>Location</Strong>
+                        <br> on map</h2>
                 </div>
             </div>
         </section>
-
+        <!-- ______________________________Location End______________________________ -->
     </section>
     <footer></footer>
 
@@ -151,7 +249,6 @@
     <script src="/NOON/js/Global/jquery-3.3.1.min.js"></script>
     <script src="/NOON/js/Global/popper.min.js"></script>
     <script src="/NOON/js/Global/bootstrap.min.js"></script>
-    <script src="/NOON/js/Global/fontawesome-all.min.js"></script>
     <script src="/NOON/js/contact_us/contact_us.js"></script>
     <script src="/NOON/js/contact_us/map.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1eFlVNsu2I6eohodBGQyKcHpRJMFZUT0&callback=initMap">

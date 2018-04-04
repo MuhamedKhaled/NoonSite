@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: Bahij_Arabic_plain;
-  src: url("/NOON/css/fonts/Bahij TheSansArabic-Plain.ttf");
+  src: url("../../css/fonts/Bahij TheSansArabic-Plain.ttf");
 }
 
 .contact .contact_us {

@@ -14,7 +14,7 @@
 }
 @font-face {
     font-family: Bahij_Arabic_plain;
-    src: url("/NOON/css/fonts/Bahij TheSansArabic-Plain.ttf");
+    src: url("../../css/fonts/Bahij TheSansArabic-Plain.ttf");
 }
 
 //**************************************
@@ -29,7 +29,7 @@
     }
 }
 .e_mail{
-    font-family: Bahij_Arabic_plain;  
+    font-family: Bahij_Arabic_plain;
     margin-right: -50px;
     label{
         margin: 0;
@@ -68,10 +68,10 @@
     width: 99%;
     bottom: -13px;
     left: 19px;
-  }  
+  }
 }
 .our_offices{
-    font-family: BahijTheSansArabic-Plain;  
+    font-family: BahijTheSansArabic-Plain;
     background:#e81377;
     .layer_1{
 
@@ -90,12 +90,12 @@
     }
 }
 .send_form{
-    font-family: Bahij_Arabic_plain;  
+    font-family: Bahij_Arabic_plain;
     margin: 8% 0;
     background: url("../../img/contact_us/soccer-lady-girl.png");
     background-size: 1110px 380px;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 
     ::placeholder{
         color:rgba(255, 255, 255, 0.4);
@@ -131,7 +131,7 @@
             resize: none;
             color:#fff;
             outline: none;
-            padding: 3% 6%;            
+            padding: 3% 6%;
         }
         .custom_input{
             label{
@@ -157,19 +157,19 @@
         width: 53%;
         bottom: -7px;
         left: 233px;
-      }  
+      }
 
 }
 
 .location{
-    font-family: Bahij_Arabic_plain;  
+    font-family: Bahij_Arabic_plain;
     margin: 8% 0;
     .dropdown{
-        
+
         button{
             text-align: left;
             width: 20%;
-            padding: 0 1%; 
+            padding: 0 1%;
             background: #fff;
             color: #6b478f;
             border: none;
@@ -193,7 +193,7 @@
                 background: #6b478f;
                 color:#fff;
             }
-        }   
+        }
     }
     #map {
         height: 400px;
@@ -211,7 +211,7 @@
         padding: 1% 3%;
         h2{
            color:#6b478f;
-           
+
         }
         label{
             color:#6b478f;
