@@ -36,3 +36,15 @@ $('.slickSlider').slick({
     }
   ]
 });
+
+
+// Videos slider
+$('.loop').owlCarousel({
+    center: true,
+    items:2,
+    nav:true,
+    loop:true,
+    responsive:{
+
+    }
+});

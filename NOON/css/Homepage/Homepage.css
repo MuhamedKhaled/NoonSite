@@ -116,7 +116,55 @@ input[name=search]{
 .navbar-toggler{
    margin-left: 50%;
 }
-/**************** Navbar Start ***************/
+.dropdown-submenu{
+    width: 230px;
+    position: relative;
+}
+.nested-list-link{
+    color: #d0d0d0;
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.nested-list-link:hover , .nested-list-link:active , .nested-list-link:focus{
+    text-decoration: none;
+    color: #6b478f;
+}
+.dropdown-divider{
+    padding-top: 10px;
+}
+.country{
+    margin-right: 4%;
+}
+.country-1{
+    padding: 0% 19% 0% 5%;
+    color: #d0d0d0;
+ /*   border-right: 1px solid #cccccc;*/
+}
+.country-2{
+padding-left: 5px;
+ color: #d0d0d0;
+}
+.country-2:hover , .country-2:active , .country-2:focus , .country-1:hover , .country-1:active , .country-1:focus{
+     text-decoration: none;
+    color: #6b478f;
+}
+.my-sport{
+    color: #6b478f;
+    font-size: 14px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    font-weight: bold;
+}
+.second-dropdown{
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    width: 400px;
+}
+/**************** Navbar End***************/
+
 /**************** Slider Start **************/
 .main-slider{
   margin-top: 100px;
@@ -125,8 +173,6 @@ input[name=search]{
 .slickSlider{
   width:  100%;
   height: 60%;
-
-
   /* background-color: #d3d3d3; */
 }
 .item{
@@ -144,7 +190,7 @@ input[name=search]{
   margin: -4px;
 }
 .item .content {
-    background-color:rgb(255,255,255,0.9);
+    background-color:rgba(255,255,255,0.9);
     color: #6b478f;
     padding: 20px; /* Some padding */
     bottom: 0;
@@ -153,7 +199,10 @@ input[name=search]{
     width: auto;
     position: absolute;
 }
-
+.slick-center .content{
+  background-color: rgba(107, 71, 143,0.7);
+  color: white;
+}
 .back-image{
   position:relative;
   background-size:cover;
@@ -286,6 +335,89 @@ input[name=search]{
   height: 400px;
 }
 
+/*****************Video slider start*******************/
+.Video-slider{
+  margin-top: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video-slide{
+  /* width: 450px; */
+  /* height: 370px; */
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+.Video-slider .video-slide .video-content{
+  display: none ;
+}
+
+.Video-slider .video-slide .overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.Video-slider .center .overlay{
+  display: none;;
+}
+
+.Video-slider .center .video-content{
+  display: block;
+  background-color:rgba(107,71,143,0.8);
+  color: white;
+  padding: 20px; /* Some padding */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 100px;
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.Video-slider .center .video-content img{
+  display: inline-block;
+  width: 50px !important;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+
+}
+.Video-slider .center .video-content span{
+  width: 80%;
+  display: inline-block;
+  height:70%;
+  overflow:  hidden;
+}
+
+.owl-prev{
+  position: absolute;
+  top: 50%;
+  left: 10%
+}
+.owl-next{
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+
+.owl-next span , .owl-prev span{
+  z-index: 99999;
+  font-size: 24px;
+  font-weight: normal;
+  color: #cccccccc;
+  background: #6b478f;
+  padding: 0px 10px;
+  border-radius: 24px;
+}
+
+/*****************Video slider end*********************/
+
+
 /**************** Footer start *************/
 .customized-footer{
     background-color: #6b478f;
@@ -321,7 +453,7 @@ input::placeholder {
   color:#6b478f;
     font-size: 14px;
 }
-input[type=text]{
+input[name=Subscribe]{
 color: #FFFFFF;
     padding-left: 10px;
     font-size: 14px;
@@ -341,13 +473,20 @@ color: #FFFFFF;
 .subscribe-btn:hover , .subscribe-btn:focus , .subscribe-btn:active{
     outline: none;
 }
+.copyright{
+  font-size: 12px;
+  color: #462f5e;
+  margin-left: 30px;
+}
+
 /**************** Footer end **************/
 
 
 @media screen and (max-width: 990px) and (min-width:768px) {
-.header-bar{
-    background-color: violet;
-}
+  /* .header-bar{
+      background-color: violet;
+  } */
+
 .header-bar .search {
  margin-top: 10px;
 }

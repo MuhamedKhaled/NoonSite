@@ -33,7 +33,7 @@ input::placeholder {
   color:#6b478f;
     font-size: 14px;
 }
-input[type=text]{
+input[name=Subscribe]{
 color: #FFFFFF;
     padding-left: 10px;
     font-size: 14px;
@@ -53,6 +53,12 @@ color: #FFFFFF;
 .subscribe-btn:hover , .subscribe-btn:focus , .subscribe-btn:active{
     outline: none;
 }
+.copyright{
+  font-size: 12px;
+  color: #462f5e;
+  margin-left: 30px;
+}
+
 /**************** Footer end **************/
 
 
