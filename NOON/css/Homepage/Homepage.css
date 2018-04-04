@@ -231,6 +231,65 @@ padding-left: 5px;
   font-weight: bold;
   padding: 10px 20px;
 }
+.card-padding{
+ padding:20px 20px 0px 20px;   
+}
+.section_card {
+    border: solid 1px rgba(0, 0, 0, 0.06);
+    padding: 25px;
+    max-width: 500px;
+}
+
+.section_card_img {
+    width: 100%;
+}
+.section-card-title {
+    font: 22px BahijTheSansArabic-Plain;
+    font-weight: bold;
+    height: 70px;
+    overflow: hidden;
+    text-align: left;
+    color: #6b478f;
+}
+
+.section-card-text p{
+    font: 14px BahijTheSansArabic-ExtraLight;
+    font-weight: bold;
+    height: 128px;
+    overflow: hidden;
+    line-height: 19px;
+    text-align: left;
+    color: #cccccc;
+}
+.more{
+    position: relative;
+    top: 10px;
+}
+
+.read_more{
+    color: #cccccc;
+    font: 14px BahijTheSansArabic-Plain;
+    position: absolute;
+    right: 0;
+}
+
+.read_more:hover{
+    color: #cccccc;
+}
+.small_card .card-title{
+    font-size: 18px;
+    height: 60px;
+}
+
+.-min-ago {
+    width: 52px;
+    height: 13px;
+    font: 12px BahijTheSansArabic-Plain;
+    text-align: left;
+    font-weight: bold;
+    color: #cccccc;
+    margin: 10px 0px;
+}
 /**************** Details-Section End  **************/
 /**************** Profiles-Section start  **************/
 .details-section-2{
