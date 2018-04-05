@@ -78,6 +78,7 @@ input[name=search]{
     background-color: #6b478f;
     margin-top: 12px;
     padding: 0px;
+    width: 100%;
 }
 .navbar-nav .nav-link{
     font: BahijTheSansArabic-Plain;
@@ -117,8 +118,11 @@ input[name=search]{
    margin-left: 50%;
 }
 .dropdown-submenu{
-    width: 230px;
+
     position: relative;
+}
+.dd1-padding{
+    padding-right: 149px;
 }
 .nested-list-link{
     color: #d0d0d0;
@@ -162,6 +166,15 @@ padding-left: 5px;
     left: 100%;
     margin-top: -1px;
     width: 400px;
+}
+.posts-dropdown{
+   left:100%; 
+}
+.post-li{
+   width: 600px; 
+}
+.col-overwritting{
+    padding-right:0px;
 }
 /**************** Navbar End***************/
 
@@ -210,8 +223,41 @@ padding-left: 5px;
 /**************** Slider End  **************/
 
 /**************** Details-Section start  **************/
+.All-Page-1{
+    font: 14px BahijTheSansArabic-Plain;
+    font-weight: bold;
+    color: #6b478f;
+    margin-left: 63%;
+}
+.All-Page-1:hover , .All-Page-1:active , .All-Page-1:focus{
+    color: #6b478f;
+    text-decoration: none;
+}
+.All-Page{
+    font: 14px BahijTheSansArabic-Plain;
+    font-weight: bold;
+    color: #6b478f;
+    margin-left: 83%;
+    margin-top: 2%;
+}
+.All-Page:hover , .All-Page:active , .All-Page:focus{
+    color: #6b478f;
+    text-decoration: none;
+}
 .details-section{
   margin-top: 100px;
+}
+.Section-title-1{
+  background-color: #6b478f;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding-top: 45px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius:50px;
+  margin-bottom: 15px;
 }
 .Section-title{
   background-color: #6b478f;
@@ -540,7 +586,23 @@ color: #FFFFFF;
 
 /**************** Footer end **************/
 
+/*150*/
 
+@media screen and (max-width:1400px) and (min-width:1200px) {
+    .second-dropdown{
+    width: 307px;
+}
+    .country-1 {
+        padding: 0px 10px 0px 10px;
+    }
+    .country-2 {
+        padding-left: 10px;
+    }
+    .dd1-padding{
+        padding-right: 70px;
+    }
+    
+}
 @media screen and (max-width: 990px) and (min-width:768px) {
   /* .header-bar{
       background-color: violet;
