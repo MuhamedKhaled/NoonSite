@@ -254,3 +254,25 @@
     }
 }
 //********************************@media
+@media (max-width: 991px) {
+    .send_form {
+        .form:before{
+            left: 48.5%;
+        }
+        .form::after{
+            position: absolute;
+            z-index: -1;
+            background: #e81377;
+            height: 80px;
+            content: '';
+            width: 53%;
+            bottom: 84%;
+            left: -1.5%;
+        }
+    }
+    .location{
+        .dropdown button{
+            width: 43%;
+        }
+    } 
+}
