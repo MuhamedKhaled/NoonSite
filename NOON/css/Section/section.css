@@ -201,7 +201,7 @@
     color: #6b478f;
     font: 14px BahijTheSansArabic-Plain;
     font-weight: bold;
-    height: 195px;
+    height: 215px;
     width: 195px;
 }
 
@@ -245,9 +245,9 @@
 }
 
 .first_row_padding{
-    padding: 0 20px 20px 20px;
+    padding: 0 0 20px 20px;
 }
 
 .second_row_padding{
-    padding: 20px 20px 0 20px;
+    padding: 20px 0 0 20px;
 }
