@@ -251,3 +251,83 @@
 .second_row_padding{
     padding: 20px 0 0 20px;
 }
+
+/*****************Video slider start*******************/
+.Video-slider{
+  margin-top: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video-slide {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+.Video-slider .video-slide .video-content{
+  display: none ;
+}
+
+.Video-slider .video-slide .overlay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.Video-slider .center .overlay{
+  display: none;
+}
+
+.Video-slider .center .video-content{
+  display: block;
+  background-color:rgba(107,71,143,0.8);
+  color: white;
+  padding: 20px; /* Some padding */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 100px;
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.Video-slider .center .video-content img{
+  display: inline-block;
+  width: 50px !important;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+
+}
+.Video-slider .center .video-content span{
+  width: 80%;
+  display: inline-block;
+  height:70%;
+  overflow:  hidden;
+}
+
+.owl-prev{
+  position: absolute;
+  top: 50%;
+  left: 10%
+}
+.owl-next{
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+
+.owl-next span , .owl-prev span{
+  z-index: 99999;
+  font-size: 24px;
+  font-weight: normal;
+  color: #cccccccc;
+  background: #6b478f;
+  padding: 0px 10px;
+  border-radius: 24px;
+}
+
+/*****************Video slider end*********************/

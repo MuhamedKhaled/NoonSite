@@ -78,6 +78,7 @@ input[name=search]{
     background-color: #6b478f;
     margin-top: 12px;
     padding: 0px;
+    width: 100%;
 }
 .navbar-nav .nav-link{
     font: BahijTheSansArabic-Plain;
@@ -117,8 +118,11 @@ input[name=search]{
    margin-left: 50%;
 }
 .dropdown-submenu{
-    width: 230px;
+
     position: relative;
+}
+.dd1-padding{
+    padding-right: 149px;
 }
 .nested-list-link{
     color: #d0d0d0;
@@ -163,33 +167,92 @@ padding-left: 5px;
     margin-top: -1px;
     width: 400px;
 }
+.posts-dropdown{
+   left:100%; 
+}
+.post-li{
+   width: 600px; 
+}
+.col-overwritting{
+    padding-right:0px;
+}
+/**/
+
+.card-padding{
+ padding:20px 20px 0px 20px;   
+}
+.section_card {
+    border: solid 1px rgba(0, 0, 0, 0.06);
+    padding: 25px;
+    max-width: 500px;
+}
+
+.section_card_img {
+    width: 100%;
+}
+.section-card-title {
+    font: 22px BahijTheSansArabic-Plain;
+    font-weight: bold;
+    height: 70px;
+    overflow: hidden;
+    text-align: left;
+    color: #6b478f;
+}
+
+.section-card-text p{
+    font: 14px BahijTheSansArabic-ExtraLight;
+    font-weight: bold;
+    height: 128px;
+    overflow: hidden;
+    line-height: 19px;
+    text-align: left;
+    color: #cccccc;
+}
+.more{
+    position: relative;
+    top: 10px;
+}
+
+.read_more{
+    color: #cccccc;
+    font: 14px BahijTheSansArabic-Plain;
+    position: absolute;
+    right: 0;
+}
+
+.read_more:hover{
+    color: #cccccc;
+}
+.small_card .card-title{
+    font-size: 18px;
+    height: 60px;
+}
+
+.-min-ago {
+    width: 52px;
+    height: 13px;
+    font: 12px BahijTheSansArabic-Plain;
+    text-align: left;
+    font-weight: bold;
+    color: #cccccc;
+    margin: 10px 0px;
+}
 /**************** Navbar End***************/
 
-@media screen and (max-width: 990px) and (min-width:768px) {
-/*.header-bar{
-    background-color: violet;
-}*/
-.header-bar .search {
- margin-top: 10px;
-}
-.search-part{
- width:150px;
- height: 20px;
-}
-.search-btn{
-    margin-top: 6px;
-}
-.liveStream{
-    background-color: transparent;
-    padding-bottom:0;
-    padding-right: 0;
-    padding-left: 0;
-    padding-top: 0;
-}
+/*150*/
 
-    .shop{
-        padding-top: 5px;
-        padding-bottom: 10px;
+@media screen and (max-width:1400px) and (min-width:1200px) {
+    .second-dropdown{
+    width: 307px;
+}
+    .country-1 {
+        padding: 0px 10px 0px 10px;
     }
-
+    .country-2 {
+        padding-left: 10px;
+    }
+    .dd1-padding{
+        padding-right: 70px;
+    }
+    
 }
