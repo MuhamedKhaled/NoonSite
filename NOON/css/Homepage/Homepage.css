@@ -71,6 +71,14 @@ input[name=search]{
     border-right: 0.7px solid #cccccc;
     margin-right: 6px;
 }
+
+.centered p{
+    text-align: center;
+}
+
+.margin-icons{
+    margin-left: 3px;
+}
 /**************** Header END ***************/
 /**************** Navbar Start***************/
 
@@ -81,9 +89,8 @@ input[name=search]{
     width: 100%;
 }
 .navbar-nav .nav-link{
-    font: BahijTheSansArabic-Plain;
+    font: 14px BahijTheSansArabic-Plain;
     color:#FFFFFF !important;
-    font-size: 13px;
     padding-right: 3px;
     font-weight: bold;
 }

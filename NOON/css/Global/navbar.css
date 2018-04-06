@@ -81,9 +81,8 @@ input[name=search]{
     width: 100%;
 }
 .navbar-nav .nav-link{
-    font: BahijTheSansArabic-Plain;
+    font: 14px BahijTheSansArabic-Plain;
     color:#FFFFFF !important;
-    font-size: 13px;
     padding-right: 3px;
     font-weight: bold;
 }
