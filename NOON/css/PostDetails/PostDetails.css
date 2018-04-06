@@ -1,11 +1,11 @@
-.Rectangle-10 {
+.BigPost {
      width: 100%;
      height: fit-content;
      background-color: #ffffff;
      border: solid 1px rgba(0, 0, 0, 0.06);
      margin-top: 5.2%;
 }
- .Rectangle-8 {
+ .AdvertisingSpaceRectangle {
      width: 100%;
      height: 294px;
      background-color: #ffffff;
@@ -25,15 +25,15 @@
      top: 5%;
      bottom: auto;
 }
- .Layer-3 {
+ .LittleGirl {
      width: 100%;
      object-fit: contain;
      margin-top: 3%;
 }
  .-min-ago {
-     font-family: BahijTheSansArabic-Plain;
-     font-size: 90%;
-     font-weight: normal;
+     width: 100px;
+     font: 12px BahijTheSansArabic-Plain;
+     font-weight: bold;
      font-style: normal;
      font-stretch: normal;
      line-height: normal;
@@ -42,10 +42,9 @@
      color: #cccccc;
      margin-top: 4%;
 }
- .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettin {
+ .TextFirst {
      width: fit-content;
-     font-family: BahijTheSansArabic-Plain;
-     font-size: 22px;
+     font: 22px BahijTheSansArabic-Plain;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -56,8 +55,7 @@
 }
  .profile-header {
      width: fit-content;
-     font-family: BahijTheSansArabic-Plain;
-     font-size: 22px;
+     font: 22px BahijTheSansArabic-Plain;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -67,11 +65,10 @@
      margin-top:2%;
      text-align: center;
 }
- .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettinSECOND{
+ .TextSecond{
      width: fit-content;
      height: fit-content;
-     font-family: BahijTheSansArabic-ExtraLight;
-     font-size: 14px;
+     font: 14px BahijTheSansArabic-ExtraLight;
      font-weight: normal;
      font-style: normal;
      font-stretch: normal;
@@ -80,10 +77,9 @@
      text-align: left;
      color: #cccccc;
 }
- .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettinFORTH{
+ .TextForth{
      height: fit-content;
-     font-family: BahijTheSansArabic-ExtraLight;
-     font-size: 14px;
+     font: 14px BahijTheSansArabic-ExtraLight;
      font-weight: normal;
      font-style: normal;
      font-stretch: normal;
@@ -94,10 +90,9 @@
      margin-top: 1.4%;
      margin-bottom: 2%;
 }
- .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettinThird {
+ .TextThird {
      width: fit-content;
-     font-family: BahijTheSansArabic-Plain;
-     font-size: 18px;
+     font: 18px BahijTheSansArabic-Plain;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -106,8 +101,7 @@
      color: #6b478f;
 }
  .bolds {
-     font-family: BahijTheSansArabic-Plain;
-     font-size: 22px;
+     font: 22px BahijTheSansArabic-Plain;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -127,8 +121,12 @@
      text-align: left;
      color: #6b478f;
 }
+
+.noonaenewslink:hover{
+    color: #6b478f;
+}
  .Read-More {
-     font-family: BahijTheSansArabic;
+     font: 14px BahijTheSansArabic-Plain;
      font-size: small;
      font-style: normal;
      font-stretch: normal;
@@ -151,8 +149,7 @@
      margin-top: 60px;
 }
  .Advertising-Space-word {
-     font-family: BahijTheSansArabic;
-     font-size: 120px;
+     font: 120px BahijTheSansArabic-Plain;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -162,7 +159,7 @@
      vertical-align: middle;
 }
  .adv-font {
-     font-family: BahijTheSansArabic;
+     font: 16px BahijTheSansArabic-Plain;
      font-weight: bold;
      color: #6b478f;
      position:relative;
@@ -174,7 +171,7 @@
      max-width: 100%;
      height: auto;
 }
- .Rectangle-17 {
+ .RelatedTopicsRectangle {
      width: 100%;
      height: fit-content;
      margin: auto;
@@ -195,8 +192,7 @@
      align-self: center;
 }
  .Related-Topics {
-     font-family: BahijTheSansArabic-Plain;
-     font-size: 14px;
+     font: 14px BahijTheSansArabic-Plain;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -209,8 +205,7 @@
      top: 16%;
 }
  .More {
-     font-family: BahijTheSansArabic-Plain;
-     font-size: 14px;
+     font: 14px BahijTheSansArabic-Plain;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -219,12 +214,14 @@
      text-align: left;
      color: #6b478f;
      position: absolute;
-     right: -3%;
      top: 48%;
 }
+
+ .More:hover{
+     color: #6b478f;
+ }
  .Profiles-font {
-     font-family: BahijTheSansArabic-Plain;
-     font-size: 14px;
+     font: 14px BahijTheSansArabic-Plain;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -242,7 +239,7 @@
      background-color: #cccccc;
 }
 /*Comments*/
- .Rectangle-10-copy-2 {
+ .CommentsCard {
      width:100%;
      height: fit-content;
      background-color: #ffffff;
@@ -250,8 +247,7 @@
      margin-top: 2%;
 }
  .Comments {
-     font-family: BahijTheSansArabic-Plain;
-     font-size: 22px;
+     font: 22px BahijTheSansArabic-Plain;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -261,7 +257,7 @@
      color: #6b478f;
      margin-top: 28px;
 }
- .Rectangle-25 {
+ .Rectangle-Comment  {
      width: 96%;
      height: min-content;
      border: solid 1px rgba(0, 0, 0, 0.06);
@@ -269,8 +265,7 @@
      padding: 1%;
 }
  .Write-a-comment {
-     font-family: BahijTheSansArabic-Plain;
-     font-size: 14px;
+     font: 14px BahijTheSansArabic-Plain;
      font-weight: 200;
      font-style: normal;
      font-stretch: normal;
@@ -286,8 +281,7 @@
  .Maria-Sharapova {
      width: 137px;
      height: 19px;
-     font-family: BahijTheSansArabic-Plain;
-     font-size: 18px;
+     font: 18px BahijTheSansArabic-Plain;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -297,8 +291,7 @@
      color: #6b478f;
 }
  .-min-ago-copy {
-     font-family: BahijTheSansArabic-ExtraLight;
-     font-size: 12px;
+     font: 12px BahijTheSansArabic-ExtraLight;
      font-weight: normal;
      font-style: normal;
      font-stretch: normal;
@@ -312,8 +305,7 @@
  .Like {
      width: 2.52%;
      height: 1.68%;
-     font-family: BahijTheSansArabic-ExtraLight;
-     font-size: 14px;
+     font: 14px BahijTheSansArabic-ExtraLight;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -325,8 +317,7 @@
  .Reply {
      width: 3.62%;
      height: 2.1%;
-     font-family: BahijTheSansArabic-ExtraLight;
-     font-size: 14px;
+     font: 14px BahijTheSansArabic-ExtraLight;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -357,8 +348,7 @@
      margin-top: -0.5%;
 }
  .View-more-replies {
-     font-family: BahijTheSansArabic-ExtraLight;
-     font-size: 14px;
+     font: 14px BahijTheSansArabic-ExtraLight;
      font-weight: bold;
      font-style: normal;
      font-stretch: normal;
@@ -396,8 +386,7 @@
      margin-bottom: 155px;
 }
  .Read-More {
-     font-family: BahijTheSansArabic-ExtraLight;
-     font-size: 14.5px;
+     font: 14.5px BahijTheSansArabic-ExtraLight;
      font-style: normal;
      font-stretch: normal;
      line-height: normal;
@@ -408,14 +397,9 @@
      width: 292px;
      height: 327px;
 }
- Rectangle-4-copy-2 {
-     width: 247px;
-     height: 149px;
-     background-color: #6b478f;
-     border: solid 1px rgba(213, 213, 213, 0.24);
-}
+
  input::placeholder {
-     font-family: BahijTheSansArabic-ExtraLight;
+     font: 16px BahijTheSansArabic-ExtraLight;
 }
  .center{
      text-align: center 
@@ -428,7 +412,4 @@
      width: 92%;
      color:#cccccc;
      height: 1px;
-}
-.liveStream{
-    margin: 0;
 }
