@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Bahij_Arabic_plain;
+    src: url("../../css/fonts/Bahij TheSansArabic-Plain.ttf");
+}
 .live {
     border-radius: 0px 0px 53px 53px;
     background: #efefef;
@@ -5,7 +9,7 @@
     height: 86px;
 }
  .live-streaming {
-    font-family: BahijTheSansArabic-Plain;
+    font-family: Bahij_Arabic_plain;
     font-size: 21px;
     font-weight: bold;
     text-align: center;
@@ -14,9 +18,9 @@
     position: relative;
     top: 11%;
 }
-}
+
  .More {
-     font-family: BahijTheSansArabic-Plain;
+     font-family: Bahij_Arabic_plain;
      font-size: 14px;
      font-weight: bold;
      font-style: normal;
@@ -37,4 +41,217 @@
 }
 .liveStream{
     margin: 0;
+}
+
+.Previous{
+    font: Bahij_Arabic_plain;;    
+    font-weight: bold;
+    font-size: 18PX;
+    width: 100%;
+    height: 26%;
+    position: absolute;
+    align-items: center;
+    bottom: 0.5%;
+    left: 0.0001%;
+    text-align: center;
+    background: #e81377;
+
+}
+
+.Previous-Word{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+    vertical-align: middle;
+}
+
+.PurpleContent{
+    height:20.5%;
+    bottom: 0.5%;
+    right:0.001%;
+    align-items:center;
+    position:absolute;
+    background-color: #6b478f;
+        opacity: 0.8;
+    filter: alpha(opacity=80);
+
+}
+
+.Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettin {
+     font-family: Bahij_Arabic_plain;
+     font-size: 20px;
+     font-weight: normal;
+     font-style: normal;
+     font-stretch: normal;
+     line-height: normal;
+     letter-spacing: normal;
+     text-align:left;
+     margin-left: 5%;
+     color: #ffffff;
+    float:  left;
+    width: 79%;
+
+}
+.PurpleContent .startVedio{
+    margin-top: 3%;
+}
+/* live streaming video */
+
+#play_pause{
+    background: rgba(0,0,0,0);
+    border:  none;
+    position:  absolute;
+    top: 45%;
+    left: 48%;
+    outline: none;
+}
+#play_pause:hover img{
+    border-radius: 40px;
+    background-color:#6b478f;
+}
+
+#play_pause img{
+    width: 160%;
+}
+.controllers{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+#progressBar{
+    width: 100%;
+}
+/*Input range*/
+/* 
+input[type=range]{
+    -webkit-appearance: none;
+    overflow: hidden;
+
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+    margin-top: -4px;
+    cursor: ew-resize;
+    box-shadow: -80px 0 0 80px #6b478f;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+} */
+input[type='range'] {
+    overflow: hidden;
+    width: 100px;
+    -webkit-appearance: none;
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+    height:8px;
+    -webkit-appearance: none;
+    color: #6b478f;
+    margin-top: -1px;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    width: 15px;
+    -webkit-appearance: none;
+    height: 9px;
+    cursor: ew-resize;
+    background:#6b478f ;
+    box-shadow: -80px 0 0 80px #6b478f;
+    /* border-radius: 50%; */
+    border:2px solid #fff;
+  }
+  
+.controllers{
+    padding: 3% 6%;
+}
+.progressBar
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #fff;
+    height: 9px;
+    margin-bottom: 20px;    
+    border-radius: 20px;
+}
+.timeBar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #6b478f;
+    height: 9px;
+    border-radius: 20px;
+}
+.bufferBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ccc;
+    height: 9px;
+    border-radius: 20px;
+}
+
+.volumeBar .volume{
+    /* background: #6b478f; */
+    height: 14px;
+}
+.timeBar i{
+    margin-top: -3px;
+    margin-right: -3px;
+    width: 15px;
+    height: 15px;
+    float: right;
+    background: #6b478f;
+    border:2px solid #ddd;
+    border-radius: 25px;
+    
+}
+.controllers span{
+    margin: 0 33.7%;
+    color:#6b478f;
+}
+.controllers button{
+    color:#6b478f;
+    background: #fff0;
+    border: none;
+    outline: none;
+}
+/* #mute{
+    float: left;
+} */
+button , i ,input,.progressBar,.bufferBar,.timeBar{
+    cursor: pointer;
+}
+#fullscreen,#setting{
+    float: right;
+}
+.control{
+    /* display: none; */
 }
