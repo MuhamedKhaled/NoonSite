@@ -1,17 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html!>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1 , shrink-to-fit=no">
+    <!-----This meta is writtern for enabling Responsive Design-->
     <link rel="stylesheet" href="../../css/Global/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../css/Global/navbar.css">
     <link rel="stylesheet" href="../../css/Global/font.css">
+    <!-- <link rel="stylesheet" href="../../css/Global/fontawsome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../css/Global/footer.css">
-    <link rel="stylesheet" href="../../css/contact_Us/Contact_Us.css">
+    <link rel="stylesheet" href="../../css/Global/navbar.css">
+    <link rel='stylesheet' href='../../css/LiveStreaming/LiveStreaming.css'>
+    <title>Live Streaming</title>
 </head>
 
 <body>
@@ -370,260 +371,224 @@
     </div>
 </nav>
 <!-------------------------------------------Navbar END------------------------------------------------------------------------------->
-    <section class="body container">
-        <!-- ______________________________contact info Start______________________________ -->
-        <section class="contact row">
-            <div class="contact_us col-lg-4 col-md-6 col-sm-6">
-                <h2>
-                    <strong>Contact</strong> Us
-                </h2>
-            </div>
-
-            <div class="e_mail col-lg-4 col-md-6 col-sm-6">
-                <div class="layer_1">
-                    <h2>E-Mail</h2>
-                    <div class="content">
-                        <i>Noon Magazine</i>
-                        <br>
-                        <label for="hotLine">Hot-line:
-                            <i>113147</i>
-                        </label>
-                        <br>
-                        <i>Egypt.Cairo</i>
-                        <br>
-                        <label for="mail">Mail:
-                            <i>info@noonsport</i>
-                        </label>
-                        <br>
-                        <label for="phone">Phone:
-                            <i>+02 23958865</i>
-                        </label>
-                        <br>
-                    </div>
+    <!---------------------------------------------------Video---------------------------------------------------------------->
+    <div class="container">
+        <div class="row ml-0">
+            <div class="row col-9 mt-0 mb-4">
+                <div class="live mt-0">
+                    <p class=" live-streaming">Live
+                        <br>Stream</p>
                 </div>
             </div>
-
-            <div class="our_offices col-lg-4 col-md-6 col-sm-8">
-                <div class="layer_1">
-                    <h2>Our Offices</h2>
-                    <ul>
-                        <li>
-                            <strong>Egypt:</strong>
-                            <i> egypt_noon@noonsport.com</i>
-                        </li>
-                        <li>
-                            <strong>Misr:</strong>
-                            <i> misr_noon@noonsport.com</i>
-                        </li>
-                        <li>
-                            <strong>emirates:</strong>
-                            <i> emirate_noon@noonsport.com</i>
-                        </li>
-                        <li>
-                            <strong>kuwait:</strong>
-                            <i> kuwait_noon@noonsport.com</i>
-                        </li>
-                        <li>
-                            <strong>Amsterdam:</strong>
-                            <i> amsterdam_noon@noonsport.com</i>
-                        </li>
-                        <li>
-                            <strong>America:</strong>
-                            <i> america_noon@noonsport.com</i>
-                        </li>
-                    </ul>
+        </div>
+        <div class="card mb-4 ml-0">
+            <!-- <div class="media_card_container">
+                <img class="card-img-top" src="../../img/LiveStreaming/layer-13.png" srcset="../../img/LiveStreaming/layer-13@2x.png 2x,
+                  ../../img/LiveStreaming/layer-13@3x.png 3x" alt="BigPicture">
+                <div class="media_card_hover">
+                    <div class="media_card_details">
+                        <img src="../../img/media/videos.png" alt="photos" srcset="../../img/media/videos@2x.png 2x, ../../img/media/videos@3x.png 3x">
+                        <span>2:00</span>
+                    </div>
                 </div>
-            </div>
-            <div class="clear_fix"></div>
-        </section>
-        <!-- ______________________________contact info End______________________________ -->
-
-        <!-- ______________________________contact form Start______________________________ -->
-        <section class="row send_form">
-            <div class="form col-lg-5 col-md-8 col-sm-12 col-12">
-                <form action="">
-                    <div class="custom_input">
-                        <label for="name">Name</label>
-                        <input type="text" required>
-                    </div>
-                    <div class="custom_input">
-                        <label for="emal">E-mail</label>
-                        <input type="text" required>
-                    </div>
-                    <p for="">Message</p>
-                    <textarea name="" id="" cols="40" rows="6" placeholder="Write your message her..." required></textarea>
-                    <button type="submit">Send</button>
-                </form>
-            </div>
-        </section>
-        <!-- ______________________________contact from End______________________________ -->
-
-        <!-- ______________________________Location Start______________________________ -->
-        <section class=" location">
-            <div class="dropdown show">
-                <button class="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chose your country
-                    <i class="fal fa-angle-down"></i>
+            </div>  -->
+            <video id="liveStreaming" controls poster="video.jpg" width="100%" autoplay="autoplay">
+                <source src="../../img/LiveStreaming/Tom and Jerry - Episode 74.mp4" type="video/mp4" />
+                <source src="video.webm" type="video/webM" />
+                <source src="video.ogv" type="video/ogg" />
+                <p>Your browser does not support the video tag.</p>
+            </video>
+            <div class="control">
+                <button id="play_pause">
+                    <img src="../../img/LiveStreaming/vector-smart-object.png">
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Egypt</a>
-                    <a class="dropdown-item" href="#">emirates</a>
-                    <a class="dropdown-item" href="#">kuwait</a>
+                <div class="controllers">
+                    <div class="progressBar">
+                        <div class="bufferBar"></div>
+                        <div class="timeBar">
+                            <i></i>
+                        </div>
+                    </div>
+                    <button id="mute" type="button">
+                        <i id="mute_un" class="fa fa-volume-up"></i>
+                    </button>
+                    <input id="volumeBar" type="range" min='0' ,max='100' value='100' ,step='1'>
+                    <span id="currentTime">00:00</span>
+                    <button id="fullscreen" type="button">
+                        <img src="../../img/LiveStreaming/fullscreen.png">
+                        </i>
+                    </button>
+                    <button id="setting" type="button">
+                        <img src="../../img/LiveStreaming/setting.png">
+                        </i>
+                    </button>
+                    <!-- <div class="volumecontainer">
+                            <div class="volumeBar">
+                                <div class="volume"></div>
+                            </div>
+                        </div> -->
+
                 </div>
             </div>
-            <div id="map"></div>
-            <div class="position-details row justify-content-between">
-                <div class="detils col-lg-3 col-md-3 col-sm-5 col align-self-end">
-                    <h2>Egypt</h2>
-                    <div class="content">
-                        <i>Noon magazine</i>
-                        <br>
-                        <label for="hotLine">Hot-line:
-                            <i>113147</i>
-                        </label>
-                        <br>
-                        <i>Egypt.Cairo</i>
-                        <br>
-                        <label for="mail">Mail:
-                            <i>info@noonsport</i>
-                        </label>
-                        <br>
-                        <label for="phone">Phone:
-                            <i>+02 23958865</i>
-                        </label>
-                        <br>
+        </div>
+
+        <div class="row m-0 container p-0">
+            <div class="container col-md-6 ">
+                <div class="card mb-4 mt-5">
+                    <div class="media_card_container">
+                        <img class="card-img-top" src="../../img/LiveStreaming/layer-10.png" srcset="../../img/LiveStreaming/layer-10@2.png 2x,
+                        ../../img/LiveStreaming/layer-10@3.png 3x" alt="SmallPic2">
+                        <div class="row">
+                            <a class="col-3 LiveStream Previous p-0 " href="#">
+                                <div class="Previous-Word ">Previous</div>
+                            </a>
+                            <div class="col-9 pl-0 PurpleContent">
+                                <div class=" Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettin">
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                </div>
+                                <img class="startVedio" src="../../img/LiveStreaming/vector-smart-object.png">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="location_on_map col-lg-2 col-md-3 col-sm-4">
-                    <h2>
-                        <Strong>Location</Strong>
-                        <br> on map</h2>
+            </div>
+            <div class="container col-md-6">
+                <div class="card mb-4 mt-5">
+                    <div class="media_card_container">
+                        <img class="card-img-top" src="../../img/LiveStreaming/layer-10.png" srcset="../../img/LiveStreaming/layer-10@2.png 2x,
+                        ../../img/LiveStreaming/layer-10@3.png 3x" alt="SmallPic2">
+                        <div class="row">
+                            <a class="col-3 LiveStream Previous " href="#">
+                                <div class="Previous-Word ">Next
+                                </div>
+                            </a>
+                            <div class="col-9 pl-0 PurpleContent">
+                                <div class=" Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettin">
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                </div>
+                                <img class="startVedio" src="../../img/LiveStreaming/vector-smart-object.png">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- ______________________________Location End______________________________ -->
-    </section>
+        </div>
+    </div>
+    <!---------------------------------------------------video----------------------------------------------------->
+<!-------------------------------------------Footer Start---------------------------------------------->
 
-    <!-------------------------------------------Footer Start---------------------------------------------->
+<!--Footer-->
+<footer class="page-footer customized-footer">
 
-    <!--Footer-->
-    <footer class="page-footer customized-footer">
+    <!--Footer Links-->
+    <div class="container text-center">
+        <div class="row">
+            <!--First column-->
+            <div class="col-md-3 col-sm-12">
+                <img class="img-div" src="../../img/Global/footer-logo.png"/>
+            </div>
+            <!--/.First column-->
+            <!--Second column-->
+            <div class="col-md-1 col-sm-12">
+                <h5 class="home">Home</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a class="sport-item" href="../../views/Section_Details/section.html">Football</a>
+                    </li>
+                    <li>
+                        <a class="sport-item" href="../../views/Section_Details/section.html">Basketball</a>
+                    </li>
+                    <li>
+                        <a class="sport-item" href="../../views/Section_Details/section.html">Swimming</a>
+                    </li>
+                    <li>
+                        <a class="sport-item" href="../../views/Section_Details/section.html">Volleyball</a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.Second column-->
 
-        <!--Footer Links-->
-        <div class="container text-center">
-            <div class="row">
-                <!--First column-->
-                <div class="col-md-3 col-sm-12">
-                    <img class="img-div" src="../../img/Global/footer-logo.png"/>
-                </div>
-                <!--/.First column-->
-                <!--Second column-->
-                <div class="col-md-1 col-sm-12">
-                    <h5 class="home">Home</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a class="sport-item" href="../../views/Section_Details/section.html">Football</a>
-                        </li>
-                        <li>
-                            <a class="sport-item" href="../../views/Section_Details/section.html">Basketball</a>
-                        </li>
-                        <li>
-                            <a class="sport-item" href="../../views/Section_Details/section.html">Swimming</a>
-                        </li>
-                        <li>
-                            <a class="sport-item" href="../../views/Section_Details/section.html">Volleyball</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--/.Second column-->
+            <!--Third column-->
+            <div class="col-md-2 col-sm-12">
+                <ul class="list-unstyled second-column">
+                    <li>
+                        <a class="sport-item" href="../../views/Section_Details/section.html">Tennis</a>
+                    </li>
+                    <li>
+                        <a class="sport-item" href="../../views/Section_Details/section.html">Combat Sports</a>
+                    </li>
+                    <li>
+                        <a class="sport-item" href="../../views/Section_Details/section.html">Individual Sport</a>
+                    </li>
+                </ul>
+            </div>
+            <!--third column-->
 
-                <!--Third column-->
-                <div class="col-md-2 col-sm-12">
-                    <ul class="list-unstyled second-column">
-                        <li>
-                            <a class="sport-item" href="../../views/Section_Details/section.html">Tennis</a>
-                        </li>
-                        <li>
-                            <a class="sport-item" href="../../views/Section_Details/section.html">Combat Sports</a>
-                        </li>
-                        <li>
-                            <a class="sport-item" href="../../views/Section_Details/section.html">Individual Sport</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--third column-->
+            <!--Third column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="follow">Follow us</h5>
 
-                <!--Third column-->
-                <div class="col-md-3 col-sm-12">
-                    <h5 class="follow">Follow us</h5>
+                <ul class="list-unstyled">
 
-                    <ul class="list-unstyled">
+                    <li>
+                        <a href="https://www.facebook.com/" class="share-icon-c share fa fa-facebook"></a>
+                        <a href="https://www.twitter.com/" class="share-icon-c share fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="share-icon-c share fa fa-instagram"></a>
+                        <a href="https://www.gmail.com/" class="share-icon-c fa fa-google-plus"></a>
+                        <a href="https://www.youtube.com/" class="share-icon-c share fa fa-youtube"></a>
+                    </li>
+                    <li>
 
-                        <li>
-                            <a href="https://www.facebook.com/" class="share-icon-c share fa fa-facebook"></a>
-                            <a href="https://www.twitter.com/" class="share-icon-c share fa fa-twitter"></a>
-                            <a href="https://www.instagram.com/" class="share-icon-c share fa fa-instagram"></a>
-                            <a href="https://www.gmail.com/" class="share-icon-c fa fa-google-plus"></a>
-                            <a href="https://www.youtube.com/" class="share-icon-c share fa fa-youtube"></a>
-                        </li>
-                        <li>
-
-                            <input class="subscribe-area" type="text" name="Subscribe" placeholder=" Your email address" />
-                            <button class="subscribe-btn">
-                                Subscribe
-                            </button>
-                        </li>
-                    </ul>
-
-                </div>
-                <!--third column-->
-
-                <!--Fourth column-->
-                <div class="col-md-1 col-sm-12">
-                    <h5 class="about-us">About_Us</h5>
-                    <ul class="list-unstyled">
-
-                        <li>
-                            <a href="../../views/about_us/about_us.html" class="about-item">Vision</a>
-                        </li>
-                        <li>
-                            <a href="../../views/about_us/about_us.html" class="about-item">Mission</a>
-                        </li>
-                        <li>
-                            <a href="../../views/Contact_Us/Contact_Us.html" class="about-item">Contact</a>
-                        </li>
-
-                    </ul>
-                </div>
-                <!--Fourth column-->
+                        <input class="subscribe-area" type="text" name="Subscribe" placeholder=" Your email address" />
+                        <button class="subscribe-btn">
+                            Subscribe
+                        </button>
+                    </li>
+                </ul>
 
             </div>
+            <!--third column-->
+
+            <!--Fourth column-->
+            <div class="col-md-1 col-sm-12">
+                <h5 class="about-us">About_Us</h5>
+                <ul class="list-unstyled">
+
+                    <li>
+                        <a href="../../views/about_us/about_us.html" class="about-item">Vision</a>
+                    </li>
+                    <li>
+                        <a href="../../views/about_us/about_us.html" class="about-item">Mission</a>
+                    </li>
+                    <li>
+                        <a href="../../views/Contact_Us/Contact_Us.html" class="about-item">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!--Fourth column-->
+
         </div>
-        <!--/.Footer Links-->
+    </div>
+    <!--/.Footer Links-->
 
-        <!--Copyright-->
-        <div class="footer-copyright copyright">
-            Copyright© 2018 FCI-STUDENTS. All rights reserved
+    <!--Copyright-->
+    <div class="footer-copyright copyright">
+        Copyright© 2018 FCI-STUDENTS. All rights reserved
 
-        </div>
-        <!--/.Copyright-->
+    </div>
+    <!--/.Copyright-->
 
-    </footer>
-    <!--/.Footer-->
+</footer>
+<!--/.Footer-->
 
-    <!-------------------------------------------Footer END---------------------------------------------------------------------------->
+<!-------------------------------------------Footer END---------------------------------------------------------------------------->
 
-
-
-    <script src="../../js/Global/jquery-3.3.1.min.js"></script>
+<script src="../../js/Global/jquery-3.3.1.min.js"></script>
     <script src="../../js/Global/popper.min.js"></script>
     <script src="../../js/Global/bootstrap.min.js"></script>
-    <script src="../../js/contact_us/contact_us.js"></script>
-    <script src="../../js/contact_us/map.js"></script>
     <script src="../../js/Global/navbar-dropdown.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1eFlVNsu2I6eohodBGQyKcHpRJMFZUT0&callback=initMap">
-    </script>
-
-
+    <script src="../../js/liveStreaming/liveStreaming.js"></script>
 </body>
 
 </html>

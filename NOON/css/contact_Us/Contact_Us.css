@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Bahij_Arabic_plain;
 }
 
 .clear_fix {
@@ -16,11 +15,6 @@
   float: right;
 }
 
-@font-face {
-  font-family: Bahij_Arabic_plain;
-  src: url("../../css/fonts/Bahij TheSansArabic-Plain.ttf");
-}
-
 .contact {
   margin-top: 6%;
 }
@@ -32,11 +26,11 @@
 .contact .contact_us h2 {
   color: #ffffff;
   margin: 29% 6%;
-  font-size: 50px;
+  font: 50px BahijTheSansArabic-Plain;
 }
 
 .e_mail {
-  font-family: Bahij_Arabic_plain;
+  font: 18px BahijTheSansArabic-Plain;
   margin-right: -50px;
 }
 
@@ -52,7 +46,7 @@
   padding-bottom: 8%;
   padding-top: 7%;
   margin-left: -50px;
-  margin-top: 55px;
+  margin-top: 65px;
   border: 1px solid rgba(0, 0, 0, 0.07);
 }
 
@@ -86,7 +80,7 @@
 }
 
 .our_offices {
-  font-family: BahijTheSansArabic-Plain;
+  font: 18px BahijTheSansArabic-Plain;
   background: #e81377;
 }
 
@@ -108,7 +102,7 @@
 }
 
 .send_form {
-  font-family: Bahij_Arabic_plain;
+  font: 18px BahijTheSansArabic-Plain;
   margin: 12% 0;
   background: url("../../img/contact_us/soccer-lady-girl.png");
   background-size: 1110px 380px;
@@ -186,7 +180,7 @@
 
 .location {
   margin-top: 6%;
-  font-family: Bahij_Arabic_plain;
+  font: 18px BahijTheSansArabic-Plain;
   margin: 8% 0;
 }
 

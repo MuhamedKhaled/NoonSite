@@ -1,7 +1,6 @@
-* {
+*{
   margin: 0;
   padding: 0;
-  font-family: Bahij_Arabic_plain;
 }
 
 .clear_fix {
@@ -16,15 +15,6 @@
   float: right;
 }
 
-@font-face {
-  font-family: Bahij_Arabic_plain;
-  src: url("../../css/fonts/Bahij TheSansArabic-Plain.ttf");
-}
-
-body {
-  font-family: Bahij_Arabic_plain;
-}
-
 .about {
   margin-top: 6%;
 }
@@ -37,7 +27,7 @@ body {
 .about .abouut_noon h2 {
   color: #ffffff;
   margin: 15% 14%;
-  font-size: 50px;
+  font: 50px BahijTheSansArabic-Plain;
 }
 
 .about .noon_description {
@@ -203,13 +193,13 @@ body {
     height: 207px !important;
   }
   .abouut_noon h2 {
-    font-size: 44px !important;
+    font: 44px BahijTheSansArabic-Plain !important;
   }
   .noon_description .content {
-    font-size: 13px;
+    font: 13px BahijTheSansArabic-Plain;
   }
   .our_message .content {
-    font-size: 14px;
+    font: 14px BahijTheSansArabic-Plain;
   }
   .noon .inner {
     margin-top: -25%;

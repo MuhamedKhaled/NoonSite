@@ -166,11 +166,7 @@
      text-align: center;
      top: 46%;
 }
- img {
-     display: block;
-     max-width: 100%;
-     height: auto;
-}
+
  .RelatedTopicsRectangle {
      width: 100%;
      height: fit-content;
@@ -204,7 +200,7 @@
      position: relative;
      top: 16%;
 }
- .More {
+ .More-realted-topics {
      font: 14px BahijTheSansArabic-Plain;
      font-weight: bold;
      font-style: normal;
@@ -217,7 +213,7 @@
      top: 48%;
 }
 
- .More:hover{
+ .More-realted-topics:hover{
      color: #6b478f;
  }
  .Profiles-font {
@@ -339,6 +335,11 @@
      height: 42px;
      margin-left: 1.4%;
 }
+
+ .Layer-13-copy-3 img{
+     max-width: 100%;
+ }
+
  .Vector-Smart-Object-copy-2 {
      width: 10px;
      height: 8px;
