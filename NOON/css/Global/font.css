@@ -1,3 +1,6 @@
+/*- Ismail Ahmed*/
+/*- Alaa Atef*/
+
 @font-face {
     font-family: BahijTheSansArabic-Plain;
     src: url('../fonts/Bahij TheSansArabic-Plain.ttf');
@@ -6,4 +9,9 @@
 @font-face {
     font-family: BahijTheSansArabic-ExtraLight;
     src: url('../fonts/Bahij TheSansArabic-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: Cairo-SemiBold;
+    src: url('../fonts/Cairo-SemiBold.ttf');
 }

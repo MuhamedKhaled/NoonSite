@@ -1,3 +1,6 @@
+// - Ismail Ahmed
+// - Alaa Atef
+
 
 // Videos slider
 $('.loop').owlCarousel({

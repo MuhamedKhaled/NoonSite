@@ -1,6 +1,6 @@
 /*
- - mohamed khaled
- - nourhan essam
+ - Mohamed Khaled
+ - Nourhan Essam
 */
     $(document).ready(function(){
   $('.dropdown-submenu a.nested-list-link').on("click", function(e){

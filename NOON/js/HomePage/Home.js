@@ -1,7 +1,8 @@
 /*
- - mohamed khaled
- - nourhan essam
+ - Mohamed Khaled
+ - Nourhan Essam
 */
+
 $('.slickSlider').slick({
   centerMode: true,
   slidesToShow: 3,

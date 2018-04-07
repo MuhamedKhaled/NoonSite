@@ -1,3 +1,6 @@
+// - Ismail Ahmed
+// - Alaa Atef
+
 $(function() {
     $(document.getElementsByClassName('media_card_container')).on('click', function() {
         $('.enlargeImageModalSource').attr('src', $(this).children('img').attr('src'));
