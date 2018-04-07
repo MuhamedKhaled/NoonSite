@@ -45,7 +45,7 @@
 }
 
 .PurpleContent{
-    height:20.5%;
+    height:85px;
     bottom: 0.5%;
     right:0.001%;
     align-items:center;
@@ -58,7 +58,7 @@
 
 .Lorem-Ipsum-is-simply-dummy-text-of-the-printing-and-typesettin {
      font: 20px BahijTheSansArabic-Plain;
-     font-weight: normal;
+     font-weight:normal;
      font-style: normal;
      font-stretch: normal;
      line-height: normal;
@@ -67,9 +67,8 @@
      margin-left: 5%;
      color: #ffffff;
     float:  left;
-    width: 79%;
-
 }
+
 .PurpleContent .startVedio{
     margin-top: 3%;
 }
@@ -232,4 +231,15 @@ button , i ,input,.progressBar,.bufferBar,.timeBar{
 }
 .control{
     /* display: none; */
+}
+
+
+
+
+@media only screen and (max-width: 320px) {
+
+   body { 
+      font-size: 2em; 
+   }
+
 }
