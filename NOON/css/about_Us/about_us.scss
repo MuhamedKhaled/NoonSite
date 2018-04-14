@@ -31,7 +31,7 @@
         border: 1px solid rgba(0, 0, 0, 0.07);
         padding: 4% 5%;
         color:#8f8f8f;
-        margin-top: 118px;
+        margin-top: 12%;
         margin-left: -80px;
         height: 260px;
         h2{
@@ -189,7 +189,7 @@
     .abouut_noon{
         height: 207px !important;
         h2{
-            font: 44px BahijTheSansArabic-Plain !important;
+            font: 33px BahijTheSansArabic-Plain !important;
         }
     }
     .noon_description{
@@ -242,4 +242,62 @@
             }
         }
     }   
+}
+@media (max-width:575px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .about{
+        .noon_description{
+            margin-left: 0;
+        }
+    } 
+    .about{
+        .noon-img{
+            .about_image{
+                margin-right: 0;
+            }
+        } 
+    } 
+    .message{
+        .row {
+            .left_noon{
+                .image{
+                    width: 100%;
+                    margin-left:1%; 
+                }
+            } 
+        }        
+    } 
+    .message{
+        .row{
+            .left_noon{
+                margin-bottom: 4%;
+                .image:before{
+                    left:63%;
+                    top:-3%;
+                }
+                .image:after{
+                    top: 78%;
+                    left: 10px;
+                }
+            } 
+        } 
+    }
+    .message{
+        .row{
+            .our_message:before{
+                height: 20%;
+            }
+        } 
+    }  
+    .about{
+        .abouut_noon{
+            h2{
+                text-align: center;
+            } 
+
+        }
+    } 
 }

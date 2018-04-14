@@ -121,7 +121,7 @@
             margin-bottom: 3%;
             color:#fff;
             outline: none;
-            width: 310px;
+            width: 170%;
        }
         textarea{
             background: #6b478f;
@@ -130,6 +130,7 @@
             color:#fff;
             outline: none;
             padding: 3% 6%;
+            width: 170%;
         }
         .custom_input{
             label{
@@ -272,4 +273,76 @@
             width: 43%; 
         }
     } 
+}
+@media (max-width:575px){
+    .e_mail{
+        margin-top: -7%;
+    }
+    .our_offices{
+        margin-top: 64%;
+    }
+    .send_form{
+        .form::after{
+            bottom: 86%;
+        }
+    }   
+}
+@media (max-width:470px){
+    .e_mail{
+        margin-top: -10%;
+    }
+    .our_offices{
+        margin-top: 70%;
+    }
+    .location{
+        .location_on_map{
+            height: 71px;
+            h2{
+                font-size: 24px;
+            }
+        }
+    } 
+    .location{
+        .detils{
+            margin-top: 20%;
+        }
+    }
+    .location{
+        .content:after{
+            width: 7%;
+        }
+    }
+    .position-details{
+        .detils{
+            .content    {
+                font-size: 15px;
+            }
+        }
+    }
+    .location{
+        .location_on_map:before{
+            height: 51%;
+            bottom: 25%;
+        }
+    }
+     
+}
+@media (max-width:342px){
+    .location{
+        .location_on_map{
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+    .position-details{
+        .detils{
+            .content    {
+                font-size: 11px;
+            }
+        }
+    }
+    .our_offices{
+        margin-top: 96%;    
+    }
 }
