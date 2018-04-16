@@ -1,8 +1,8 @@
-<!--
+/*
    - Mostafa El Menshawy
    - Noura Mohi
    - Hazem Fouda
--->
+*/
 
 var video = $('#liveStreaming');
 video.removeAttr("controls");
