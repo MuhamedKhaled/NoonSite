@@ -223,6 +223,8 @@ padding-left: 5px;
     right: 0;
     width: auto;
     position: absolute;
+    height: 18%;
+
 }
 .slick-center .content{
   background-color: rgba(107, 71, 143,0.7);
