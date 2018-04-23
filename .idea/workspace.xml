@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7087107-95ce-43d4-91dc-3e3f77e0aa9d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Noon_React/src/components/Media.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noon_React/src/components/Photo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Noon_React/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Noon_React/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="d7087107-95ce-43d4-91dc-3e3f77e0aa9d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -98,7 +94,7 @@
       <file leaf-file-name="media.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NOON/views/Media/media.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
+            <state relative-caret-position="337">
               <caret line="694" column="14" lean-forward="true" selection-start-line="421" selection-start-column="4" selection-end-line="694" selection-end-column="14" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -130,7 +126,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Noon_React/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -142,7 +138,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Media.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Media.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Noon_React/src/components/Media.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
@@ -267,9 +263,9 @@
         <option value="$PROJECT_DIR$/NOON/js/Global/navbar-dropdown.js" />
         <option value="$PROJECT_DIR$/NOON/views/Contact_Us/Contact_Us.html" />
         <option value="$PROJECT_DIR$/NOON/views/about_us/about_us.html" />
-        <option value="$PROJECT_DIR$/Noon_React/src/index.js" />
         <option value="$PROJECT_DIR$/Noon_React/src/components/Photo.js" />
         <option value="$PROJECT_DIR$/Noon_React/src/components/Media.js" />
+        <option value="$PROJECT_DIR$/Noon_React/src/index.js" />
       </list>
     </option>
   </component>
@@ -385,25 +381,24 @@
       <workItem from="1523121221934" duration="2087000" />
       <workItem from="1523706769846" duration="4171000" />
       <workItem from="1524423872823" duration="163000" />
-      <workItem from="1524493562962" duration="5645000" />
+      <workItem from="1524493562962" duration="7184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117355000" />
+    <option name="totallyTimeSpent" value="118894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="74" y="26" width="1292" height="742" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23640662" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23640662" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1113,9 +1108,30 @@
     <entry file="file://$PROJECT_DIR$/Noon_React/public/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Noon_React/src/components/Photo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#85#1563#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noon_React/src/components/Media.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NOON/views/Media/media.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
+        <state relative-caret-position="337">
           <caret line="694" column="14" lean-forward="true" selection-start-line="421" selection-start-column="4" selection-end-line="694" selection-end-column="14" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1152,27 +1168,6 @@
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding>
             <element signature="e#13#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noon_React/src/components/Photo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#85#1563#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noon_React/src/components/Media.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
