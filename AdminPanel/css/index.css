@@ -1,0 +1,16 @@
+.body header {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.body .card {
+  text-align: center;
+  height: 120px;
+}
+
+.body .card i {
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+/*# sourceMappingURL=index.css.map */

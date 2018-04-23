@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.fl {
+  float: left;
+}
+
+.clear_fix {
+  clear: both;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  background: rgba(191, 168, 193, 0.88);
+  padding: 1% 2%;
+}
+
+nav img {
+  height: 35px;
+}
+
+nav label {
+  text-align: center;
+}
+
+nav div {
+  text-align: right;
+}
+
+nav div button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 3%;
+}
+
+nav div a:hover {
+  outline: none;
+}
+
+aside {
+  width: 17%;
+  padding: 2% 2%;
+}
+
+aside ul {
+  list-style: none;
+  background: #d4bfde78;
+}
+
+aside ul li {
+  margin-bottom: 3%;
+  padding: 0 8%;
+  border-bottom: 1px solid silver;
+}
+
+aside .inner {
+  width: 109%;
+}
+
+footer {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.13);
+  color: rgba(0, 0, 0, 0.368627);
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.path {
+  margin-top: 1%;
+}
+
+.body {
+  margin-top: 3%;
+  margin-right: 4%;
+}
+
+hr {
+  margin-top: 0;
+}
+/*# sourceMappingURL=header_aside.css.map */
