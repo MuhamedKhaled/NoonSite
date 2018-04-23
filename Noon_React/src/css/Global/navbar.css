@@ -1,0 +1,261 @@
+/*
+ - Mohamed Khaled
+ - Nourhan Essam
+*/
+/****************  Header Start ***************/
+.header-bar{
+    background-color: #FFFFFF;
+}
+.header-bar .date{
+  font: BahijTheSansArabic-Plain;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #cccccc;
+  padding-top: 10px;
+  margin-left: 44px;
+}
+.flex-container{
+    display: inline-flex;
+}
+.search-div{
+    margin-top: 10px;
+}
+.header-bar .search {
+
+  height: 20px;
+  font: BahijTheSansArabic-Plain;
+  font-size: 12px;
+  font-weight: normal;
+  color: #6b478f;
+}
+
+.search-part{
+/*    width: 220px;*/
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0px;
+    margin-left: 10px;
+    height: 13px;
+}
+.search-part:focus , .search-part:active{
+      outline: none;
+}
+input[name=search]{
+    color: #6b478f;
+    padding-left: 10px;
+    font-size: 14px;
+
+}
+.search-btn{
+    border: none;
+    background-color: transparent;
+    color: #6b478f;
+    margin-left: 2px;
+}
+.share-icon-c{
+    color: #cccccc;
+    font-size: 12px;
+}
+.share{
+    padding-right: 8px;
+}
+.fa-ellipsis-h{
+    padding-right: 12px;
+}
+.share-icon-c:hover , .share-icon-c:active , .share-icon-c:focus , .sing:active , .sing:hover , .sing:focus{
+    color: #6b478f;
+    text-decoration: none;
+}
+.sing{
+    font-size: 13px;
+}
+.vertical-line{
+    border-right: 0.7px solid #cccccc;
+    margin-right: 6px;
+}
+/**************** Header END ***************/
+/**************** Navbar Start***************/
+
+.customized-navbar{
+    background-color: #6b478f;
+    margin-top: 12px;
+    padding: 0px;
+    width: 100%;
+}
+.navbar-nav .nav-link{
+    font: 14px BahijTheSansArabic-Plain;
+    color:#FFFFFF !important;
+    padding-right: 3px;
+    font-weight: bold;
+}
+.navbar-nav .nav-link:hover , .navbar-nav .nav-link:active , .navbar-nav .nav-link:focus{
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 7px;
+}
+.shop{
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+.liveStream{
+    margin-right: 150px;
+    background-color: #e81377;
+    color: #FFFFFF;
+    padding-bottom:18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 8.5px;
+}
+.shop:hover , .shop:active , .shop:focus , .liveStream:active , .liveStream:hover , .liveStream:focus{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.navbar-dark .navbar-toggler{
+    border: none;
+}
+.navbar-dark .navbar-toggler:hover , .navbar-dark .navbar-toggler:active , .navbar-dark .navbar-toggler:focus{
+    outline: none;
+}
+.navbar-toggler{
+   margin-left: 50%;
+}
+.dropdown-submenu{
+
+    position: relative;
+}
+.dd1-padding{
+    padding-right: 149px;
+}
+.nested-list-link{
+    color: #d0d0d0;
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.nested-list-link:hover , .nested-list-link:active , .nested-list-link:focus{
+    text-decoration: none;
+    color: #6b478f;
+}
+.dropdown-divider{
+    padding-top: 10px;
+}
+.country{
+    margin-right: 4%;
+}
+.country-1{
+    padding: 0% 19% 0% 5%;
+    color: #d0d0d0;
+ /*   border-right: 1px solid #cccccc;*/
+}
+.country-2{
+padding-left: 5px;
+ color: #d0d0d0;
+}
+.country-2:hover , .country-2:active , .country-2:focus , .country-1:hover , .country-1:active , .country-1:focus{
+     text-decoration: none;
+    color: #6b478f;
+}
+.my-sport{
+    color: #6b478f;
+    font-size: 14px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    font-weight: bold;
+}
+.second-dropdown{
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    width: 400px;
+}
+.posts-dropdown{
+   left:100%; 
+}
+.post-li{
+   width: 600px; 
+}
+.col-overwritting{
+    padding-right:0px;
+}
+/**/
+
+.card-padding{
+ padding:20px 20px 0px 20px;   
+}
+.section_card {
+    border: solid 1px rgba(0, 0, 0, 0.06);
+    padding: 25px;
+    max-width: 500px;
+}
+
+.section_card_img {
+    width: 100%;
+}
+.section-card-title {
+    font: 22px BahijTheSansArabic-Plain;
+    font-weight: bold;
+    height: 70px;
+    overflow: hidden;
+    text-align: left;
+    color: #6b478f;
+}
+
+.section-card-text p{
+    font: 14px BahijTheSansArabic-ExtraLight;
+    font-weight: bold;
+    height: 128px;
+    overflow: hidden;
+    line-height: 19px;
+    text-align: left;
+    color: #cccccc;
+}
+.more{
+    position: relative;
+    top: 10px;
+}
+
+.read_more{
+    color: #cccccc;
+    font: 14px BahijTheSansArabic-Plain;
+    position: absolute;
+    right: 0;
+}
+
+.read_more:hover{
+    color: #cccccc;
+}
+.small_card .card-title{
+    font-size: 18px;
+    height: 60px;
+}
+
+.-min-ago {
+    width: 52px;
+    height: 13px;
+    font: 12px BahijTheSansArabic-Plain;
+    text-align: left;
+    font-weight: bold;
+    color: #cccccc;
+    margin: 10px 0px;
+}
+/**************** Navbar End***************/
+
+/*150*/
+
+@media screen and (max-width:1400px) and (min-width:1200px) {
+    .second-dropdown{
+    width: 307px;
+}
+    .country-1 {
+        padding: 0px 10px 0px 10px;
+    }
+    .country-2 {
+        padding-left: 10px;
+    }
+    .dd1-padding{
+        padding-right: 70px;
+    }
+    
+}
