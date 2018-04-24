@@ -1,26 +1,17 @@
 // let's go!
 import React from 'react';
 import {render} from 'react-dom';
-import {BrowserRouter,Route} from 'react-router-dom';
+import {BrowserRouter,Route, Switch} from 'react-router-dom';
+import PostDetails from './components/PostDetails/PostDetails';
 // import './css/style.css';
 
 
-
-
-const Root = () =>{
-
-    return(
+const Root = () =>(
         <BrowserRouter>
-        <div>
-            {/* <Route exact={true} path = "/" component={StorePicker}/> */}
+        <Switch>
+            <Route exact path = "/PostDetails" component={PostDetails}/>
             {/* <Route  path = "/store/:id" component={App}/> */}
-        </div>
+        </Switch>
         </BrowserRouter>
-
-
-    )
-}
-
-
-
-render( <Root/> , document.querySelector('#main')  );
+);
+render(<Root/> , document.querySelector('#main'));
