@@ -3,10 +3,6 @@ import { render } from 'react-dom';
 import '../../css/PostDetails/PostDetails.css';
 import '../../css/Global/bootstrap.min.css';
 import '../../css/Global/font.css';
-import '../../js/Global/jquery-3.3.1.min.js';
-import '../../js/Global/popper.min.js';
-import '../../js/Global/bootstrap.min.js';
-import '../../js/Global/navbar-dropdown.js';
 
 class MainPost extends React.Component {
  render(){
