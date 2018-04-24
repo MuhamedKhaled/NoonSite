@@ -13,6 +13,7 @@ import MainSection from './MainSection';
 import MagazineSection from './MagazineSection';
 import OpinionsSection from './OpinionsSection';
 import PartnersSection from './PartnersSection';
+import FooterSection from './FooterSection';
 
 
 
@@ -37,7 +38,7 @@ class App extends React.Component{
           <MainSection title="Tennis"/>
           <OpinionsSection/>
           <PartnersSection/>
-
+          <FooterSection />
          </div>
         )
     }
