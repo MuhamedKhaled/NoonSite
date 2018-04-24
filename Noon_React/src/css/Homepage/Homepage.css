@@ -31,7 +31,9 @@
   font-weight: normal;
   color: #6b478f;
 }
-
+/* .custom-height{
+    height: 40px;
+} */
 .search-part{
 /*    width: 220px;*/
     border: none;
@@ -58,6 +60,7 @@ input[name=search]{
 .share-icon-c{
     color: #cccccc;
     font-size: 12px;
+    padding-right: 5px;
 }
 .share{
     padding-right: 8px;
@@ -304,7 +307,7 @@ padding-left: 5px;
 .section-card-title {
     font: 22px BahijTheSansArabic-Plain;
     font-weight: bold;
-    height: 70px;
+    height: 80px;
     overflow: hidden;
     text-align: left;
     color: #6b478f;
@@ -431,7 +434,17 @@ padding-left: 5px;
 .magazine-card{
   height: 400px;
 }
+.text-magazine{
+    overflow:hidden; 
+    height:70%;
+}
+.pic-magazine{
+    overflow:hidden; height:30%;
+}
+.starting-icon{
+    padding-left: 15px;
 
+}
 
 /*****************Video slider start*******************/
 .Video-slider{
@@ -514,8 +527,11 @@ padding-left: 5px;
 }
 
 /*****************Video slider end*********************/
-
-
+/*****************Partners Start*********************/
+.padding-partners{
+    padding-top:100px;
+}
+/*****************Partners Start*********************/
 /**************** Footer start *************/
 .customized-footer{
     background-color: #6b478f;
