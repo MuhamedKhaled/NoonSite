@@ -8,7 +8,7 @@ import './css/Global/bootstrap.min.css';
 import slick_slider from './components/HomePageComponents/slick-slider';
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
 // import './css/style.css';
-import Media from './components/Media'
+import Media from './components/MediaComponents/Media'
 
 
 
@@ -17,8 +17,8 @@ const Root = () =>{
     return(
         <BrowserRouter>
         <Switch>
-            <Route  path = "/" component={App} />
-             {/* <Route path={"/media"} component={Media} /> */}
+            <Route exact path = "/" component={App} />
+            <Route path="/media" component={Media} />
         </Switch>
         </BrowserRouter>
 

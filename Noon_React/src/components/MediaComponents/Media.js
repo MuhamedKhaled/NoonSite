@@ -1,8 +1,8 @@
 import React from 'react'
 import {render} from 'react-dom'
-import '../css/media/media.css'
-import '../css/Global/bootstrap.css'
-import '../css/Global/font.css'
+import '../../css/media/media.css'
+import '../../css/Global/bootstrap.css'
+import '../../css/Global/font.css'
 import Photo from './Photo'
 
 class Media extends React.Component{
