@@ -1,4 +1,8 @@
 .card {
   padding: 0;
 }
+
+.card div .btn-info {
+  float: right;
+}
 /*# sourceMappingURL=blogs.css.map */

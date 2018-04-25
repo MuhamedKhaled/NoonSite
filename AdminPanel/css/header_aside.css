@@ -45,7 +45,7 @@ nav div a:hover {
 }
 
 aside {
-  width: 17%;
+  width: 24%;
   padding: 2% 2%;
 }
 
@@ -55,7 +55,7 @@ aside ul {
 }
 
 aside ul li {
-  margin-bottom: 3%;
+  padding-bottom: 3%;
   padding: 0 8%;
   border-bottom: 1px solid silver;
 }
@@ -80,6 +80,7 @@ footer {
 .body {
   margin-top: 3%;
   margin-right: 4%;
+  margin-bottom: 20%;
 }
 
 hr {

@@ -1,0 +1,56 @@
+.body .image_section {
+  position: relative;
+  width: max-content;
+}
+
+.body .image_section .layout_edit {
+  background: rgba(0, 0, 0, 0.55);
+  color: white;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.body .image_section .layout_edit label {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  background: rgba(0, 0, 0, 0.49);
+  width: 25%;
+  text-align: center;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.body textarea {
+  resize: none;
+  overflow-y: auto;
+}
+
+.body button {
+  float: right;
+}
+
+#editModal .modal-body .add_image {
+  border: 3px dashed rgba(0, 0, 0, 0.35);
+  height: 200px;
+  margin: 2%;
+}
+
+#editModal .modal-body .add {
+  border: 3px dashed rgba(0, 0, 0, 0.35);
+  margin: 20% 4%;
+  height: 60%;
+  color: rgba(0, 0, 0, 0.35);
+  text-align: center;
+}
+
+#editModal .modal-body .add i {
+  width: 100%;
+}
+
+#editModal .modal-body .add label {
+  margin-top: 20%;
+}
+/*# sourceMappingURL=edit.css.map */

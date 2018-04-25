@@ -10,6 +10,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/header_aside.css">
     <link rel="stylesheet" href="../../css/blogs/blogs.css">
+    <link rel="stylesheet" href="../../css/blogs/edit.css">
     <title>Document</title>
 </head>
 
@@ -27,46 +28,46 @@
     <aside class="fl">
         <ul>
             <a href="#">
-                <li>Blogs
+                <li class="outter_li">Blogs
                     <ul class="inner">
                         <a href="#">
-                            <li>Posts</li>
+                            <li class="inner_li">Posts</li>
                         </a>
                         <a href="#">
-                            <li>Features</li>
+                            <li class="inner_li">Features</li>
                         </a>
                         <a href="#">
-                            <li>Photos</li>
+                            <li class="inner_li">Photos</li>
                         </a>
                         <a href="#">
-                            <li>Magazines</li>
+                            <li class="inner_li">Magazines</li>
                         </a>
                     </ul>
                 </li>
             </a>
             <a href="#">
-                <li>Champions Profile</li>
+                <li class="outter_li">Champions Profile</li>
             </a>
             <a href="#">
-                <li>Videos</li>
+                <li class="outter_li">Videos</li>
             </a>
             <a href="#">
-                <li>Users</li>
+                <li class="outter_li">Users</li>
             </a>
             <a href="#">
-                <li>Contact Us
+                <li class="outter_li">Contact Us
                     <ul class="inner">
                         <a href="#">
-                            <li>Main contact</li>
+                            <li class="inner_li">Main contact</li>
                         </a>
                         <a href="#">
-                            <li>Offices</li>
+                            <li class="inner_li">Offices</li>
                         </a>
                     </ul>
                 </li>
             </a>
             <a href="#">
-                <li>About Us</li>
+                <li class="outter_li">About Us</li>
             </a>
         </ul>
     </aside>
@@ -77,13 +78,22 @@
     <section class="body">
         <div class="row">
             <form class="col-10">
+                <div class="form-group image_section">
+                    <img src="../../img/football.png" alt="Post image" />
+                    <div class="layout_edit">
+                        <label for="edit" data-toggle="modal" data-target="#editModal">
+                            edit
+                            <i class="far fa-edit"></i>
+                        </label>
+                    </div>
+                </div>
                 <div class="form-group">
                     <label for="title">Title</label>
                     <input type="text" class="form-control" id="title" placeholder="Title">
                 </div>
                 <div class="form-group">
                     <label for="description">Description</label>
-                    <input type="text" class="form-control" id="description" placeholder="description">
+                    <textarea class="form-control" placeholder="Description" rows="5" id="comment"></textarea>
                 </div>
                 <!-- Example single danger button -->
                 <div class="btn-group">
@@ -101,13 +111,53 @@
         </div>
     </section>
 
+    <!--Edit modal-->
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit image</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="add_image row">
+                        <div class="col-6">
+                            <div class="add add_local">
+                                <label for="addImage">
+                                    <i class="fas fa-desktop"></i>
+                                    Add local
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="add add_url">
+                                <label for="addImage">
+                                    <i class="fas fa-anchor"></i>
+                                    Add url
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
         @copyright Mustafa El Menshawy
     </footer>
-    
+
     <script src="../../js/popper.min.js"></script>
     <script src="../../js/jquery-3.3.1.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/blogs/edit.js"></script>
+    <script src="../../js/aside.js"></script>
 </body>
 
 </html>

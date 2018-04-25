@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/header_aside.css">
+    <title>Document</title>
+    <style>
+    .table-secondary{
+        border-left:5px solid black
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="row">
+        <img class="col-1" src="../../img/noon white.png" alt="noon logo">
+        <label class="col-9" for="welcome message">Welcome Noon admin panel</label>
+        <div class="col-2">
+            <button>
+                <i class="fa fa-search"></i>
+            </button>
+            <a href="#">Logout</a>
+        </div>
+    </nav>
+    <aside class="fl">
+        <ul>
+            <a href="#">
+                <li class="outter_li">Blogs
+                    <ul class="inner">
+                        <a href="#">
+                            <li class="inner_li">Posts</li>
+                        </a>
+                        <a href="#">
+                            <li class="inner_li">Features</li>
+                        </a>
+                        <a href="#">
+                            <li class="inner_li">Photos</li>
+                        </a>
+                        <a href="#">
+                            <li class="inner_li">Magazines</li>
+                        </a>
+                    </ul>
+                </li>
+            </a>
+            <a href="#">
+                <li class="outter_li">Champions Profile</li>
+            </a>
+            <a href="#">
+                <li class="outter_li">Videos</li>
+            </a>
+            <a href="#">
+                <li class="outter_li">Users</li>
+            </a>
+            <a href="#">
+                <li class="outter_li">Contact Us
+                    <ul class="inner">
+                        <a href="#">
+                            <li class="inner_li">Main contact</li>
+                        </a>
+                        <a href="#">
+                            <li class="inner_li">Offices</li>
+                        </a>
+                    </ul>
+                </li>
+            </a>
+            <a href="#">
+                <li class="outter_li">About Us</li>
+            </a>
+        </ul>
+    </aside>
+    <section class="path">
+        <a href="#">main</a> >
+        <a href="#">Comments</a>
+    </section>
+    <section class="body">
+        <div class="row">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">User</th>
+                        <th scope="col">time</th>
+                        <th scope="col">content</th>
+                        <th></th>
+                        <th></th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>user 1</td>
+                        <td>1 min</td>
+                        <td  colspan="3">
+                            comment 1
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">delete</button>
+                        </td>
+                    </tr>
+                    <tr class="table-secondary">
+                            <th scope="row">2</th>
+                            <td>user 2</td>
+                            <td>2 min</td>
+                            <td  colspan="3">
+                                reply 2
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">delete</button>
+                            </td>
+
+                    </tr>
+                    <tr class="table-secondary">
+                            <th scope="row">3</th>
+                            <td>user 3</td>
+                            <td>3 min</td>
+                            <td  colspan="3">
+                                reply 3
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">delete</button>
+                            </td>
+                    </tr>
+                    <tr>
+                            <th scope="row">4</th>
+                            <td>user 4</td>
+                            <td>4 min</td>
+                            <td  colspan="3">
+                                comment 4
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">delete</button>
+                            </td>
+                    </tr>
+                    <tr class="table-secondary">
+                            <th scope="row">5</th>
+                            <td>user 5</td>
+                            <td>5 min</td>
+                            <td  colspan="3">
+                                reply 5
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">delete</button>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Delet Modal -->
+    <div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Do you want to delete this comment ?!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                        <button type="button" class="btn btn-primary">Yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <footer>
+        @copyright Mustafa El Menshawy
+    </footer>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+</body>
+
+</html>
