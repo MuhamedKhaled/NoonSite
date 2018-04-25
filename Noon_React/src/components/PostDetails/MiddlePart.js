@@ -1,10 +1,8 @@
 import React from 'react';
-import {render} from 'react-dom';
 import '../../css/Global/bootstrap.min.css';
 import '../../css/Global/font.css';
 import MainPost from './MainPost';
 import Comments from './Comment/Comments';
-import RelatedTopics from './RelatedTopics/RelatedTopics';
 import Col2 from './Col2/Col2'
 import Col3 from './Col3/Col3'
 

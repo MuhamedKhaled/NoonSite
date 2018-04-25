@@ -9,11 +9,11 @@ class RelatedTopic extends React.Component {
         return (
 <div className="container col-md-3 p-1">
     <div className=" BigPost align-center">
-        <img className="LittleGirl container" src="../../img/PostDetails/layer-3.png"
-             srcSet="../../img/PostDetails/layer-3@2x.png 2x,../../img/PostDetails/layer-3@3x.png 3x"/>
-        <div className="-min-ago container mb-2">1 min ago</div>
+        <img className="LittleGirl container" src={this.props.image}
+             srcSet={this.props.secrets}/>
+        <div className="-min-ago container mb-2">{this.props.min}</div>
         <div className="TextThird container">
-            Lorem Ipsum is simply dummy text of the printing and
+            {this.props.title}
         </div>
         <div className="row mt-2 mb-2">
             <div className="col-md-12 col-xs-12 ml-3">
