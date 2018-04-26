@@ -9,8 +9,7 @@ import slick_slider from './components/HomePageComponents/slick-slider';
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
 // import './css/style.css';
 import Media from './components/MediaComponents/Media'
-
-
+import Section from './components/SectionComponents/Section'
 
 const Root = () =>{
 
@@ -19,6 +18,7 @@ const Root = () =>{
         <Switch>
             <Route exact path = "/" component={App} />
             <Route path="/media" component={Media} />
+            <Route path="/section" component={Section}/>
         </Switch>
         </BrowserRouter>
 

@@ -39,7 +39,25 @@
     display: block;
 }
 .media_card_details{
-    margin: 16% 40%;
+    position: absolute;
+    bottom: 60px;
+    left: 100px;
+    text-align: center;
+    color: #FFF;
+}
+
+.photo-span{
+    position: absolute;
+    top: 60px;
+    left: 18px;
+    text-align: center;
+    color: #FFF;
+}
+
+.video-span{
+    position: absolute;
+    top: 60px;
+    left: 15px;
     text-align: center;
     color: #FFF;
 }

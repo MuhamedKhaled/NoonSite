@@ -1,7 +1,7 @@
 import React from 'react'
 import {render} from 'react-dom'
 
-class Photo extends React.Component{
+class Video extends React.Component{
     render()
     {
         return (
@@ -14,12 +14,15 @@ class Photo extends React.Component{
                              alt="little-girl"/>
                         <div className="media_card_hover">
                             <div className="media_card_details">
-                                <img src="../../img/media/photos.png" alt="photos"
-                                     srcSet="../../img/media/photos@2x.png 2x, ../../img/media/photos@3x.png 3x"/>
-                                <span className="photo-span">8/1</span>
+                                <img src="../../img/media/videos.png" alt="photos"
+                                     srcSet="../../img/media/videos@2x.png 2x, ../../img/media/videos@3x.png 3x"/>
+                                <span className="video-span">2:00</span>
                             </div>
+
                         </div>
+
                     </div>
+
                     <div className="card-body">
                         <p className="card-text">Lorem Ipsum is simply dummy text of the printing and
                             typesetting industry. Lorem Ipsum has been the industry's</p>
@@ -30,4 +33,4 @@ class Photo extends React.Component{
     }
 }
 
-export default Photo;
+export default Video;
