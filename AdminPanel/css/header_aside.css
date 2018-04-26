@@ -16,8 +16,14 @@ body {
 }
 
 nav {
-  background: rgba(191, 168, 193, 0.88);
+  background: #6b478f;
   padding: 1% 2%;
+}
+
+nav .welcome {
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFF;
 }
 
 nav img {
@@ -26,6 +32,17 @@ nav img {
 
 nav label {
   text-align: center;
+}
+
+nav .side-nav-items, nav .side-nav-items a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+nav .side-nav-items:hover, nav .side-nav-items a:hover {
+  text-decoration: none;
+  color: #e81377;
 }
 
 nav div {
@@ -51,7 +68,7 @@ aside {
 
 aside ul {
   list-style: none;
-  background: #d4bfde78;
+  background: #6b478f;
 }
 
 aside ul li {
@@ -60,13 +77,24 @@ aside ul li {
   border-bottom: 1px solid silver;
 }
 
+aside ul li a {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+aside ul a:hover {
+  color: #e81377;
+  text-decoration: none;
+}
+
 aside .inner {
   width: 109%;
 }
 
 footer {
   position: fixed;
-  background: rgba(0, 0, 0, 0.13);
+  background: #6b478f;
   color: rgba(0, 0, 0, 0.368627);
   text-align: center;
   bottom: 0;
