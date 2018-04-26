@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'PT Sans', sans-serif;
 }
 .fl{
     float: left;
@@ -14,17 +15,16 @@ body{
 nav{
     background:  #6b478f;
     padding: 2% 1%;
-    .welcome{
-        font-size:18px;
-        font-weight: 500;
-        color: #FFF;
-    }
     img{
         height: 35px;
     }
     label{
         text-align: center;
     }
+    .fa-search {
+        text-decoration: none;
+        color: #FFF;
+      }
     .side-nav-items a{
         font-size:18px;
         font-weight: 600;
@@ -38,6 +38,7 @@ nav{
         font-size: 18px;
         font-weight: 500;
         color: #FFF;
+    
     }
 
     div{
@@ -67,7 +68,7 @@ aside{
                 font-weight: 600;
             }
             padding-bottom: 3%;
-            padding: 0 8%;
+            padding: 5% 8%;
             border-bottom: 1px solid silver;
         }
         a:hover{
@@ -80,21 +81,54 @@ aside{
         width: 109%;
     }
 }
+.review{
+    font-size: 37px;
+    font-weight: bold;
+    color:#e81377;
+  }
 footer{
     position: fixed;
     background:  #6b478f;
-    color: rgba(0, 0, 0, 0.368627);
+    color: #fff;
     text-align: center;
     bottom: 0;
     width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+
+
 }
 .path{
-    margin-top:1%;
+    a{
+        margin-top:1%;
+        font-size: 24px;
+        font-weight: bold;
+        color:#e81377;
+        text-decoration: none;
+    }
+    font-size: 24px;
+    font-weight: bold;
+    color:#e81377;
+
 }
 .body{
     margin-top: 3%;
     margin-right: 4%; 
     margin-bottom: 20%;
+}
+.pink-btn{
+    background:#e81377; 
+    color: #FFF;
+}
+.purple-btn{
+    background:#6b478f; 
+    color: #FFF;
+}
+.edit-form-title{
+    color: #6b478f;
+    font-size: 20px;
+    font-weight: bold;
 }
 hr{
     margin-top: 0 ;

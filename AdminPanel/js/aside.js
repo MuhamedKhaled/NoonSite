@@ -3,11 +3,11 @@ $( document ).ready(function() {
 });
 $(".inner_li").on("click",function(){
     $(".inner_li").css("border-left","0");
-    $(this).css("border-left","3px solid black");
+    $(this).css("border-left","5px solid black");
 });
 $(".outter_li").on("click",function(){
     $(".outter_li").css("border-left","0");
-    $(this).css("border-left","3px solid purple");
+    $(this).css("border-left","5px solid black");
 });
 $(".outter_li").on("click",function(){
     $(".inner").hide(); 

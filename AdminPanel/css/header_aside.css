@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .fl {
@@ -17,13 +18,7 @@ body {
 
 nav {
   background: #6b478f;
-  padding: 1% 2%;
-}
-
-nav .welcome {
-  font-size: 18px;
-  font-weight: 500;
-  color: #FFF;
+  padding: 2% 1%;
 }
 
 nav img {
@@ -34,18 +29,25 @@ nav label {
   text-align: center;
 }
 
-nav .side-nav-items, nav .side-nav-items a {
+nav .fa-search {
+  text-decoration: none;
+  color: #FFF;
+}
+
+nav .side-nav-items a {
   font-size: 18px;
   font-weight: 600;
   color: #FFF;
 }
 
-nav .side-nav-items:hover, nav .side-nav-items a:hover {
+nav .side-nav-items a:hover {
   text-decoration: none;
   color: #e81377;
 }
-nav .fa-search {
-  text-decoration: none;
+
+nav .welcome {
+  font-size: 18px;
+  font-weight: 500;
   color: #FFF;
 }
 
@@ -95,15 +97,17 @@ aside ul a:hover {
 aside .inner {
   width: 109%;
 }
-.review{
+
+.review {
   font-size: 37px;
   font-weight: bold;
-  color:#e81377;
+  color: #e81377;
 }
+
 footer {
   position: fixed;
   background: #6b478f;
-  color:#FFF;
+  color: #fff;
   text-align: center;
   bottom: 0;
   width: 100%;
@@ -113,16 +117,39 @@ footer {
 }
 
 .path {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e81377;
+}
+
+.path a {
   margin-top: 1%;
   font-size: 24px;
   font-weight: bold;
-  color:#e81377;
+  color: #e81377;
+  text-decoration: none;
 }
 
 .body {
   margin-top: 3%;
   margin-right: 4%;
   margin-bottom: 20%;
+}
+
+.pink-btn {
+  background: #e81377;
+  color: #FFF;
+}
+
+.purple-btn {
+  background: #6b478f;
+  color: #FFF;
+}
+
+.edit-form-title {
+  color: #6b478f;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 hr {
