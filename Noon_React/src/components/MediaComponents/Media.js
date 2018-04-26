@@ -3,7 +3,7 @@ import {render} from 'react-dom'
 import '../../css/media/media.css'
 import '../../css/Global/bootstrap.css'
 import '../../css/Global/font.css'
-import Photo from './Photo'
+import MediaPhoto from './MediaPhoto'
 import Video from './Video'
 
 class Media extends React.Component{
@@ -17,14 +17,14 @@ class Media extends React.Component{
                     </div>
 
                     <div className="row">
-                        <Photo />
-                        <Photo />
-                        <Photo />
-                        <Photo />
-                        <Photo />
-                        <Photo />
-                        <Photo />
-                        <Photo />
+                        <MediaPhoto />
+                        <MediaPhoto />
+                        <MediaPhoto />
+                        <MediaPhoto />
+                        <MediaPhoto />
+                        <MediaPhoto />
+                        <MediaPhoto />
+                        <MediaPhoto />
 
                     </div>
                     <div className="row">

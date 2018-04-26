@@ -7,12 +7,15 @@ import Small_Post from '../HomePageComponents/Small_Post'
 import Advertisement from './Advertisement'
 import Profile from './Profile'
 import '../../css/Section/section.css'
+import SectionPhoto from './SectionPhoto';
+import Feature from './Feature'
 
 class Section extends React.Component{
     render()
     {
         return(
             <div>
+                {/*Section part*/}
                 <section className="container padding_section">
                     <div className="main-section-title">
                         <p>Football</p>
@@ -47,9 +50,106 @@ class Section extends React.Component{
                     </div>
 
                 </section>
+
+                {/*Photos part*/}
+                <div className="backgrounds padding_section">
+                    <section className="container">
+
+                        <div className="row title_bar">
+                            <div className="section_title">
+                                <p>Photos</p>
+                            </div>
+                            <div className="all_page">
+                                <a href="../../views/Media/media.html">All page</a>
+                            </div>
+                        </div>
+
+                        <div className="row">
+
+                            <SectionPhoto />
+                            <SectionPhoto />
+                            <SectionPhoto />
+                            <SectionPhoto />
+                            <SectionPhoto />
+                            <SectionPhoto />
+                            <SectionPhoto />
+                            <SectionPhoto />
+
+                        </div>
+                    </section>
+                </div>
+
+                {/*Photos Modal*/}
+                <div className="modal fade" id="enlargeImageModal" tabIndex="-1" role="dialog"
+                     aria-labelledby="enlargeImageModal" aria-hidden="true">
+                    <div className="modal-dialog modal-lg" role="document">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">×</span></button>
+                            </div>
+                            <div className="modal-body">
+                                <img src="" className="enlargeImageModalSource"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/*Features part*/}
+                <section className="container padding_section">
+                    <div className="row title_bar">
+                        <div className="section_title">
+                            <p>Features</p>
+                        </div>
+                    </div>
+
+                    <div className="row">
+
+                        <Feature />
+                        <Feature />
+                        <Feature />
+                        <Feature />
+
+                    </div>
+                </section>
+
+                {/*Videos part*/}
+
+                {/*News part*/}
+                <section className="container margin_section">
+                    <div className="row">
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                            <Small_Post />
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                            <Small_Post />
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                            <Small_Post />
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                            <Small_Post />
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                            <Small_Post />
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                            <Small_Post />
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                            <Small_Post />
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                            <Small_Post />
+                        </div>
+                    </div>
+                </section>
+
             </div>
         );
     }
 }
 
 export default Section;
+
+// style="width: 100%;"

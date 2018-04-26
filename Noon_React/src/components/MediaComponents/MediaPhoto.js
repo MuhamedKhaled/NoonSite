@@ -1,7 +1,7 @@
 import React from 'react'
 import {render} from 'react-dom'
 
-class Photo extends React.Component{
+class MediaPhoto extends React.Component{
     render()
     {
         return (
@@ -30,4 +30,4 @@ class Photo extends React.Component{
     }
 }
 
-export default Photo;
+export default MediaPhoto;
