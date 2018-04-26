@@ -13,7 +13,7 @@ body{
 }
 nav{
     background:  #6b478f;
-    padding: 1% 2%;
+    padding: 2% 1%;
     .welcome{
         font-size:18px;
         font-weight: 500;
@@ -25,15 +25,21 @@ nav{
     label{
         text-align: center;
     }
-    .side-nav-items , .side-nav-items a{
+    .side-nav-items a{
         font-size:18px;
         font-weight: 600;
         color: #FFF;
     }
-    .side-nav-items:hover , .side-nav-items a:hover{
+     .side-nav-items a:hover{
        text-decoration: none;
        color: #e81377;
     }
+    .welcome{
+        font-size: 18px;
+        font-weight: 500;
+        color: #FFF;
+    }
+
     div{
         text-align: right;
         button{
@@ -57,8 +63,8 @@ aside{
         li{
             a{
                 color: #FFF;
-                font-size: 20px;
-                font-weight: 500;
+                font-size: 22px;
+                font-weight: 600;
             }
             padding-bottom: 3%;
             padding: 0 8%;

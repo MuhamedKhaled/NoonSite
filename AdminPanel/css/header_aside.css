@@ -44,6 +44,10 @@ nav .side-nav-items:hover, nav .side-nav-items a:hover {
   text-decoration: none;
   color: #e81377;
 }
+nav .fa-search {
+  text-decoration: none;
+  color: #FFF;
+}
 
 nav div {
   text-align: right;
@@ -73,14 +77,14 @@ aside ul {
 
 aside ul li {
   padding-bottom: 3%;
-  padding: 0 8%;
+  padding: 5% 8%;
   border-bottom: 1px solid silver;
 }
 
 aside ul li a {
   color: #FFF;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 aside ul a:hover {
@@ -91,18 +95,28 @@ aside ul a:hover {
 aside .inner {
   width: 109%;
 }
-
+.review{
+  font-size: 37px;
+  font-weight: bold;
+  color:#e81377;
+}
 footer {
   position: fixed;
   background: #6b478f;
-  color: rgba(0, 0, 0, 0.368627);
+  color:#FFF;
   text-align: center;
   bottom: 0;
   width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .path {
   margin-top: 1%;
+  font-size: 24px;
+  font-weight: bold;
+  color:#e81377;
 }
 
 .body {
