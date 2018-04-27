@@ -5,8 +5,8 @@ class Feature extends React.Component{
     render() {
         return (
             <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-                <div className="section_card small_card">
-                    <img className="section_card_img"
+                <div className="feature_card small_card">
+                    <img className="feature_card_img"
                          src="../../img/Section/horses.png"
                          srcSet="../../img/Section/horses@2x.png 2x,
                              ../../img/Section/horses@3x.png 3x"/>

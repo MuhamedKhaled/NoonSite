@@ -9,6 +9,7 @@ import Profile from './Profile'
 import '../../css/Section/section.css'
 import SectionPhoto from './SectionPhoto';
 import Feature from './Feature'
+import PhotoModal from '../MediaComponents/PhotoModal'
 
 class Section extends React.Component{
     render()
@@ -80,20 +81,7 @@ class Section extends React.Component{
                 </div>
 
                 {/*Photos Modal*/}
-                <div className="modal fade" id="enlargeImageModal" tabIndex="-1" role="dialog"
-                     aria-labelledby="enlargeImageModal" aria-hidden="true">
-                    <div className="modal-dialog modal-lg" role="document">
-                        <div className="modal-content">
-                            <div className="modal-header">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span
-                                    aria-hidden="true">×</span></button>
-                            </div>
-                            <div className="modal-body">
-                                <img src="" className="enlargeImageModalSource"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <PhotoModal />
 
                 {/*Features part*/}
                 <section className="container padding_section">

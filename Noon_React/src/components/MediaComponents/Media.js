@@ -5,6 +5,7 @@ import '../../css/Global/bootstrap.css'
 import '../../css/Global/font.css'
 import MediaPhoto from './MediaPhoto'
 import Video from './Video'
+import PhotoModal from './PhotoModal'
 
 class Media extends React.Component{
     render()
@@ -30,6 +31,8 @@ class Media extends React.Component{
                     <div className="row">
                         <button id="photos-more" className="btn more-btn">More</button>
                     </div>
+
+                    <PhotoModal />
 
                 </section>
 
