@@ -104,7 +104,7 @@
 .send_form {
   font: 18px BahijTheSansArabic-Plain;
   margin: 12% 0;
-  background: url("../../img/contact_us/soccer-lady-girl.png");
+  /*background: url("../../../public/img/contact_us/soccer-lady-girl.png");*/
   background-size: 1110px 380px;
   background-repeat: no-repeat;
   background-position: center;

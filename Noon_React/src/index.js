@@ -11,6 +11,7 @@ import slick_slider from './components/HomePageComponents/slick-slider';
 // import './css/style.css';
 import Media from './components/MediaComponents/Media'
 import Section from './components/SectionComponents/Section'
+import ContactUs from "./components/ContactUsComponents/ContactUs";
 
 const Root = () =>(
         <BrowserRouter>
@@ -20,6 +21,7 @@ const Root = () =>(
             <Route path="/media" component={Media} />
             <Route path="/section" component={Section}/>
             <Route exact path = "/PostDetails" component={PostDetails}/>
+            <Route path="/contactus" component={ContactUs}/>
 
         </Switch>
         </BrowserRouter>
