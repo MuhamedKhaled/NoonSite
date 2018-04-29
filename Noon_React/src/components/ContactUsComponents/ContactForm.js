@@ -9,12 +9,10 @@ class ContactForm extends React.Component{
                 <div className="form col-lg-5 col-md-8 col-sm-12 col-12">
                     <form action="">
                         <div className="custom_input">
-                            <label htmlFor="name">Name</label>
-                            <input type="text" required/>
+                            <input className="inputField" placeholder="Name" type="text" required/>
                         </div>
                         <div className="custom_input">
-                            <label htmlFor="emal">E-mail</label>
-                            <input type="text" required/>
+                            <input className="inputField" placeholder="E-mail" type="text" required/>
                         </div>
                         <p htmlFor="">Message</p>
                         <textarea name="" id="" cols="40" rows="6" placeholder="Write your message here..."

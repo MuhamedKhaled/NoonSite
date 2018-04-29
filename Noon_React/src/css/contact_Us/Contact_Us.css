@@ -370,6 +370,10 @@
 
 .menu{
     margin-left: 1.4%;
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    margin-top: -2%;
 }
 
 .select_button {
@@ -383,9 +387,12 @@
     outline: none;
 }
 
-option a:hover{
-    background-color: #6b478f;
-    color: white;
+.dropdown-item:hover{
+    color: #8f8f8f;
 }
 
+.inputField::placeholder{
+    color: white;
+    font-weight: bold;
+}
 /*# sourceMappingURL=Contact_Us.css.map */
