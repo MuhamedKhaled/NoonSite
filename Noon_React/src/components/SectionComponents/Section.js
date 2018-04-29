@@ -9,7 +9,6 @@ import Profile from './Profile'
 import '../../css/Section/section.css'
 import SectionPhoto from './SectionPhoto';
 import Feature from './Feature'
-import PhotoModal from '../MediaComponents/PhotoModal'
 
 class Section extends React.Component{
     render()

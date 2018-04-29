@@ -5,7 +5,6 @@ import '../../css/Global/bootstrap.css'
 import '../../css/Global/font.css'
 import MediaPhoto from './MediaPhoto'
 import Video from './Video'
-import PhotoModal from './PhotoModal'
 
 class Media extends React.Component{
     render()
