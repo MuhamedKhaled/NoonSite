@@ -226,7 +226,7 @@
 }
 
 .location .position-details {
-  margin-top: -220px;
+  margin-top: -230px;
   padding-left: 50px;
 }
 
@@ -351,5 +351,12 @@
   .our_offices {
     margin-top: 96%;
   }
+}
+
+.google-map{
+  width: 165vh;
+  height: 65vh;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 /*# sourceMappingURL=Contact_Us.css.map */
