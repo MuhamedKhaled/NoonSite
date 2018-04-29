@@ -288,6 +288,11 @@
     width: 95%;
 }
 
+.sectionImgStyle{
+    width: 100%;
+    height: 100%;
+}
+
 /*****************Video slider start*******************/
 /*.owl-item{*/
     /*height: 400px;*/

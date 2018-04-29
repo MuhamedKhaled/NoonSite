@@ -79,9 +79,6 @@ class Section extends React.Component{
                     </section>
                 </div>
 
-                {/*Photos Modal*/}
-                <PhotoModal />
-
                 {/*Features part*/}
                 <section className="container padding_section">
                     <div className="row title_bar">

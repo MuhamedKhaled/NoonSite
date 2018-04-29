@@ -38,9 +38,6 @@
 .media_card_container:hover .media_card_hover{
     display: block;
 }
-.media_card_hover:target .media_card_hover{
-    display: none;
-}
 .media_card_details{
     position: absolute;
     bottom: 60px;
@@ -103,6 +100,11 @@
 
 .hidden_videos{
     display: none;
+}
+
+.mediaImgStyle{
+    width: 100%;
+    height: 100%;
 }
 
 /**************** Slider Start **************/

@@ -1,24 +1,28 @@
 import React from 'react'
 import {render} from 'react-dom'
-import ModalImage from 'react-modal-image'
+import { Modal, ModalManager } from 'react-dynamic-modal'
+import PhotoModal from "../SectionComponents/PhotoModal";
 
 class MediaPhoto extends React.Component{
+
+    imgRef = React.createRef();
+
+    openModal= () => {
+        const imgSrc = this.imgRef.value.src;
+        ModalManager.open(<PhotoModal imgSrc={imgSrc} onRequestClose={() => true}/>);
+    };
+
     render()
     {
         return (
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 ">
                 <div className="card mb-4">
                     <div className="media_card_container">
-                        <img className="card-img-top" src="../../img/media/little-girl.png"/>
-                        <div className="media_card_hover">
+                        <img className="card-img-top" ref={this.imgRef} src="../../img/media/little-girl.png"/>
+                        <div className="media_card_hover" onClick={this.openModal}>
                             <div className="media_card_details">
-                                {/*<img src="../../img/media/photos.png" alt="photos"*/}
-                                     {/*srcSet="../../img/media/photos@2x.png 2x, ../../img/media/photos@3x.png 3x"/>*/}
-                                <ModalImage
-                                    small="../../img/media/photos.png"
-                                    large="../../img/media/little-girl@3x.png"
-                                    alt="Little Girl"
-                                />
+                                <img src="../../img/media/photos.png" alt="photos"
+                                     srcSet="../../img/media/photos@2x.png 2x, ../../img/media/photos@3x.png 3x"/>
                                 <span className="photo-span">8/1</span>
                             </div>
                         </div>
