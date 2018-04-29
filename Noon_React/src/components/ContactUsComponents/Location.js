@@ -2,6 +2,7 @@ import React from 'react'
 import {render} from 'react-dom'
 import ContactWays from "./ContactWays";
 import GoogleMapReact from 'google-map-react'
+import ChooseCountryDropdown from "./ChooseCountryDropdown";
 
 class Location extends React.Component{
     static defaultProps = {
@@ -12,17 +13,7 @@ class Location extends React.Component{
     render(){
         return(
             <section className="location">
-                <div className="dropdown show">
-                    <button className="" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Chose your country
-                        <i className="fal fa-angle-down"></i>
-                    </button>
-                    <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a className="dropdown-item" href="#">Egypt</a>
-                        <a className="dropdown-item" href="#">emirates</a>
-                        <a className="dropdown-item" href="#">kuwait</a>
-                    </div>
-                </div>
+                <ChooseCountryDropdown/>
                 <div className="row google-map">
                     <div className="col-12">
                     <GoogleMapReact

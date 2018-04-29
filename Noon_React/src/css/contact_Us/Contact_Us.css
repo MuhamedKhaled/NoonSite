@@ -213,15 +213,16 @@
   text-align: center;
 }
 
-.location .dropdown .dropdown-menu .dropdown-item {
+.select_button .dropdown-item {
   color: #6b478e;
+  text-align: center;
 }
 
-.location .dropdown .dropdown-menu .dropdown-item:hover {
-  background: rgba(107, 71, 143, 0.2);
+.select_button .dropdown-item:hover {
+  background: rgba(255,255,255, 0.2);
 }
 
-.location .dropdown .dropdown-menu .dropdown-item:active {
+.select_button .dropdown-item:active {
   background: #6b478f;
   color: #fff;
 }
@@ -366,4 +367,25 @@
   padding-top: 15px;
   padding-left: 15px;
 }
+
+.menu{
+    margin-left: 1.4%;
+}
+
+.select_button {
+    background-color: white;
+    font: 18px BahijTheSansArabic-Plain;
+    color: #6b478f;
+    width: 20%;
+    border: none;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    outline: none;
+}
+
+option a:hover{
+    background-color: #6b478f;
+    color: white;
+}
+
 /*# sourceMappingURL=Contact_Us.css.map */
