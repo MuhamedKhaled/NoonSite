@@ -11,7 +11,7 @@ class Location extends React.Component{
 
     render(){
         return(
-            <section className=" location">
+            <section className="location">
                 <div className="dropdown show">
                     <button className="" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">Chose your country
@@ -24,10 +24,12 @@ class Location extends React.Component{
                     </div>
                 </div>
                 <div className="row google-map">
+                    <div className="col-12">
                     <GoogleMapReact
                         defaultCenter={ this.props.center }
                         defaultZoom={ this.props.zoom }>
                     </GoogleMapReact>
+                    </div>
                 </div>
                 <div className="position-details row justify-content-between">
                     <div className="detils col-lg-3 col-md-3 col-sm-5 col-5 align-self-end">

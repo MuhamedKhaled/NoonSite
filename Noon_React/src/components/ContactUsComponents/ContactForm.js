@@ -5,7 +5,7 @@ class ContactForm extends React.Component{
     render(){
         return(
             <section className="row send_form">
-                {/*<img src="../../img/contact_us/soccer-lady-girl.png" alt="" style="display: inline-block;">*/}
+
                 <div className="form col-lg-5 col-md-8 col-sm-12 col-12">
                     <form action="">
                         <div className="custom_input">
@@ -17,11 +17,12 @@ class ContactForm extends React.Component{
                             <input type="text" required/>
                         </div>
                         <p htmlFor="">Message</p>
-                        <textarea name="" id="" cols="40" rows="6" placeholder="Write your message her..."
+                        <textarea name="" id="" cols="40" rows="6" placeholder="Write your message here..."
                                   required></textarea>
                         <button type="submit">Send</button>
                     </form>
                 </div>
+                <img className="col-lg-7 col-md-4 col-sm-12 col-12 image-bckgrd" src="../../img/contact_us/soccer-lady-girl.png" alt=""/>
             </section>
         );
     }

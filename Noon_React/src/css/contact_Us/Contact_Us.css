@@ -110,6 +110,13 @@
   background-position: center;
 }
 
+.image-bckgrd{
+    padding: 0;
+    margin: 40px 0 40px 0;
+    max-height: 400px;
+    float: right;
+}
+
 .send_form ::placeholder {
   color: rgba(255, 255, 255, 0.4);
 }
@@ -264,11 +271,11 @@
 .location .location_on_map {
   color: #6b478f;
   background: #fff;
-  margin-top: -241px;
+  margin-top: -216.5px;
   border: 1px solid rgba(0, 0, 0, 0.07);
   height: 140px;
   padding: 3% 3%;
-  margin-right: 9%;
+  margin-right: 12%;
 }
 
 .location .location_on_map:before {
@@ -354,8 +361,8 @@
 }
 
 .google-map{
-  width: 165vh;
-  height: 65vh;
+  width: 100%;
+  height: 400px;
   padding-top: 15px;
   padding-left: 15px;
 }
