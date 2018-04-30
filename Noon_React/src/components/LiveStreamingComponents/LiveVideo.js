@@ -13,8 +13,8 @@ class LiveVideo extends React.Component {
     render() {
         return (
             <div className="card mb-4 ml-0">
-                <video id="liveStreaming" controls poster={"video.jpg"} width="100%" autoPlay="autoplay">
-                    <source src={"../../img/LiveStreaming/Tom and Jerry - Episode 74.mp4"} type="video/mp4"/>
+                <video id="liveStreaming " controls poster={"video.jpg"} width="100%" autoPlay="autoplay">
+                    <source src={this.props.video} type="video/mp4"/>
                     <source src={"video.webm"} type="video/webM"/>
                     <source src={"video.ogv"} type="video/ogg"/>
                     <p>Your browser does not support the video tag.</p>
@@ -24,6 +24,8 @@ class LiveVideo extends React.Component {
                         <img src={"../../img/LiveStreaming/vector-smart-object.png"}/>
                     </button>
                     <div className="controllers">
+                        {/*<button className="pbutton Text">Previous Stream</button>
+                        <button className="nbutton Text" >Next Stream</button>*/}
                         <div className="progressBar">
                             <div className="bufferBar"/>
                             <div className="timeBar">
