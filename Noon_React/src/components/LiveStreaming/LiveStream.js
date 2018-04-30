@@ -7,7 +7,9 @@ import NavBar from '../HomePageComponents/NavBar.js';
 import '../../css/LiveStreaming/LiveStreaming.css';
 import '../../css/Global/bootstrap.min.css';
 import '../../css/Global/font.css';
+import '../../css/LiveStreaming/LiveStreaming.css';
 import LiveVideo from '../LiveStreaming/LiveVideo'
+import SmallVideo from '../LiveStreaming/SmallVideo'
 
 class LiveStream extends React.Component {
     render() {
@@ -27,7 +29,12 @@ class LiveStream extends React.Component {
                     </div>
                     <LiveVideo/>
                 </div>
-
+                <div className="container">
+                    <div className="row">
+                <SmallVideo/>
+                <SmallVideo/>
+                    </div>
+                </div>
                 <FooterSection/>
             </div>
         );
