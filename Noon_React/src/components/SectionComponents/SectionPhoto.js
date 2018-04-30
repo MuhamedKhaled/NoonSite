@@ -7,7 +7,7 @@ class SectionPhoto extends React.Component{
 
     imgRef = React.createRef();
 
-    openModal= () => {
+    openModal = () => {
         const imgSrc = this.imgRef.current.src;
         ModalManager.open(<PhotoModal imgSrc={imgSrc} onRequestClose={() => true}/>);
     };

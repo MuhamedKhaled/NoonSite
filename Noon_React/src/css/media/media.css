@@ -102,9 +102,10 @@
     display: none;
 }
 
-.mediaImgStyle{
+.mediaVideoStyle{
+    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 99%;
 }
 
 /**************** Slider Start **************/
