@@ -8,8 +8,8 @@ import '../../css/LiveStreaming/LiveStreaming.css';
 import '../../css/Global/bootstrap.min.css';
 import '../../css/Global/font.css';
 import '../../css/LiveStreaming/LiveStreaming.css';
-import LiveVideo from '../LiveStreaming/LiveVideo'
-import SmallVideo from '../LiveStreaming/SmallVideo'
+import LiveVideo from './/LiveVideo'
+import SmallVideo from './/SmallVideo'
 
 class LiveStream extends React.Component {
     render() {
@@ -27,12 +27,12 @@ class LiveStream extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <LiveVideo/>
+                    <LiveVideo video="../../img/LiveStreaming/Tom and Jerry - Episode 74.mp4"/>
                 </div>
                 <div className="container">
                     <div className="row">
-                <SmallVideo/>
-                <SmallVideo/>
+                <SmallVideo image="../../img/LiveStreaming/layer-10.png" secrets="../../img/LiveStreaming/layer-10@2x.png 2x, ../../img/LiveStreaming/layer-10@3.png 3x" title="Lorem Ipsum is simply dummy text of the printing and" type="Previous"/>
+                <SmallVideo image="../../img/LiveStreaming/layer-10.png" secrets="../../img/LiveStreaming/layer-10@2x.png 2x, ../../img/LiveStreaming/layer-10@3.png 3x" title="Lorem Ipsum is simply dummy text of the printing and" type="Next"/>
                     </div>
                 </div>
                 <FooterSection/>

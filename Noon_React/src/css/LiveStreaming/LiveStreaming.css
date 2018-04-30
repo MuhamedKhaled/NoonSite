@@ -36,17 +36,7 @@
 
 }
 
-@media screen and (max-width: 600px) {
-  .Previous {
-    font-size:12px;
-  }
-}
 
-@media screen and (min-width: 601px) {
-  .Previous {
-    font-size:20px;
-  }
-}
 
 .Previous-Word{
     position: relative;
@@ -82,7 +72,7 @@
 }
 
 @media screen and (max-width: 1025px) {
-  .Text {
+  .Text  {
     font-size:13px;
   }
 }
@@ -90,6 +80,34 @@
   .Text {
     font-size:20px;
   }
+}
+
+@media screen and (max-width: 1025px) {
+    .Previous {
+        font-size:14px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .Previous {
+        font-size:20px;
+    }
+}
+
+.pbutton{
+   top: 10%;
+    left: 80%;
+    color:#6b478f;
+}
+
+.nbutton{
+    background: rgba(0,0,0,0);
+    border:  none;
+    position:  absolute;
+    top: 18%;
+    left: 89%;
+    outline: none;
+    color:#6b478f;
 }
 
 .playsize
@@ -202,6 +220,10 @@ input[type='range'] {
     border:2px solid #ddd;
     border-radius: 25px;
     
+}
+.wid100
+{
+    width: 100%;
 }
 
 img {
