@@ -1,6 +1,5 @@
 import React from 'react'
 import {render} from 'react-dom'
-import ModalImage from 'react-modal-image'
 import { Modal, ModalManager } from 'react-dynamic-modal'
 import PhotoModal from "./PhotoModal";
 
@@ -9,7 +8,7 @@ class SectionPhoto extends React.Component{
     imgRef = React.createRef();
 
     openModal= () => {
-        const imgSrc = this.imgRef.value.src;
+        const imgSrc = this.imgRef.current.src;
         ModalManager.open(<PhotoModal imgSrc={imgSrc} onRequestClose={() => true}/>);
     };
 
