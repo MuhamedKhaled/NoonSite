@@ -4,6 +4,11 @@
    - Hazem Fouda
 */
 
+import $ from 'jquery';
+window.jQuery = $;
+window.$ = $;
+global.jQuery = $;
+
 var video = $('#liveStreaming');
 video.removeAttr("controls");
 var progressBar=$('#progressBar');
@@ -64,7 +69,7 @@ $('#fullscreen').on('click', function() {
 
 
 //volume controller
-volumeBar = $('#volume-bar');
+var volumeBar = $('#volume-bar');
 volumeBar.on('change', function() {
     $('#liveStreaming').prop("volume", this.value);
 });
@@ -113,7 +118,7 @@ var updatebar = function(x) {
 };
 //loop to get HTML5 video buffered data
 var startBuffer = function() {
-    var maxduration = video[0].duration;
+    var maxduration =video[0].duration;
     var currentBuffer = video[0].buffered.end(0);
     var percentage = 100 * currentBuffer / maxduration;
     $('.bufferBar').css('width', percentage+'%');
@@ -124,6 +129,7 @@ var startBuffer = function() {
 };
 setTimeout(startBuffer, 500);
 //Volume control clicked
+ var volume = video.volume;
 $('.volumeBar').on('mousedown', function(e) {
     var position = e.pageX - volume.offset().left;
     var percentage = 100 * position / volume.width();
