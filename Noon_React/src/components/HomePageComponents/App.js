@@ -5,8 +5,8 @@ import '../../css/Homepage/Homepage.css';
 import Header from '../HomePageComponents/Header.js';
 import NavBar from '../HomePageComponents/NavBar.js';
 
-import slick_slider from '../HomePageComponents/slick-slider.js'
 import Slider from "react-slick";
+
 import Section from '../HomePageComponents/Section.js';
 import ProfileSection from './ProfileSection';
 import MainSection from './MainSection';
@@ -14,6 +14,9 @@ import MagazineSection from './MagazineSection';
 import OpinionsSection from './OpinionsSection';
 import PartnersSection from './PartnersSection';
 import FooterSection from './FooterSection';
+import SimpleSlider from '../SimpleSlider';
+import VideoSection from './VideoSection';
+// import OwlCarousel from 'react-owl-carousel2';
 
 
 
@@ -26,13 +29,13 @@ class App extends React.Component{
         <div>
          <Header />
          <NavBar />
-         {/* Main Slider */}
+         <SimpleSlider />
          <Section title="Football"/>
          <ProfileSection />
          <MainSection title="Basketball"/>
-          {/* section photos From alaa and ismail */}
+          {/* <section photos From alaa and ismail } */}
           <MainSection title="Swimming"/>
-          {/* Video Slider  */}
+          <VideoSection />
           <MainSection title="Volleyball"/>
           <MagazineSection/>
           <MainSection title="Tennis"/>

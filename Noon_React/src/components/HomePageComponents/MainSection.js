@@ -11,6 +11,7 @@ class MainSection extends React.Component{
 
     render(){
         return(
+            
             <div class="container">
                         <SectionTitle title={this.props.title}/> 
 

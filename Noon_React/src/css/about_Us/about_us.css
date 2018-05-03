@@ -54,9 +54,17 @@
   bottom: -13px;
   left: 19px;
 }
+.about-imageEdits{
+  height: 180px;
+  margin-top: 60px;
+  width: 300px;
+}
+.noon-imageEdits{
+  height: 50px;
+  margin: 40px;
+}
 
 .about .noon-img .about_image {
-  background: url("../../img/about_us/gathering.png");
   background-repeat: no-repeat;
   background-size: 100% 63%;
   background-position: center;
@@ -76,7 +84,7 @@
 }
 
 .about .noon-img .noon_image {
-  background: url("../../img/Global/navbar-logo.jpg");
+  /* background: url("../../../public/img/Global/navbar-logo.jpg"); */
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid rgba(0, 0, 0, 0.07);
@@ -97,7 +105,7 @@
 }
 
 .vision {
-  background: url("../../img/about_us/Laundry.jpg");
+  /* background-image: url('../../../public/img/about_us/gathering.png'); */
   margin-right: 14%;
   margin-top: 2%;
   width: 78%;
@@ -139,7 +147,7 @@
 }
 
 .message .row .left_noon .image {
-  background: url("../../img/about_us/gathering.png");
+  /* background: url("../../../public/img/about_us/gathering.png"); */
   height: 292px;
   width: 135%;
 }
@@ -154,6 +162,16 @@
   bottom: 83%;
   left: 99%;
 }
+.ourMessages-imageEdits{
+  height: 300px;
+    width: 345px;
+}
+.noonPink-imageEdits{
+  height: 70px;
+  margin-left: 40px;
+  margin-top: 55px;
+
+}
 
 .message .row .left_noon .image:after {
   position: absolute;
@@ -167,7 +185,7 @@
 }
 
 .noon .inner {
-  background: url("../../img/about_us/noon white.png");
+  /* background: url("../../../public/img/about_us/noon white.png"); */
   background-repeat: no-repeat;
   background-position: center;
   background-color: #e81377;

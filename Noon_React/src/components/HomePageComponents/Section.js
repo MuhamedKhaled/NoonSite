@@ -11,6 +11,7 @@ class Section extends React.Component{
 
     render(){
         return(
+            <div class="details-section">
             <div class="container">
               <SponseredSectionTitle title={this.props.title}/> 
             <div class="row">
@@ -23,6 +24,7 @@ class Section extends React.Component{
              <Small_Post />
              <Small_Post />
             </div>            
+           </div>
            </div>
            </div>
         )
