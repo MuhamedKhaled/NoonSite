@@ -122,11 +122,11 @@
 
 #play_pause{
     background: rgba(0,0,0,0);
-    border:  none;
-    position:  absolute;
-    top: 45%;
-    left: 48%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 45%; bottom: 0; right: 0;
     outline: none;
+    border: none;
 }
 #play_pause:hover img{
     border-radius: 40px;
@@ -134,7 +134,7 @@
 }
 
 #play_pause img{
-    width: 160%;
+    width: 100%;
 }
 .controllers{
     position: absolute;
