@@ -14,7 +14,7 @@
     top: 11%;
 }
 
- .livestreamin_card_container{
+ .livestreaming_card_container{
      position: relative;
  }
 
@@ -226,7 +226,7 @@ input[type='range'] {
     width: 100%;
 }
 
-img {
+.LiveStreaming_card_container img {
     display: block;
     max-width: 100%;
     height: auto;

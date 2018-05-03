@@ -10,7 +10,7 @@ class SmallVideo extends React.Component {
         return(
         <div className="col-md-6 ">
             <div className=" mb-4 mt-5">
-                <div className="livestreamin_card_container">
+                <div className="livestreaming_card_container">
                     <img className="wid100" src={this.props.image} srcSet={this.props.secrets} alt="SmallPic2"/>
                         <div className="row">
                             <a className="col-3 LiveStream Previous p-0 " href="#">
