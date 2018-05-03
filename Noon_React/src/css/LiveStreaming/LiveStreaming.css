@@ -14,11 +14,10 @@
     top: 11%;
 }
 
-.media_card_details{
-    margin: 30% 40%;
-    text-align: center;
-    color: #FFF;
-}
+ .livestreamin_card_container{
+     position: relative;
+ }
+
 .liveStream{
     margin: 0;
 }
@@ -37,26 +36,18 @@
 
 }
 
-@media screen and (max-width: 600px) {
-  .Previous {
-    font-size:12px;
-  }
-}
-@media screen and (min-width: 601px) {
-  .Previous {
-    font-size:20px;
-  }
-}
+
 
 .Previous-Word{
     position: relative;
     top: 50%;
     transform: translateY(-50%); 
     vertical-align: middle;
+    color:white;
 }
 
 .PurpleContent{
-    height:85px;
+    height:fit-content;
     bottom: 0.5%;
     right:0.001%;
     align-items:center;
@@ -80,15 +71,48 @@
     float:  left;
 }
 
-@media screen and (max-width: 600px) {
-  .Text {
+@media screen and (max-width: 1025px) {
+  .Text  {
     font-size:13px;
   }
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1026px) {
   .Text {
-    font-size:22px;
+    font-size:20px;
   }
+}
+
+@media screen and (max-width: 1025px) {
+    .Previous {
+        font-size:14px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .Previous {
+        font-size:20px;
+    }
+}
+
+.pbutton{
+   top: 10%;
+    left: 80%;
+    color:#6b478f;
+}
+
+.nbutton{
+    background: rgba(0,0,0,0);
+    border:  none;
+    position:  absolute;
+    top: 18%;
+    left: 89%;
+    outline: none;
+    color:#6b478f;
+}
+
+.playsize
+{
+    height: 100%;
 }
 
 .PurpleContent .startVedio{
@@ -120,42 +144,7 @@
 #progressBar{
     width: 100%;
 }
-/*Input range*/
-/* 
-input[type=range]{
-    -webkit-appearance: none;
-    overflow: hidden;
 
-}
-
-input[type=range]::-webkit-slider-runnable-track {
-    width: 300px;
-    height: 5px;
-    background: #ddd;
-    border: none;
-    border-radius: 3px;
-}
-
-
-input[type=range]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    border: none;
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    background: goldenrod;
-    margin-top: -4px;
-    cursor: ew-resize;
-    box-shadow: -80px 0 0 80px #6b478f;
-}
-
-input[type=range]:focus {
-    outline: none;
-}
-
-input[type=range]:focus::-webkit-slider-runnable-track {
-    background: #ccc;
-} */
 input[type='range'] {
     overflow: hidden;
     width: 100px;
@@ -232,6 +221,17 @@ input[type='range'] {
     border-radius: 25px;
     
 }
+.wid100
+{
+    width: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .controllers span{
     margin: 0 33.7%;
     color:#6b478f;

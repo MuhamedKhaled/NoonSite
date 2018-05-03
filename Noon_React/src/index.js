@@ -10,6 +10,11 @@ import {BrowserRouter,Route,Switch} from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel2';
 import VideoSection from './components/HomePageComponents/VideoSection';
 import About_us from './components/AboutUs/About_us';
+import PostDetails from './components/PostDetails/PostDetails';
+import Media from './components/MediaComponents/Media'
+import Section from './components/SectionComponents/Section'
+import ContactUs from "./components/ContactUsComponents/ContactUs";
+import LiveStreaming from "./components/LiveStreamingComponents/LiveStream";
 
 
 const Root = () =>{
@@ -18,14 +23,17 @@ const Root = () =>{
         <BrowserRouter>
         <Switch>
             <Route  path = "/" component={About_us} />
+            <Route exact path = "/" component={App} />
+            <Route path="/media" component={Media} />
+            <Route path="/section" component={Section}/>
+            <Route exact path = "/PostDetails" component={PostDetails}/>
+            <Route path="/contactus" component={ContactUs}/>
+            <Route path="/LiveStreaming" component={LiveStreaming}/>
              {/* <Route path={"/media"} component={Media} /> */}
         </Switch>
         </BrowserRouter>
 
-
-    )
-}
-
+    }
 
 
 render( <Root/> , document.querySelector('#main'));

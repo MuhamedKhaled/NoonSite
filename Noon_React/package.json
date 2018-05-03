@@ -9,8 +9,10 @@
   "dependencies": {
     "add": "^2.0.6",
     "autoprefixer-stylus": "0.14.0",
-    "firebase": "^4.10.1",
+    "firebase": "^4.13.1",
+    "google-map-react": "^1.0.0",
     "jquery": "^3.3.1",
+<<<<<<< HEAD
     "or": "^0.2.0",
     "owl.carousel": "^2.3.4",
     "prop-types": "^15.6.0",
@@ -20,10 +22,19 @@
     "react-owl-carousel": "^2.2.0",
     "react-owl-carousel2": "^0.3.0",
     "react-responsive-carousel": "^3.1.37",
+=======
+    "prop-types": "^15.6.1",
+    "re-base": "3.2.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-dropdown": "^1.4.2",
+    "react-dynamic-modal": "^1.1.1",
+    "react-input-range": "^1.3.0",
+>>>>>>> 0e9f17c6472f13c020cc2d285ade0e39b1e4008d
     "react-router-dom": "^4.2.2",
     "react-slick": "^0.23.1",
-    "react-transition-group": "^2.2.1",
-    "serve": "^6.5.0",
+    "react-transition-group": "^2.3.1",
+    "serve": "^6.5.6",
     "slick-carousel": "^1.8.1",
     "stylus": "0.54.5",
     "yarn": "^1.6.0"
