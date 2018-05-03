@@ -10,7 +10,7 @@ class Feature extends React.Component{
                          src="../../img/Section/horses.png"
                          srcSet="../../img/Section/horses@2x.png 2x,
                              ../../img/Section/horses@3x.png 3x"/>
-                    <div className="card-title feature_card_title">
+                    <div className="secpage-card-title feature_card_title">
                         <p>Feature Name</p>
                     </div>
                     <div className="card-text feature_card_text">

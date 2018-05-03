@@ -8,7 +8,7 @@ class Profile extends React.Component{
                 <span className="profile">Profile</span>
                 <img className="profile_tag_card_details section_card_img"
                      src="../../img/Section/maria.png"/>
-                <div className="card-title feature_card_title">
+                <div className="secpage-card-title feature_card_title">
                     <p>Maria Sharapova</p>
                 </div>
                 <div className="profile_tag_card_details card-text feature_card_text">

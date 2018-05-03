@@ -10,7 +10,7 @@ import '../../css/Section/section.css'
 import SectionPhoto from './SectionPhoto';
 
 import PhotosSection from "./PhotosSection";
-import VideoSection from "../HomePageComponents/VideoSection";
+import VideosSection from "../HomePageComponents/VideoSection";
 import Header from "../HomePageComponents/Header";
 import NavBar from "../HomePageComponents/NavBar";
 import FooterSection from "../HomePageComponents/FooterSection";
@@ -25,23 +25,12 @@ class Section extends React.Component{
             <div>
                 <Header />
                 <NavBar />
-                {/*Section part*/}
                 <PostsSection/>
-
-                {/*Photos part*/}
                 <PhotosSection />
-
-                {/*Features part*/}
-               <FeaturesSection/>
-
-                {/*Videos part*/}
-                <VideoSection />
-
-                {/*News part*/}
+                <FeaturesSection/>
+                <VideosSection />
                 <NewsSection/>
-
                 <FooterSection />
-
             </div>
         );
     }
