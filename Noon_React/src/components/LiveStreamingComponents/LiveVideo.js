@@ -17,8 +17,6 @@ class LiveVideo extends React.Component {
         })
     }
     componentDidMount() {
-
-
         var video = $('#liveStreaming');
         video.removeAttr("controls");
         var progressBar = $('#progressBar');
@@ -140,17 +138,20 @@ class LiveVideo extends React.Component {
             video[0].currentTime = maxduration * percentage / 100;
         };
 //loop to get HTML5 video buffered data
-        var startBuffer = function () {
-            var maxduration = video[0].duration;
-            var currentBuffer = video[0].buffered.end(0);
-            var percentage = 100 * currentBuffer / maxduration;
-            $('.bufferBar').css('width', percentage + '%');
+        $(document).ready(function () {
+            video[0].play();
+            var startBuffer = function () {
+                var maxduration = video[0].duration;
+                var currentBuffer = video[0].buffered.end(0);
+                var percentage = 100 * currentBuffer / maxduration;
+                $('.bufferBar').css('width', percentage + '%');
 
-            if (currentBuffer < maxduration) {
-                setTimeout(startBuffer, 500);
-            }
-        };
-        setTimeout(startBuffer, 500);
+                if (currentBuffer < maxduration) {
+                    setTimeout(startBuffer, 500);
+                }
+            };
+            setTimeout(startBuffer, 500);
+        });
 //Volume control clicked
 
         $('.volumeBar').on('mousedown', function(e) {
@@ -186,8 +187,6 @@ class LiveVideo extends React.Component {
                         <img src={"../../img/LiveStreaming/vector-smart-object.png"}/>
                     </button>
                     <div className="controllers">
-                        {/*<button className="pbutton Text">Previous Stream</button>
-                        <button className="nbutton Text" >Next Stream</button>*/}
                         <div className="progressBar">
                             <div className="bufferBar"/>
                             <div className="timeBar">
