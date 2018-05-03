@@ -8,8 +8,8 @@ import '../../css/LiveStreaming/LiveStreaming.css';
 import '../../css/Global/bootstrap.min.css';
 import '../../css/Global/font.css';
 import '../../css/LiveStreaming/LiveStreaming.css';
-import LiveVideo from './/LiveVideo'
-import SmallVideo from './/SmallVideo'
+import LiveVideo from './LiveVideo'
+import SmallVideo from './SmallVideo'
 
 class LiveStream extends React.Component {
     render() {
