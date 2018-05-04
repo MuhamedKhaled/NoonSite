@@ -1,9 +1,15 @@
+/*
+Hazem Fouda
+Noura Mohi
+Mostafa Menshawy
+*/
 import React from 'react';
 import '../../css/Global/bootstrap.min.css';
 import '../../css/Global/font.css';
 import '../../css/LiveStreaming/LiveStreaming.css';
 import '../../css/Global/bootstrap.min.css';
 import '../../css/Global/font.css';
+import { Link } from 'react-router-dom'
 
 class SmallVideo extends React.Component {
     render() {
@@ -13,9 +19,9 @@ class SmallVideo extends React.Component {
                 <div className="livestreaming_card_container">
                     <img className="wid100" src={this.props.image} srcSet={this.props.secrets} alt="SmallPic2"/>
                         <div className="row">
-                            <a className="col-3 LiveStream Previous p-0 " href="#">
+                            <Link className="col-3 LiveStream Previous p-0 " to="#">
                                 <div className="Previous-Word">{this.props.type}</div>
-                            </a>
+                            </Link>
                             <div className="row">
                                 <div className="col-9 PurpleContent">
                                     <div className="row mt-2">
