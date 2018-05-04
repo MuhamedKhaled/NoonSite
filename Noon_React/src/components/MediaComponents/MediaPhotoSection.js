@@ -1,3 +1,6 @@
+// Alaa Atef Badr
+// Ismail Ahmed
+
 import React from 'react'
 import {renedr} from 'react-dom'
 import MediaPhoto from './MediaPhoto'

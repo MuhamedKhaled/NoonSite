@@ -1,17 +1,17 @@
+// Alaa Atef Badr
+// Ismail Ahmed
+
 import React from 'react'
 import {render} from 'react-dom'
 import Feature from './Feature'
+import SectionTitle from "../HomePageComponents/SectionTitle";
 
 class FeaturesSection extends React.Component{
     render()
     {
         return (
             <section className="container">
-                <div className="row title_bar">
-                    <div className="section_title">
-                        <p>Features</p>
-                    </div>
-                </div>
+                <SectionTitle title={"Features"} isLinkHidden={true}/>
 
                 <div className="row">
 

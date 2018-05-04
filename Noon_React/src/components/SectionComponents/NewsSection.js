@@ -1,3 +1,6 @@
+// Alaa Atef Badr
+// Ismail Ahmed
+
 import React from 'react'
 import {render} from 'react-dom'
 import Small_Post from "../HomePageComponents/Small_Post";

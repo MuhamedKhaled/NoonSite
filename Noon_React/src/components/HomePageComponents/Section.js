@@ -13,7 +13,7 @@ class Section extends React.Component{
         return(
             <div class="details-section">
             <div class="container">
-              <SponseredSectionTitle title={this.props.title}/> 
+              <SponseredSectionTitle title={this.props.title} allPageLink="/section"/>
             <div class="row">
              <Big_Post />
              <div class="col-md-3 col-sm-6" >

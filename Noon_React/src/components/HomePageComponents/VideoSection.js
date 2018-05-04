@@ -12,7 +12,7 @@ class VideoSection extends React.Component {
 
         <div class="details-section-2">
             <div class="container">
-            <SectionTitle title="Videos"/>
+            <SectionTitle title="Videos" allPageLink="/media"/>
             <Video_slider />
             </div>
         </div>    

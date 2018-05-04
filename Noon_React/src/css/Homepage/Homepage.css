@@ -8,8 +8,7 @@
     background-color: #FFFFFF;
 }
 .header-bar .date{
-  font: BahijTheSansArabic-Plain;
-  font-size: 14px;
+  font: 14px BahijTheSansArabic-Plain;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -26,8 +25,7 @@
 .header-bar .search {
 
   height: 20px;
-  font: BahijTheSansArabic-Plain;
-  font-size: 12px;
+  font: 12px BahijTheSansArabic-Plain;
   font-weight: normal;
   color: #6b478f;
 }
@@ -442,6 +440,9 @@ padding-left: 5px;
     font: 16px BahijTheSansArabic-Plain;
     height: 50px;
     overflow: hidden;
+}
+.photo-margin{
+    margin-top: 90px;
 }
 /**************** photo-Section END *****************/
 /**************** Magazine-Section Start *****************/

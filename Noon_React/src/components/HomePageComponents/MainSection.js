@@ -13,7 +13,7 @@ class MainSection extends React.Component{
         return(
             
             <div class="container">
-                        <SectionTitle title={this.props.title}/> 
+                        <SectionTitle title={this.props.title} allPageLink="/section"/>
 
             <div class="row">
              <Big_Post />

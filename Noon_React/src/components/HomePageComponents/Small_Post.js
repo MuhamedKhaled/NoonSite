@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import '../../css/Homepage/Homepage.css';
 import '../../css/Global/bootstrap.min.css';
-
+import {Link} from 'react-router-dom'
 
 
 class Small_Post extends React.Component{
@@ -29,7 +29,7 @@ class Small_Post extends React.Component{
                                     <a href="https://www.youtube.com/" class="share-icon-c fa fa-youtube"></a>
                                 </div>
                                 <div class="more col-lg-6 col-md-12 col-sm-12 col-12 ">
-                                    <a href="../../views/PostDetails/PostDetails.html" class="read_more">Read More <span class="arrow">&rarr;</span></a>
+                                    <Link to="/PostDetails" class="read_more">Read More <span class="arrow">&rarr;</span></Link>
                                 </div>
                             </div>
                         </div>
