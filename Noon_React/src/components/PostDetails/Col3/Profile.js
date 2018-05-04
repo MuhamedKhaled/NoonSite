@@ -19,7 +19,7 @@ class Profile extends React.Component {
                 <div className="pr-5 pl-5 TextForth">
                     {this.props.title}
                 </div>
-                <div className="row mt-2 mb-2 center">
+                <div className="row mt-2 mb-2 icons-center">
                     <div className="col-md-12 col-xs-12">
                         <a href="wwww.facebook.com" className="share-icon-c share fa fa-facebook"/>
                         <a href="www.twitter.com" className="share-icon-c share fa fa-twitter"/>
