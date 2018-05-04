@@ -1,5 +1,8 @@
+/*
+Hazem Fouda
+Noura Mohi
+*/
 import React from 'react';
-import {render} from 'react-dom';
 import '../../../css/PostDetails/PostDetails.css';
 import '../../../css/Global/bootstrap.min.css';
 import '../../../css/Global/font.css';

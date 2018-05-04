@@ -1,3 +1,7 @@
+/*
+Hazem Fouda
+Noura Mohi
+*/
 import React from 'react';
 import { Modal, ModalManager } from 'react-dynamic-modal'
 import '../../css/Global/bootstrap.min.css';

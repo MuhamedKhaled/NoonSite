@@ -1,3 +1,8 @@
+/*
+Hazem Fouda
+Noura Mohi
+Mostafa Menshawy
+*/
 import React from 'react';
 import '../../css/Global/bootstrap.min.css';
 import '../../css/Global/font.css';

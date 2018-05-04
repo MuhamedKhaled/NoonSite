@@ -1,9 +1,13 @@
+/*
+Hazem Fouda
+Noura Mohi
+*/
 import React from 'react';
-import {render} from 'react-dom';
 import '../../../css/PostDetails/PostDetails.css';
 import '../../../css/Global/bootstrap.min.css';
 import '../../../css/Global/font.css';
 import Reply from './Reply'
+import { Link } from 'react-router-dom'
 
 
 class Maincomment extends React.Component {
@@ -28,8 +32,8 @@ class Maincomment extends React.Component {
                                     {this.props.title}
                                 </div>
                                 <div className=" mt-2">
-                                    <a className="Like" href="#">Like</a>
-                                    <a className="Reply  align-left ml-3 mt-0" href="#">Reply</a>
+                                    <Link className="Like" to="#">Like</Link>
+                                    <Link className="Reply  align-left ml-3 mt-0" to="#">Reply</Link>
                                 </div>
                             </div>
                         </div>
