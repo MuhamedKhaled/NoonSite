@@ -12,7 +12,7 @@ class MiniCard extends React.Component {
     render() {
         return (
             <div className=" BigPost align-center">
-                <div className="container">
+                <div className="container pt-2">
                     <img className="LittleGirl  image secrets" src={this.props.image}
                          srcSet={this.props.secrets}
                          className="LittleGirl"/>
