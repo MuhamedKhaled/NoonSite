@@ -5,6 +5,7 @@ import '../../css/Global/bootstrap.min.css';
 import '../../css/Homepage/Homepage.css';
 
 import $ from 'jquery';
+import { Link } from 'react-router-dom';
 
 class NavBar extends React.Component{
     componentDidMount(){
@@ -44,7 +45,7 @@ class NavBar extends React.Component{
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="../../views/Home/Homepage.html">Home <span class="sr-only">(current)</span></a>
+                            <Link to="/" className="nav-link" >Home <span class="sr-only">(current)</span></Link>
                         </li>
                         <li class="nav-item  dropdown">
 
@@ -546,10 +547,10 @@ class NavBar extends React.Component{
                                 <a class="nav-link" href="#">Articles</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="../../views/Media/media.html">Images</a>
+                                <Link to="/media" class="nav-link">Images</Link>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="../../views/Media/media.html">Videos</a>
+                                <Link to="/media" class="nav-link">Videos</Link>
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Magazines</a>
@@ -560,7 +561,7 @@ class NavBar extends React.Component{
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item shop" ><a class="shop" href="#"><i class="fa fa-shopping-bag"></i>&nbsp;Shop</a></li>
-                    <li class="nav-item livestreamItem"><a href="../../views/LiveStreaming/LiveStreaming.html" class="liveStream"><span ><i class="fa fa-signal"></i>&nbsp;LiveStream</span></a></li>
+                    <li class="nav-item livestreamItem"><Link to="/LiveStreaming" class="liveStream"><span ><i class="fa fa-signal"></i>&nbsp;LiveStream</span></Link></li>
                     </ul>
                 </div>
                 </div>

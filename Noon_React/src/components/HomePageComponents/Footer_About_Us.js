@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import '../../css/Homepage/Homepage.css';
 import '../../css/Global/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 
 class Footer_About_Us extends React.Component{
@@ -13,13 +14,13 @@ class Footer_About_Us extends React.Component{
             <ul class="list-unstyled">
 
                 <li>
-                    <a href="../../views/about_us/about_us.html" class="about-item">Vision</a>
+                    <Link to="/aboutus" class="about-item">Vision</Link>
                 </li>
                 <li>
-                    <a href="../../views/about_us/about_us.html" class="about-item">Mission</a>
+                    <Link to="/aboutus" class="about-item">Mission</Link>
                 </li>
                 <li>
-                    <a href="../../views/Contact_Us/Contact_Us.html" class="about-item">Contact</a>
+                <Link to="/contactus" class="about-item">Contact</Link>
                 </li>
 
             </ul>

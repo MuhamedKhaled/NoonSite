@@ -17,7 +17,6 @@ import FooterSection from './FooterSection';
 import SimpleSlider from '../SimpleSlider';
 import VideoSection from './VideoSection';
 import PhotosSection from "../SectionComponents/PhotosSection";
-// import OwlCarousel from 'react-owl-carousel2';
 
 class App extends React.Component{
 

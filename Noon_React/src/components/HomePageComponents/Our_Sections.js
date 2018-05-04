@@ -3,6 +3,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import '../../css/Homepage/Homepage.css';
 import '../../css/Global/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 
 class Our_Sections extends React.Component{
@@ -13,16 +14,16 @@ class Our_Sections extends React.Component{
             <h5 class="home">Home</h5>
             <ul class="list-unstyled">
                 <li>
-                    <a class="sport-item" href="../../views/Section_Details/section.html">Football</a>
+                    <Link to="/section" class="sport-item">Football</Link>
                 </li>
                 <li>
-                    <a class="sport-item" href="../../views/Section_Details/section.html">Basketball</a>
+                <Link to="/section" class="sport-item" >Basketball</Link>
                 </li>
                 <li>
-                    <a class="sport-item" href="../../views/Section_Details/section.html">Swimming</a>
+                <Link to="/section" class="sport-item" >Swimming</Link>
                 </li>
                 <li>
-                    <a class="sport-item" href="../../views/Section_Details/section.html">Volleyball</a>
+                <Link to="/section" class="sport-item">Volleyball</Link>
                 </li>
             </ul>
         </div>
