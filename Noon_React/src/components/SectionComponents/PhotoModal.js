@@ -1,3 +1,6 @@
+// Alaa Atef Badr
+// Ismail Ahmed
+
 import React from 'react'
 import {render} from 'react-dom'
 import { Modal,ModalManager,Effect} from 'react-dynamic-modal';
