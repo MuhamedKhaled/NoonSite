@@ -16,13 +16,14 @@ import PartnersSection from './PartnersSection';
 import FooterSection from './FooterSection';
 import SimpleSlider from '../SimpleSlider';
 import VideoSection from './VideoSection';
+import PhotosSection from "../SectionComponents/PhotosSection";
 // import OwlCarousel from 'react-owl-carousel2';
 
-
-
-
-
 class App extends React.Component{
+
+    marginStyle = {
+        marginTop: '90px'
+    };
 
     render(){
         return(
@@ -33,7 +34,8 @@ class App extends React.Component{
          <Section title="Football"/>
          <ProfileSection />
          <MainSection title="Basketball"/>
-          {/* <section photos From alaa and ismail } */}
+          <div className='photo-margin'></div>
+          <PhotosSection />
           <MainSection title="Swimming"/>
           <VideoSection />
           <MainSection title="Volleyball"/>

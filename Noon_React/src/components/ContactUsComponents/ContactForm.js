@@ -1,13 +1,21 @@
 import React from 'react'
 import {render} from 'react-dom'
+import { Modal, ModalManager } from 'react-dynamic-modal'
+import MessageModal from "./MessageModal";
 
 class ContactForm extends React.Component{
+
+    openModal = event => {
+        event.preventDefault();
+        ModalManager.open(<MessageModal onRequestClose={() => true}/>);
+    };
+
     render(){
         return(
             <section className="row send_form">
 
                 <div className="form col-lg-5 col-md-8 col-sm-12 col-12">
-                    <form action="">
+                    <form onSubmit={this.openModal}>
                         <div className="custom_input">
                             <input className="inputField" placeholder="Name" type="text" required/>
                         </div>

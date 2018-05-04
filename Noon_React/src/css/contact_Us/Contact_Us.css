@@ -395,4 +395,11 @@
     color: white;
     font-weight: bold;
 }
+
+.messageStyle{
+  color: #6b478f;
+  margin-top: 5%;
+  font: 18px BahijTheSansArabic-Plain;
+  font-weight: bold;
+}
 /*# sourceMappingURL=Contact_Us.css.map */

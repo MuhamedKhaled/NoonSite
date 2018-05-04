@@ -1,6 +1,7 @@
 import React from 'react'
 import {render} from 'react-dom'
 import SectionPhoto from "./SectionPhoto";
+import SectionTitle from "../HomePageComponents/SectionTitle";
 
 class PhotosSection extends React.Component{
     render(){
@@ -8,14 +9,7 @@ class PhotosSection extends React.Component{
             <div className="backgrounds padding_section">
                 <section className="container">
 
-                    <div className="row title_bar">
-                        <div className="section_title">
-                            <p>Photos</p>
-                        </div>
-                        <div className="all_page">
-                            <a href="../../views/Media/media.html">All page</a>
-                        </div>
-                    </div>
+                    <SectionTitle title="Photos" allPageLink="/media"/>
 
                     <div className="row">
 
