@@ -23,11 +23,11 @@ class MiniCard extends React.Component {
                 </div>
                 <div className="row mt-2 mb-2">
                     <div className="col-md-12 col-xs-12 ml-3">
-                        <Link to="www.facebook.com" className="share-icon-c share fa fa-facebook"/>
-                        <Link to="www.twitter.com" className="share-icon-c share fa fa-twitter"/>
-                        <Link to="www.instagram.com" className="share-icon-c share fa fa-instagram"/>
-                        <Link to="www.googleplus.com" className="share-icon-c fa fa-google-plus mr-1"/>
-                        <Link to="www.youtube.com" className="share-icon-c share fa fa-youtube"/>
+                        <a href="wwww.facebook.com" className="share-icon-c share fa fa-facebook"/>
+                        <a href="www.twitter.com" className="share-icon-c share fa fa-twitter"/>
+                        <a href="www.instagram.com" className="share-icon-c share fa fa-instagram"/>
+                        <a href="www.googleplus.com" className="share-icon-c fa fa-google-plus mr-1"/>
+                        <a href="www.youtube.com" className="share-icon-c share fa fa-youtube"/>
                         <Link to="#" className="pull-right mr-4 Read-More mt-1">Read More<span
                             className="arrow">→</span>
                         </Link>

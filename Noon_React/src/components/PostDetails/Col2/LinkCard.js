@@ -18,11 +18,11 @@ class LinkCard extends React.Component {
                 <Link to="#" className="noonaenewslink  mt-0">Print this screen</Link>
                 <div className="row mb-2 mt-2">
                     <div className="container">
-                        <Link to="www.facebook.com" className="share-icon-c share fa fa-facebook"/>
-                        <Link to="www.twitter.com" className="share-icon-c share fa fa-twitter"/>
-                        <Link to="www.instagram.com" className="share-icon-c share fa fa-instagram"/>
-                        <Link to="www.googleplus.com" className="share-icon-c fa fa-google-plus mr-1"/>
-                        <Link to="www.youtube.com" className="share-icon-c share fa fa-youtube"/>
+                        <a href="wwww.facebook.com" className="share-icon-c share fa fa-facebook"/>
+                        <a href="www.twitter.com" className="share-icon-c share fa fa-twitter"/>
+                        <a href="www.instagram.com" className="share-icon-c share fa fa-instagram"/>
+                        <a href="www.googleplus.com" className="share-icon-c fa fa-google-plus mr-1"/>
+                        <a href="www.youtube.com" className="share-icon-c share fa fa-youtube"/>
                     </div>
                 </div>
             </div>
