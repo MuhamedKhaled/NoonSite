@@ -46,6 +46,12 @@
     color:white;
 }
 
+.Previous:hover
+{
+    color:white;
+}
+
+
 .PurpleContent{
     height:fit-content;
     bottom: 0.5%;
