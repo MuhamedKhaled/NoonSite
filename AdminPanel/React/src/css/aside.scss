@@ -1,0 +1,25 @@
+aside{
+  width: 18%;
+  padding: 0% 2%;
+  position: absolute;
+  background: #00000080;
+  box-shadow: 7px 7px 20px #6b478f;
+  ul{
+    list-style: none;
+    li{
+      a{
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600;
+      }
+      padding-bottom: 3%;
+      padding: 5% 8%;
+      border-bottom: 1px solid silver;
+    }
+    a:hover{
+      color:#6b478f;
+      text-decoration: none;
+      //    background: #6b478f;
+    }
+  }
+}

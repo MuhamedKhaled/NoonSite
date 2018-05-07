@@ -1,0 +1,55 @@
+.card{
+  padding:0;
+}
+.card{
+  div{
+    .btn-info{
+      float: right;
+    }
+  }
+}
+.show {
+  margin-bottom: 2%;
+  font-size: 20px;
+  color: #6c757d;
+  .card {
+    .card-title{
+      font-weight: bold;
+      font-size: 25px;
+      color:#6b478f;
+    }
+    img {
+      width: 70%;
+      margin: auto;
+      height: 54%;
+      margin-top: 2%;
+
+    }
+    .card-body {
+      width: 70%;
+      margin: auto;
+      a {
+        margin-top: 5%;
+        width: 15%;
+      }
+    }
+
+  }
+}
+.Cardview{
+
+  .card-body{
+    .purple-btn{
+      float:left;
+    }
+    .pink-btn{
+      float: right;
+    }
+  }
+}
+
+.table{
+  .table-secondary{
+    border-left:8px solid black;
+  }
+}

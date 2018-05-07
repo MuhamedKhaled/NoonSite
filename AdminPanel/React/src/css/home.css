@@ -1,0 +1,24 @@
+.homePage .review {
+  font-size: 37px;
+  font-weight: bold;
+  color: #000;
+  text-align: center; }
+.homePage .card {
+  padding: 10% 0%;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 25px; }
+.homePage .card:hover {
+  color: #6b478f; }
+.homePage .OnClick {
+  cursor: pointer; }
+
+.sponsers .content {
+  padding-top: 5%; }
+.sponsers .card {
+  height: 70%;
+  border: none; }
+  .sponsers .card img {
+    height: 90%; }
+
+/*# sourceMappingURL=home.css.map */

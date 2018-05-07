@@ -1,0 +1,17 @@
+.modal-body .add_image {
+  border: 3px dashed rgba(0, 0, 0, 0.35);
+  height: 200px;
+  margin: 2%; }
+.modal-body .add {
+  border: 3px dashed rgba(0, 0, 0, 0.35);
+  margin: 10% 4%;
+  height: 60%;
+  color: rgba(0, 0, 0, 0.35);
+  text-align: center; }
+  .modal-body .add i {
+    width: 100%; }
+  .modal-body .add label {
+    margin-top: 5%;
+    font-size: 25px; }
+
+/*# sourceMappingURL=editImage.css.map */

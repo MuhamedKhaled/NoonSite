@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/header_aside.css">
+    <link rel="stylesheet" href="../../css/blogs/blogs.css">
+    <link rel="stylesheet" href="../../css/blogs/edit.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="row">
+        <img class="col-1" src="../../img/noon white.png" alt="noon logo">
+        <label class="col-9 welcome" for="welcome message">Welcome Noon admin panel</label>
+        <div class="col-2 side-nav-items">
+            <button>
+                <i class="fa fa-search"></i>
+            </button>
+            <a href="#">Logout</a>
+        </div>
+    </nav>
+    <aside class="fl">
+        <ul>
+
+            <li class="outter_li">
+                <a href="#">Blogs</a>
+                <ul class="inner">
+
+                    <li class="inner_li">
+                        <a href="#">Posts</a>
+                    </li>
+
+
+                    <li class="inner_li">
+                        <a href="#">Features</a>
+                    </li>
+
+
+                    <li class="inner_li">
+                        <a href="#">Photos</a>
+                    </li>
+
+
+                    <li class="inner_li">
+                        <a href="#">Magazines</a>
+                    </li>
+
+                </ul>
+            </li>
+
+
+            <li class="outter_li">
+                <a href="#">Champions Profile</a>
+            </li>
+
+
+            <li class="outter_li">
+                <a href="#">Videos</a>
+            </li>
+
+
+            <li class="outter_li">
+                <a href="#">Users</a>
+            </li>
+
+
+            <li class="outter_li">
+                <a href="#">Contact Us</a>
+                <ul class="inner">
+
+                    <li class="inner_li">
+                        <a href="#">Main contact</a>
+                    </li>
+
+
+                    <li class="inner_li">
+                        <a href="#">Offices</a>
+                    </li>
+
+                </ul>
+            </li>
+
+
+            <li class="outter_li">
+                <a href="#">About Us</a>
+            </li>
+
+        </ul>
+    </aside>
+    <section class="path">
+        <a href="#">Main</a> -
+        <a href="#">posts</a>
+    </section>
+    <section class="body">
+        <div class="row">
+            <form class="col-10">
+                <div class="form-group image_section">
+                    <img src="../../img/football.png" alt="Post image" />
+                    <div class="layout_edit">
+                        <label for="edit" data-toggle="modal" data-target="#editModal">
+                            edit
+                            <i class="far fa-edit"></i>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="edit-form-title" for="title">Title</label>
+                    <input type="text" class="form-control" id="title" placeholder="Title">
+                </div>
+                <div class="form-group">
+                    <label for="description" class="edit-form-title"> Description</label>
+                    <textarea class="form-control" placeholder="Description" rows="5" id="comment"></textarea>
+                </div>
+                <!-- Example single danger button -->
+                <div class="btn-group">
+                    <button type="button" class="btn purple-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Footbal</a>
+                        <a class="dropdown-item" href="#">Swimming</a>
+                        <a class="dropdown-item" href="#">Vollyball</a>
+                    </div>
+                </div>
+                <button type="submit" class="btn purple-btn">Save</button>
+            </form>
+        </div>
+    </section>
+
+    <!--Edit modal-->
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit image</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="add_image row">
+                        <div class="col-6">
+                            <div class="add add_local">
+                                <label for="addImage">
+                                    <i class="fas fa-desktop"></i>
+                                    Add local
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="add add_url">
+                                <label for="addImage">
+                                    <i class="fas fa-anchor"></i>
+                                    Add url
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn pink-btn" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn purple-btn">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        @copyright Mustafa El Menshawy
+    </footer>
+
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/blogs/edit.js"></script>
+    <script src="../../js/aside.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.modal-body{
+  .add_image{
+    border:3px dashed rgba(0, 0, 0, 0.35);
+    height: 200px;
+    margin: 2%;
+  }
+  .add{
+    border: 3px dashed rgba(0, 0, 0, 0.35);
+    margin: 10% 4%;
+    height: 60%;
+    color:rgba(0, 0, 0, 0.35);
+    text-align: center;
+    i{
+      width: 100%;
+    }
+    label{
+      margin-top: 5%;
+      font-size: 25px;
+    }
+  }
+}

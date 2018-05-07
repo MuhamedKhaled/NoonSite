@@ -1,0 +1,22 @@
+.image_section {
+  position: relative;
+  width: fit-content; }
+  .image_section button {
+    position: absolute;
+    bottom: 8px;
+    right: 10px; }
+
+.btn-success {
+  float: right; }
+
+.dropdown {
+  position: absolute;
+  width: 20%; }
+
+.Dropdown-control {
+  border-bottom: 1px solid #fff; }
+
+.dropdown-item {
+  color: #fff; }
+
+/*# sourceMappingURL=form.css.map */

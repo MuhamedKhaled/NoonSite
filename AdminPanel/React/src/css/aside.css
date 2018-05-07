@@ -1,0 +1,21 @@
+aside {
+  width: 18%;
+  padding: 0% 2%;
+  position: absolute;
+  background: #00000080;
+  box-shadow: 7px 7px 20px #6b478f; }
+  aside ul {
+    list-style: none; }
+    aside ul li {
+      padding-bottom: 3%;
+      padding: 5% 8%;
+      border-bottom: 1px solid silver; }
+      aside ul li a {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600; }
+    aside ul a:hover {
+      color: #6b478f;
+      text-decoration: none; }
+
+/*# sourceMappingURL=aside.css.map */
