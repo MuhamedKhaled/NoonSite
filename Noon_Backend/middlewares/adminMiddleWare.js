@@ -1,7 +1,7 @@
 const db = require('../controllers/DatabaseConnector');
 
 module.exports = function(req, res, next){
-    if(req.method != 'GET' && req.url != '/admins/login')
+    if(req.method != 'GET' && req.url != '/admins/login' && req.url != '/comments/addComment')
     {
         if(req.headers.token)
         {
