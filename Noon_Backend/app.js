@@ -7,6 +7,7 @@ const adminMiddleWare = require("./middlewares/adminMiddleWare");
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var commentRouter = require('./routes/comments');
+var advRouter = require('./routes/Advertisements');
 var app = express();
 
 
@@ -25,6 +26,7 @@ app.use('/admins', usersRouter);
 
 //temporary for comment till creating the sport
 app.use('/comments', commentRouter);
+app.use('/Advertisements',advRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
