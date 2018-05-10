@@ -6,9 +6,12 @@ var logger = require('morgan');
 const adminMiddleWare = require("./middlewares/adminMiddleWare");
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var postRouter = require ('./routes/post');
 var commentRouter = require('./routes/comments');
 var advRouter = require('./routes/Advertisements');
+
 var app = express();
+
 
 
 // view engine setup
@@ -23,6 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(adminMiddleWare);
 app.use('/', indexRouter);
 app.use('/admins', usersRouter);
+app.use('/post',postRouter);
 
 //temporary for comment till creating the sport
 app.use('/comments', commentRouter);
