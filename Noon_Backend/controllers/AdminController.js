@@ -1,6 +1,4 @@
-const crypto = require('crypto')
-const fs = require('fs');
-const path = require('path');
+const crypto = require('crypto');
 
 var db = require("./DatabaseConnector");
 
@@ -10,7 +8,7 @@ class AdminController extends db{
         super();
     }
 
-    addUser (req, res)
+    addUser(req, res)
     {
         const newUser = {
             username: req.body.username,

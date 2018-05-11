@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 const adminController = require('../controllers/AdminController');
 
-/* GET users listing. */
 router.post('/', function(req, res, next) {
     adminController.addUser(req, res);
 });

@@ -5,8 +5,9 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const adminMiddleWare = require("./middlewares/adminMiddleWare");
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var adminsRouter = require('./routes/admins');
 var commentRouter = require('./routes/comments');
+var sportsRouter = require('./routes/sports');
 var app = express();
 
 
@@ -21,7 +22,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(adminMiddleWare);
 app.use('/', indexRouter);
-app.use('/admins', usersRouter);
+app.use('/admins', adminsRouter);
+app.use('/sports/', sportsRouter);
 
 //temporary for comment till creating the sport
 app.use('/comments', commentRouter);
