@@ -6,8 +6,11 @@ var logger = require('morgan');
 const adminMiddleWare = require("./middlewares/adminMiddleWare");
 var indexRouter = require('./routes/index');
 var adminsRouter = require('./routes/admins');
+var postRouter = require ('./routes/post');
 var commentRouter = require('./routes/comments');
 var sportsRouter = require('./routes/sports');
+var advRouter = require('./routes/Advertisements');
+
 var app = express();
 
 
@@ -22,11 +25,13 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(adminMiddleWare);
 app.use('/', indexRouter);
-app.use('/admins', adminsRouter);
+app.use('/admins', usersRouter);
+app.use('/post',postRouter);
 app.use('/sports/', sportsRouter);
 
 //temporary for comment till creating the sport
 app.use('/comments', commentRouter);
+app.use('/Advertisements',advRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
