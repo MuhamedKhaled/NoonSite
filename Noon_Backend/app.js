@@ -12,6 +12,7 @@ var sportsRouter = require('./routes/sports');
 var advRouter = require('./routes/Advertisements');
 
 var app = express();
+app.disable('etag');
 
 
 // view engine setup

@@ -7,7 +7,7 @@ class CommentController extends db {
 
     getComments(req, res) {
         //get all comments from DB
-        this.con.query('SELECT * FROM heroku_a232b98420ced5b.comment where post_id = ' + req.params.postID + ';', function (err, rows) {
+        this.con.query('SELECT * FROM heroku_a232b98420ced5b.comment where post_id = ' + req.params.postID + ' AND ISNULL(replies_to);', function (err, rows) {
             if (err) {
                 throw err;
             }
@@ -30,7 +30,9 @@ class CommentController extends db {
     }
 
     addComment(req, res) {    //save to DB
-        this.con.query(`INSERT INTO heroku_a232b98420ced5b.comment(content, post_id) VALUES ('${req.body.commentBody}', ${req.body.postID});`
+        var content = req.body.commentBody;
+        content = content.replace("'","''");
+        this.con.query(`INSERT INTO heroku_a232b98420ced5b.comment(content, post_id) VALUES ('${content}', ${req.body.postID});`
             , function (err, rows) {
                 if (err) {
                     throw err;
@@ -69,7 +71,9 @@ class CommentController extends db {
     }
 
     addReply(req,res) {
-        this.con.query(`INSERT INTO heroku_a232b98420ced5b.comment(content, post_id , replies_to) VALUES ('${req.body.commentBody}', ${req.body.postID} , ${req.body.commentID});`
+        var content = req.body.commentBody;
+        content = content.replace("'","''");
+        this.con.query(`INSERT INTO heroku_a232b98420ced5b.comment(content, post_id , replies_to) VALUES ('${content}', ${req.body.postID} , ${req.body.commentID});`
             , function (err, rows) {
                 if (err) {
                     throw err;
@@ -82,7 +86,7 @@ class CommentController extends db {
     }
 
     getReplies(req,res) {
-        this.con.query(`SELECT * FROM heroku_a232b98420ced5b.comment where post_id = ${req.params.postID} AND id = ${req.params.commentID};`, function (err, rows) {
+        this.con.query(`SELECT * FROM heroku_a232b98420ced5b.comment where post_id = ${req.params.postID} AND replies_to = ${req.params.commentID};`, function (err, rows) {
             if (err) {
                 throw err;
             }
