@@ -39,8 +39,7 @@ router.post('/addLike', function (req, res, next) {
 
 router.get('/:postID/:commentID/getLikes', function(req,res,next){
     commentController.getLikes(req,res);
-})
-
+});
 //app.use('/:commentID/replies', Replies);
 
 module.exports = router;
