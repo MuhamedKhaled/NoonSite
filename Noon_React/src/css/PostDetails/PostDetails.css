@@ -313,7 +313,10 @@
      letter-spacing: normal;
      text-align: left;
      color: #6b478f;
-}
+ }
+ .Like:hover{
+     color: #6b478f;
+ }
  .Reply {
      width: 3.62%;
      height: 2.1%;
@@ -327,6 +330,9 @@
      color: #6b478f;
      margin-top: 15px;
      margin-left: 40px;
+}
+    .Reply:hover{
+    color: #6b478f;
 }
  .Shape-4 {
      width: 1px;
