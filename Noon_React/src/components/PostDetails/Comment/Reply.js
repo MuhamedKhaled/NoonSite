@@ -14,12 +14,40 @@ class Reply extends React.Component {
     constructor(){
         super();
         this.state = {
-            image:"../../img/PostDetails/rectangle-19-copy-2.png",
-            secrests:"../../img/PostDetails/rectangle-19-copy-2@2x.png 2x,../../img/PostDetails/rectangle-19-copy-2@3x.png 3x",
-            name:"Maria Sharapova",
-            min:"1 min ago",
+            image: "../../img/PostDetails/rectangle-19-copy-2.png",
+            secrests: "../../img/PostDetails/rectangle-19-copy-2@2x.png 2x,../../img/PostDetails/rectangle-19-copy-2@3x.png 3x",
+            name: "Maria Sharapova",
+            min: "1 min ago",
+            Numoflikes: 0
         };
     };
+
+    addLike()
+    {
+        const {details} = this.props;
+        fetch("http://localhost:3000/comments/addLike"
+            , {
+                method: 'POST',
+                // mode: 'CORS',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({commentID: details.id, postID: 1})
+            })
+            .then((res) => res.json())
+            .then((data) =>  console.log(data))
+            .catch((err)=>console.log(err))
+    }
+
+    componentDidMount()
+    {
+        const {details} = this.props;
+        fetch(`http://localhost:3000/comments/1/${details.id}/getLikes`)
+            .then(response => response.json())
+            .then(response => {
+                this.setState({
+                    Numoflikes:response.map((mydata)=><p className="ml-3 NumofLikes">{mydata.likes}{' Likes'}</p>)
+                });
+            });
+    }
 
     render() {
         const {details, key} = this.props;
@@ -42,9 +70,10 @@ class Reply extends React.Component {
                             <div className=" TextSecond mr-4 col-12 p-0">
                                 {details.content}
                             </div>
-                            <div className=" mt-2 col-12 p-0">
-                                <Link className="Like" to="#">Like</Link>
-                                <Link className="Reply  align-left ml-3 mt-0" to="#">Reply</Link>
+                            <div className=" mt-2 col-12 p-0 row ml-0">
+                                <a className="Like" href="#" onClick = {(e) => this.addLike(e)}>Like</a>
+                                {this.state.Numoflikes}
+                                <a className="Reply align-left ml-3 mt-0" href="#">Reply</a>
                             </div>
                         </div>
                     </div>

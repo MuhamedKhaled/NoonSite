@@ -417,3 +417,21 @@
      color:#cccccc;
      height: 1px;
 }
+ .Like:hover
+ {
+     color:#6b478f;
+ }
+ .Reply:hover
+ {
+     color:#6b478f;
+ }
+ .CommentButton
+ {
+     background: #6b478f;
+     margin-right: -10%;
+ }
+ .btn btn-primary
+ {
+     background: #6b478f;
+     margin-right: 85%;
+ }
