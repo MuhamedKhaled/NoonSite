@@ -8,15 +8,20 @@ class PhotoController extends db{
 
     getPhotos(req, res)
     {
-        this.con.query(`SELECT * FROM photo WHERE sport_id = ${req.sport_id}`,
-            function(err, result)
-            {
-                if(err)
-                    throw err;
-                res.send(result);
-                res.end();
-            }
-        );
+        this.con.getConnection(function(err,connection){
+            if (err) throw err;
+            connection.query(`SELECT * FROM photo WHERE sport_id = ${req.sport_id}`,
+                function(err, result)
+                {
+                    if(err)
+                        throw err;
+                    res.send(result);
+                    res.end();
+                    connection.release();
+                }
+            );
+        });
+
     }
 }
 

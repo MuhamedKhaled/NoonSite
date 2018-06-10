@@ -28,12 +28,17 @@ class AdminController extends db{
 
     saveUser(newUser)
     {
-        this.con.query(`INSERT INTO admin (username, password) VALUES ('${newUser.username}', '${newUser.password}')`,
-            function(err, result){
-                if(err)
-                    throw err;
-            }
-        );
+        this.con.getConnection(function(err,connection) {
+            if(err) throw err;
+            connection.query(`INSERT INTO admin (username, password) VALUES ('${newUser.username}', '${newUser.password}')`,
+                function(err, result){
+                    if(err)
+                        throw err;
+                    connection.release();
+                }
+            );
+
+        });
     }
 
     login(req, res)
