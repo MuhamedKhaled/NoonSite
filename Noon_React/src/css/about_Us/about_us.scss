@@ -1,0 +1,303 @@
+//- Mostafa El Menshawy
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear_fix{
+    clear: both;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+
+//******************************
+.about{
+    margin-top: 6%;
+    .abouut_noon{
+        background: #e81377;
+        height: 260px;
+            h2{
+                color: #ffffff;
+                margin: 15% 14%;
+                font: 50px BahijTheSansArabic-Plain;
+            }
+    }
+    .noon_description{
+        background: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.07);
+        padding: 4% 5%;
+        color:#8f8f8f;
+        margin-top: 12%;
+        margin-left: -80px;
+        height: 260px;
+        h2{
+            color:#6b478f;
+        }
+    }
+    .noon_description:before{
+        position: absolute;
+        z-index: -1;
+        background: #6b478f;
+        height: 100%;
+        content: '';
+        width: 99%;
+        bottom: -13px;
+        left: 19px;
+    }
+    .noon-img{
+        .about_image{
+            background: url("../../img/about_us/gathering.png");
+            background-repeat: no-repeat;
+            background-size: 100% 63%;
+            background-position: center;
+            margin-left: -38px;
+            height: 340px;
+
+        }
+        .about_image:before{
+            position: absolute;
+            z-index: -1;
+            background: #e81377;
+            height: 16%;
+            content: '';
+            width: 46%;
+            bottom: 74%;
+            left: 40%;
+        }
+        .noon_image{
+            background: url("../../img/Global/navbar-logo.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            border: 1px solid rgba(0, 0, 0, 0.07);
+            background-color: #fff;
+            height: 140px;
+            margin: 13px -10px 13px 40px;
+
+        }
+        .noon_image:before{
+            position: absolute;
+            z-index: -1;
+            background: #e81377;
+            height: 80px;
+            content: '';
+            width: 55%;
+            bottom: 1px;
+            left: 95px;
+        }
+
+    }
+
+}
+.vision{
+    background: url("../../img/about_us/Laundry.jpg");
+    margin-right: 14%;
+    margin-top: 2%;
+    width: 78%;
+    background-size: 1052px;
+    .row{
+        color:#fff;
+        background: rgba(107,71,143,0.79);
+        padding: 7% 5%;
+
+    }
+}
+.message{
+    margin-top: 4%;
+    .row{
+        // width: 95%;
+        .our_message{
+            background: #fff;
+            border: 1px solid rgba(0, 0, 0, 0.07);
+            color:#8f8f8f;
+            padding: 4% 4% 6% 4%;
+            margin-top: 6%;
+            h2{
+                color:#6b478f;
+            }
+            margin-bottom: 20%;
+        }
+        .our_message:before{
+            position: absolute;
+            z-index: -1;
+            background: #6b478f;
+            height: 316px;
+            content: '';
+            width: 100%;
+            bottom: -11px;
+            left: 16px;
+        }
+        .left_noon{
+            .image{
+                background: url("../../img/about_us/gathering.png");
+                height: 292px;
+                width:135%;
+            }
+            .image:before{
+                position: absolute;
+                z-index: -1;
+                background: #e81377;
+                height: 12%;
+                content: '';
+                width: 25%;
+                bottom: 83%;
+                left: 99%;
+            }
+            .image:after{
+                position: absolute;
+                z-index: -1;
+                background: #6b478f;
+                height: 75px;
+                content: '';
+                width: 60%;
+                bottom: 323px;
+                left: 16px;
+            }
+
+        }
+    }
+
+}
+.noon{
+    .inner{
+        background: url("../../img/about_us/noon white.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #e81377;
+        height: 190px;
+        width:270px;
+        margin-top: -22%;
+        margin-left: 16%;
+    }
+    .inner:after{
+        position: absolute;
+        z-index: -1;
+        background: #6b478f;
+        height: 32px;
+        content: '';
+        width: 97%;
+        bottom: -8px;
+        left: -9px;
+    }
+}
+// @media***************************************
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+    .abouut_noon{
+        height: 207px !important;
+        h2{
+            font: 33px BahijTheSansArabic-Plain !important;
+        }
+    }
+    .noon_description{
+        .content{
+            font: 13px BahijTheSansArabic-Plain;
+        }
+    }
+    .our_message{
+        .content{
+            font: 14px BahijTheSansArabic-Plain;
+        }
+    }
+    .noon{
+        .inner{
+            margin-top: -25%;
+            margin-left: 2%;
+        }
+    
+}
+}
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+    .about{
+        .noon-img{
+            .about_image{
+                margin-right: -50px;
+            }
+            .noon_image{
+                margin: 13px -10px 8px -28px;
+            }
+            .noon_image:before{
+                left: 49px;
+            }
+        }
+        
+       
+    } 
+    .vision{
+        background-size: 840px;
+    }
+    .message{
+        .row{
+            .left_noon{
+                .image:before{
+                    top: 2%;
+                }
+                .image::after{
+                    top: 40%;
+                }
+            }
+        }
+    }   
+}
+@media (max-width:575px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .about{
+        .noon_description{
+            margin-left: 0;
+        }
+    } 
+    .about{
+        .noon-img{
+            .about_image{
+                margin-right: 0;
+            }
+        } 
+    } 
+    .message{
+        .row {
+            .left_noon{
+                .image{
+                    width: 100%;
+                    margin-left:1%; 
+                }
+            } 
+        }        
+    } 
+    .message{
+        .row{
+            .left_noon{
+                margin-bottom: 4%;
+                .image:before{
+                    left:63%;
+                    top:-3%;
+                }
+                .image:after{
+                    top: 78%;
+                    left: 10px;
+                }
+            } 
+        } 
+    }
+    .message{
+        .row{
+            .our_message:before{
+                height: 20%;
+            }
+        } 
+    }  
+    .about{
+        .abouut_noon{
+            h2{
+                text-align: center;
+            } 
+
+        }
+    } 
+}

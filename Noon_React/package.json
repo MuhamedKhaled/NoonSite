@@ -1,0 +1,43 @@
+{
+  "name": "cotd",
+  "version": "0.0.3",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "3.5.1",
+    "react-scripts": "1.1.1"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "autoprefixer-stylus": "0.14.0",
+    "firebase": "^4.13.1",
+    "google-map-react": "^1.0.0",
+    "jquery": "^3.3.1",
+    "or": "^0.2.0",
+    "owl.carousel": "^2.3.4",
+    "prop-types": "^15.6.1",
+    "re-base": "3.2.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-owl-carousel": "^2.2.0",
+    "react-owl-carousel2": "^0.3.0",
+    "react-responsive-carousel": "^3.1.37",
+    "react-dropdown": "^1.4.2",
+    "react-dynamic-modal": "^1.1.1",
+    "react-input-range": "^1.3.0",
+    "react-router-dom": "^4.2.2",
+    "react-slick": "^0.23.1",
+    "react-transition-group": "^2.3.1",
+    "serve": "^6.5.6",
+    "slick-carousel": "^1.8.1",
+    "stylus": "0.54.5",
+    "yarn": "^1.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "watch": "concurrently --names \"webpack, stylus\" --prefix name \"npm run start\" \"npm run styles:watch\"",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
+    "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css"
+  }
+}
