@@ -10,6 +10,24 @@ import RelatedTopic from './RelatedTopic'
 import { Link } from 'react-router-dom'
 
 class RelatedTopics extends React.Component {
+
+    constructor(){
+        super();
+        this.state = {
+            data: {}
+        };
+    }
+
+    componentDidMount(){
+        fetch("http://localhost:3000/posts/getpost?number=4")
+            .then(response => response.json())
+            .then(response => {
+                this.setState({
+                    data:response,
+                });
+            });
+    };
+
     render() {
         return (
             <div className="RelatedTopicsRectangle mt-5">
@@ -23,18 +41,24 @@ class RelatedTopics extends React.Component {
                 </div>
                 <div className="container mb-5 ">
                     <div className=" row">
-                        <RelatedTopic image="../../img/PostDetails/layer-3.png"
-                                      secrets="../../img/PostDetails/layer-3@2x.png 2x,../../img/PostDetails/layer-3@3x.png 3x"
-                                      min="1 min ago" title="Lorem Ipsum is simply dummy text of the printing and"/>
-                        <RelatedTopic image="../../img/PostDetails/layer-3.png"
-                                      secrets="../../img/PostDetails/layer-3@2x.png 2x,../../img/PostDetails/layer-3@3x.png 3x"
-                                      min="1 min ago" title="Lorem Ipsum is simply dummy text of the printing and"/>
-                        <RelatedTopic image="../../img/PostDetails/layer-3.png"
-                                      secrets="../../img/PostDetails/layer-3@2x.png 2x,../../img/PostDetails/layer-3@3x.png 3x"
-                                      min="1 min ago" title="Lorem Ipsum is simply dummy text of the printing and"/>
-                        <RelatedTopic image="../../img/PostDetails/layer-3.png"
-                                      secrets="../../img/PostDetails/layer-3@2x.png 2x,../../img/PostDetails/layer-3@3x.png 3x"
-                                      min="1 min ago" title="Lorem Ipsum is simply dummy text of the printing and"/>
+                        {/*<RelatedTopic image="../../img/PostDetails/layer-3.png"*/}
+                                      {/*secrets="../../img/PostDetails/layer-3@2x.png 2x,../../img/PostDetails/layer-3@3x.png 3x"*/}
+                                      {/*min="1 min ago" title="Lorem Ipsum is simply dummy text of the printing and"/>*/}
+                        {/*<RelatedTopic image="../../img/PostDetails/layer-3.png"*/}
+                                      {/*secrets="../../img/PostDetails/layer-3@2x.png 2x,../../img/PostDetails/layer-3@3x.png 3x"*/}
+                                      {/*min="1 min ago" title="Lorem Ipsum is simply dummy text of the printing and"/>*/}
+                        {/*<RelatedTopic image="../../img/PostDetails/layer-3.png"*/}
+                                      {/*secrets="../../img/PostDetails/layer-3@2x.png 2x,../../img/PostDetails/layer-3@3x.png 3x"*/}
+                                      {/*min="1 min ago" title="Lorem Ipsum is simply dummy text of the printing and"/>*/}
+                        {/*<RelatedTopic image="../../img/PostDetails/layer-3.png"*/}
+                                      {/*secrets="../../img/PostDetails/layer-3@2x.png 2x,../../img/PostDetails/layer-3@3x.png 3x"*/}
+                                      {/*min="1 min ago" title="Lorem Ipsum is simply dummy text of the printing and"/>*/}
+
+                        {
+                            Object
+                                .keys(this.state.data)
+                                .map(key => <RelatedTopic key={key} details={this.state.data[key]} />)
+                        }
                     </div>
                 </div>
             </div>

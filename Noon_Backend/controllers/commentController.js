@@ -148,17 +148,16 @@ class CommentController extends db {
     getLikes(req,res) {
         this.con.getConnection(function(err,connection) {
             if (err) throw err;
-            connection.query(`SELECT likes FROM heroku_a232b98420ced5b.comment where post_id = ' ${req.params.postID } 'AND id =' ${req.params.commentID}' ;`, function (err, rows) {
-                ;
-                if (err) {
-                    throw err;
-                }
-                else {
-                    res.json(rows);
-                }
-                connection.release();
-
-            });
+            connection.query(`SELECT likes FROM heroku_a232b98420ced5b.comment where post_id = ' ${req.params.postID } 'AND id =' ${req.params.commentID}' ;`,
+                function (err, rows) {
+                    if (err) {
+                        throw err;
+                    }
+                    else {
+                        res.json(rows);
+                    }
+                    connection.release();
+                });
         });
     }
 }

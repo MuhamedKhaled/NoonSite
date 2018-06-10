@@ -12,11 +12,10 @@ class RelatedTopic extends React.Component {
         return (
 <div className="container col-md-3 p-1">
     <div className=" BigPost align-center">
-        <img className="LittleGirl container" src={this.props.image}
-             srcSet={this.props.secrets}/>
-        <div className="-min-ago container mb-2">{this.props.min}</div>
+        <img className="LittleGirl height-of-topics container" src={this.props.details.image}/>
+        <div className="-min-ago container mb-2">1 min ago</div>
         <div className="TextThird container">
-            {this.props.title}
+            {this.props.details.title}
         </div>
         <div className="row mt-2 mb-2">
             <div className="col-md-12 col-xs-12 ml-3">
@@ -37,3 +36,4 @@ class RelatedTopic extends React.Component {
 }
 
 export default RelatedTopic;
+

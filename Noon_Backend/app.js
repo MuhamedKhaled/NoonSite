@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(adminMiddleWare);
 app.use('/', indexRouter);
 app.use('/admins', adminsRouter);
-app.use('/post',postRouter);
+app.use('/posts',postRouter);
 app.use('/sports/', sportsRouter);
 
 //temporary for comment till creating the sport

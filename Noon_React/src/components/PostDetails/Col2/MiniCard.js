@@ -13,13 +13,12 @@ class MiniCard extends React.Component {
         return (
             <div className=" BigPost align-center">
                 <div className="container pt-2">
-                    <img className="LittleGirl  image secrets" src={this.props.image}
-                         srcSet={this.props.secrets}
+                    <img className="LittleGirl  image secrets" src={this.props.details.image}
                          className="LittleGirl"/>
                 </div>
-                <div className="min-ago container mb-2 min">{this.props.min}</div>
+                <div className="min-ago container mb-2 min">1 min ago</div>
                 <div className="TextThird container title">
-                    {this.props.title}
+                    {this.props.details.title}
                 </div>
                 <div className="row mt-2 mb-2">
                     <div className="col-md-12 col-xs-12 ml-3">

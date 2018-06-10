@@ -4,7 +4,8 @@ const postController = require('../controllers/PostController');
 
 router.get('/getpost',(req,res)=>{
      //res.send('hello form other side');
-     postController.getPosts(req,res,2);
+     let n = req.query.number || 2;
+     postController.getPosts(req,res,n);
 });
 
 router.get('/Addpost',(req,res)=>{

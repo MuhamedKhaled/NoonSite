@@ -33,6 +33,10 @@
      object-fit: contain;
      margin-top: 3%;
 }
+
+ .height-of-topics{
+     height: 160px;
+ }
  .min-ago {
      width: 100px;
      font: 12px BahijTheSansArabic-Plain;

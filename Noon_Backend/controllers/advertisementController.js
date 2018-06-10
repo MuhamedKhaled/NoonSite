@@ -41,14 +41,19 @@ class AdvertisementController extends db {
     }
 
     getAdvertisement(req,res) {
-        this.con.query(`SELECT * FROM heroku_a232b98420ced5b.advertisement where id=' ${req.params.advID} ';`, function (err, row) {
-            if (err) {
-                throw err;
-            }
-            else {
-                res.json(row);
-            }
+        this.con.getConnection(function(err,connection)
+        {
+            connection.query(`SELECT * FROM heroku_a232b98420ced5b.advertisement where id=' ${req.params.advID} ';`, function (err, row) {
+                if (err) {
+                    throw err;
+                }
+                else {
+                    res.json(row);
+                }
+                connection.release();
+            });
         });
+
     }
 }
 

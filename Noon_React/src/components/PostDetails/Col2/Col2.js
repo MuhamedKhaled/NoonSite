@@ -9,26 +9,34 @@ import '../../../css/Global/font.css';
 import LinkCard from './LinkCard';
 import MiniCard from './MiniCard';
 class Col2 extends React.Component {
+
+    constructor(){
+        super();
+        this.state = {
+            data: {}
+        };
+    }
+
+    componentDidMount(){
+        fetch("http://localhost:3000/posts/getpost?number=3")
+            .then(response => response.json())
+            .then(response => {
+                this.setState({
+                    data:response,
+                });
+            });
+    };
+
     render() {
         return (
             <div className=" col-md-4 col-xs-3">
                 <LinkCard
                     link="noon.ae/newslink"/>
-                <MiniCard
-                    secrets="../../img/PostDetails/layer-3@2x.png 2x,../../img/PostDetails/layer-3@3x.png 3x"
-                    image="../../img/PostDetails/layer-3.png"
-                    min="1 min ago"
-                    title="Lorem Ipsum is simply dummy text of the printing and"/>
-                <MiniCard
-                    secrets="../../img/PostDetails/layer-3@2x.png 2x,../../img/PostDetails/layer-3@3x.png 3x"
-                    image="../../img/PostDetails/layer-3.png"
-                    min="1 min ago"
-                    title="Lorem Ipsum is simply dummy text of the printing and"/>
-                <MiniCard
-                    secrets="../../img/PostDetails/layer-3@2x.png 2x,../../img/PostDetails/layer-3@3x.png 3x"
-                    image="../../img/PostDetails/layer-3.png"
-                    min="1 min ago"
-                    title="Lorem Ipsum is simply dummy text of the printing and"/>
+                {
+                    Object
+                        .keys(this.state.data)
+                        .map(key => <MiniCard key={key} details={this.state.data[key]} />)
+                }
             </div>
         );
     }
