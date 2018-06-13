@@ -1,3 +1,6 @@
+// Ismail Ahmed
+// Alaa Atef
+
 var db = require('./DatabaseConnector');
 
 class PhotoController extends db{
