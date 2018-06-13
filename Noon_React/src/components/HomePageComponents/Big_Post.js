@@ -30,7 +30,7 @@ class Big_Post extends React.Component{
                     <a href="https://www.instagram.com/" className="share-icon-c share fa fa-instagram"></a>
                     <a href="https://www.gmail.com/" className="share-icon-c fa fa-google-plus"></a>
                     <a href="https://www.youtube.com/" className="share-icon-c share fa fa-youtube"></a>
-                    <Link to="/PostDetails" className="read_more">Read More &rarr;</Link>
+                    <Link to="/PostDetails/1" className="read_more">Read More &rarr;</Link>
                 </div>
             </div>
         )

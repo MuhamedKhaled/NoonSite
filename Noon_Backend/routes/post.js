@@ -13,5 +13,8 @@ router.get('/Addpost',(req,res)=>{
     postController.AddPost(req,res);
 });
 
+router.get('/getpost/:id', function (req, res, next) {
+    postController.getPostsByID(req,res);
+});
 
 module.exports = router;

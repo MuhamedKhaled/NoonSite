@@ -19,8 +19,8 @@ class MiddlePart extends React.Component {
         };
     }
 
-    componentDidMount(){
-        fetch("http://localhost:3000/posts/getpost?number=1")
+    componentWillMount(){
+        fetch("http://localhost:3000/posts/getpost/"+this.props.PostID)
             .then(response => response.json())
             .then(response => {
                 this.setState({
@@ -29,6 +29,22 @@ class MiddlePart extends React.Component {
             });
     };
 
+    componentWillReceiveProps(nextProps) {
+        if (nextProps === this.props) {
+            return;
+        }
+        fetch("http://localhost:3000/posts/getpost/"+this.props.PostID)
+            .then(response => response.json())
+            .then(response => {
+                this.setState({
+                    data:response,
+                });
+            });
+    }
+
+    shouldComponentUpdate(nextProps, nextState) {
+        return this.state !== nextState;
+    }
     render() {
         return (
             <div className="container">
@@ -41,7 +57,7 @@ class MiddlePart extends React.Component {
                                     .map(key => <MainPost key={key} details={this.state.data[key]} />)
                             }
                             <Col2/>
-                            <Comments/>
+                            <Comments  PostID={this.props.PostID}/>
                         </div>
                     </div>
                     <Col3/>

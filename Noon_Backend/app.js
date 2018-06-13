@@ -10,6 +10,8 @@ var postRouter = require ('./routes/post');
 var commentRouter = require('./routes/comments');
 var sportsRouter = require('./routes/sports');
 var advRouter = require('./routes/Advertisements');
+var playerRouter = require('./routes/Player');
+
 
 var app = express();
 app.disable('etag');
@@ -29,6 +31,7 @@ app.use('/', indexRouter);
 app.use('/admins', adminsRouter);
 app.use('/posts',postRouter);
 app.use('/sports/', sportsRouter);
+app.use('/Player',playerRouter);
 
 //temporary for comment till creating the sport
 app.use('/comments', commentRouter);

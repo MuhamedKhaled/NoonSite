@@ -25,8 +25,9 @@ const Root = () =>{
             <Route path = "/aboutus" component={About_us} />
             <Route exact path = "/" component={App} />
             <Route path="/media" component={Media} />
-            <Route path="/section" component={Section}/>
+            //<Route path="/section" component={Section}/>
             <Route exact path = "/PostDetails" component={PostDetails}/>
+            <Route exact path = "/PostDetails/:id" component={PostDetails}/>
             <Route path="/contactus" component={ContactUs}/>
             <Route path="/LiveStreaming" component={LiveStreaming}/>
         </Switch>

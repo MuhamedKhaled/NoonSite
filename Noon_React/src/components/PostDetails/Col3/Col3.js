@@ -10,6 +10,24 @@ import Profile from './Profile';
 import AdvSpace from './AdvSpace';
 
 class Col3 extends React.Component {
+    constructor(){
+        super();
+        this.state = {
+            data: {}
+        };
+    }
+
+    componentDidMount(){
+        fetch("http://localhost:3000/player/getPlayers?number=6")
+            .then(response => response.json())
+            .then(response => {
+                this.setState({
+                    data:response,
+                });
+            });
+    };
+
+
     render() {
         return (
             <div className=" col-md-3 col-xs-3  align-center">
@@ -18,18 +36,11 @@ class Col3 extends React.Component {
                     <div className="profiles mt-3">
                         <p className="Profiles-font">Profiles></p>
                     </div>
-                    <Profile image="../../img/PostDetails/profile1.png" secrets="../../img/PostDetails/profile2.png"
-                             name="Maria Sharapova" title="Lorem Ipsum is simply dummy text of the printing and"/>
-                    <Profile image="../../img/PostDetails/profile1.png" secrets="../../img/PostDetails/profile2.png"
-                             name="Maria Sharapova" title="Lorem Ipsum is simply dummy text of the printing and"/>
-                    <Profile image="../../img/PostDetails/profile1.png" secrets="../../img/PostDetails/profile2.png"
-                             name="Maria Sharapova" title="Lorem Ipsum is simply dummy text of the printing and"/>
-                    <Profile image="../../img/PostDetails/profile1.png" secrets="../../img/PostDetails/profile2.png"
-                             name="Maria Sharapova" title="Lorem Ipsum is simply dummy text of the printing and"/>
-                    <Profile image="../../img/PostDetails/profile1.png" secrets="../../img/PostDetails/profile2.png"
-                             name="Maria Sharapova" title="Lorem Ipsum is simply dummy text of the printing and"/>
-                    <Profile image="../../img/PostDetails/profile1.png" secrets="../../img/PostDetails/profile2.png"
-                             name="Maria Sharapova" title="Lorem Ipsum is simply dummy text of the printing and"/>
+                    {
+                        Object
+                            .keys(this.state.data)
+                            .map(key => <Profile key={key} details={this.state.data[key]} />)
+                    }
                 </div>
             </div>
         );

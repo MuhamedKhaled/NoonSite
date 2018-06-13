@@ -27,7 +27,7 @@ class MiniCard extends React.Component {
                         <a href="www.instagram.com" className="share-icon-c share fa fa-instagram"/>
                         <a href="www.googleplus.com" className="share-icon-c fa fa-google-plus mr-1"/>
                         <a href="www.youtube.com" className="share-icon-c share fa fa-youtube"/>
-                        <Link to="#" className="pull-right mr-4 Read-More mt-1">Read More<span
+                        <Link to={"/PostDetails/"+this.props.details.id}  className="pull-right mr-4 Read-More mt-1">Read More<span
                             className="arrow">→</span>
                         </Link>
                     </div>

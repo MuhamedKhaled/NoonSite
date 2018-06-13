@@ -8,16 +8,24 @@ import '../../../css/Global/bootstrap.min.css';
 import '../../../css/Global/font.css';
 
 class Profile extends React.Component {
+
+    constructor(){
+        super();
+        this.state = {
+            profile: {}
+        };
+    };
+
     render() {
         return (
             <div>
-                <img className="LittleGirl container" src={this.props.image}
+                <img className="LittleGirl container" src={this.props.details.image}
                      srcSet={this.props.secrets}/>
                 <div className="container profile-header">
-                    {this.props.name}
+                    {this.props.details.name}
                 </div>
                 <div className="pr-5 pl-5 TextForth">
-                    {this.props.title}
+                    {this.props.details.bio}
                 </div>
                 <div className="row mt-2 mb-2 icons-center">
                     <div className="col-md-12 col-xs-12">

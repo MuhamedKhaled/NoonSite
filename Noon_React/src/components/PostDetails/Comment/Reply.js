@@ -14,11 +14,10 @@ class Reply extends React.Component {
     constructor(){
         super();
         this.state = {
-            image: "../../img/PostDetails/rectangle-19-copy-2.png",
-            secrests: "../../img/PostDetails/rectangle-19-copy-2@2x.png 2x,../../img/PostDetails/rectangle-19-copy-2@3x.png 3x",
-            name: "Maria Sharapova",
+            srcSets: "../../img/PostDetails/rectangle-19-copy-2@2x.png 2x,../../img/PostDetails/rectangle-19-copy-2@3x.png 3x",
             min: "1 min ago",
-            Numoflikes: 0
+            Numoflikes: 0,
+            player:{}
         };
     };
 
@@ -40,13 +39,21 @@ class Reply extends React.Component {
     componentDidMount()
     {
         const {details} = this.props;
-        fetch(`http://localhost:3000/comments/1/${details.id}/getLikes`)
+        fetch(`http://localhost:3000/comments/${this.props.PostID}/${details.id}/getLikes`)
             .then(response => response.json())
             .then(response => {
                 this.setState({
                     Numoflikes:response.map((mydata)=><p className="ml-3 NumofLikes">{mydata.likes}{' Likes'}</p>)
                 });
             });
+        fetch(`http://localhost:3000/Player/getPlayer/${details.player_id}`)
+            .then(response => response.json())
+            .then(response => {
+                this.setState({
+                    player:response[0]
+                });
+            });
+
     }
 
     render() {
@@ -56,13 +63,13 @@ class Reply extends React.Component {
                 <div className="row mt-4">
                     <div className="ml-2 Shape-4"/>
                     <div className=" Layer-13-copy-3 pull-left ml-2">
-                        <img src={this.state.image}
-                             srcSet={this.state.secrets}/>
+                        <img src={this.state.player.image}
+                             srcSet={this.state.srcSets}/>
                     </div>
                     <div className="col-md-11 col-xs-12 ">
                         <div className="row ml-2">
                             <div className=" pull-left">
-                                <p className="Maria-Sharapova">{this.state.name}</p>
+                                <p className="Maria-Sharapova">{this.state.player.name}</p>
                             </div>
                             <div className="mt-1 pull-right">
                                 <p className="-min-ago-copy">{this.state.min}</p>

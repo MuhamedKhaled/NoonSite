@@ -14,14 +14,17 @@ import '../../css/Global/font.css';
 import RelatedTopics from './RelatedTopics/RelatedTopics';
 import MiddlePart from "./MiddlePart";
 
+
 class PostDetails extends React.Component {
     render() {
+        const {id} = this.props.match.params;
+
         return (
             <div>
                 <Header/>
                 <NavBar/>
                 <div>
-                    <MiddlePart/>
+                    <MiddlePart PostID={id}/>
                     <RelatedTopics/>
                 </div>
                 <FooterSection/>

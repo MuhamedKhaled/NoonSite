@@ -21,6 +21,21 @@ class PostController extends db{
         );        
     }
 
+    getPostsByID(req,res){
+        const conn = new db();
+        const Post = this.con.query(`SELECT * FROM post WHERE id=${req.params.id.toString()}`,
+
+            function (err,result){
+                if(err)
+                    throw err;
+
+                if(result.length>0)
+                {
+                    res.send(result);
+                }
+            }
+        );
+    }
 
     AddPost(req,res){
         const conn = new db();

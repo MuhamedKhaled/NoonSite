@@ -35,7 +35,7 @@ class Comments extends React.Component {
                 method: 'POST',
                 // mode: 'CORS',
                 headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({commentBody: comment, postID: 1})
+                body: JSON.stringify({commentBody: comment, postID: this.props.PostID})
             })
          .then((res) => res.json())
             .then((comment) =>  console.log(comment))
@@ -43,7 +43,7 @@ class Comments extends React.Component {
     }
 
     componentDidMount() {
-        fetch("http://localhost:3000/comments/getComments/1")
+        fetch("http://localhost:3000/comments/getComments/"+this.props.PostID)
             .then(response => response.json())
             .then(response => {
                 this.setState({
@@ -52,7 +52,22 @@ class Comments extends React.Component {
             });
     };
 
+    componentWillReceiveProps(nextProps) {
+        if (nextProps === this.props) {
+            return;
+        }
+        fetch("http://localhost:3000/comments/getComments/"+this.props.PostID)
+            .then(response => response.json())
+            .then(response => {
+                this.setState({
+                    data:response,
+                });
+            });
+    }
 
+    shouldComponentUpdate(nextProps, nextState) {
+        return this.state !== nextState;
+    }
 
     render() {
         return (
@@ -71,7 +86,7 @@ class Comments extends React.Component {
                     {
                         Object
                             .keys(this.state.data)
-                            .map(key => <Maincomment key={key} details={this.state.data[key]} />)
+                            .map(key => <Maincomment key={key} details={this.state.data[key]} PostID={this.props.PostID}/>)
                     }
 
                 </div>

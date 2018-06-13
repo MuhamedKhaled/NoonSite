@@ -31,7 +31,7 @@ class Small_Post extends React.Component{
                                     <a href="https://www.youtube.com/" class="share-icon-c fa fa-youtube"></a>
                                 </div>
                                 <div class="more col-lg-6 col-md-12 col-sm-12 col-12 ">
-                                    <Link to="/PostDetails" class="read_more">Read More <span class="arrow">&rarr;</span></Link>
+                                    <Link to="/PostDetails/1" class="read_more">Read More <span class="arrow">&rarr;</span></Link>
                                 </div>
                             </div>
                         </div>
