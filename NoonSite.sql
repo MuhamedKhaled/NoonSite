@@ -1,10 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `heroku_a232b98420ced5b` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `heroku_a232b98420ced5b`;
--- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
--- Host: us-cdbr-iron-east-05.cleardb.net    Database: heroku_a232b98420ced5b
+-- Host: localhost    Database: heroku_a232b98420ced5b
 -- ------------------------------------------------------
--- Server version	5.6.40-log
+-- Server version	5.7.19-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -79,17 +77,17 @@ DROP TABLE IF EXISTS `comment`;
 CREATE TABLE `comment` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `content` mediumtext NOT NULL,
-  `timestamp` datetime NOT NULL,
+  `timestamp` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `likes` int(11) NOT NULL DEFAULT '0',
   `post_id` int(11) NOT NULL,
   `replies_to` int(11) DEFAULT NULL,
-  `player_id` int(11) NOT NULL DEFAULT '-1',
+  `player_id` int(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`),
   KEY `post_id_idx` (`post_id`),
   KEY `replies_to_idx` (`replies_to`),
   CONSTRAINT `post_id` FOREIGN KEY (`post_id`) REFERENCES `post` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `replies_to` FOREIGN KEY (`replies_to`) REFERENCES `comment` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=182 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=183 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -98,7 +96,7 @@ CREATE TABLE `comment` (
 
 LOCK TABLES `comment` WRITE;
 /*!40000 ALTER TABLE `comment` DISABLE KEYS */;
-INSERT INTO `comment` VALUES (31,'first comment','0000-00-00 00:00:00',2,1,NULL,0),(41,'second comment','0000-00-00 00:00:00',2,1,NULL,0),(51,'third comment','0000-00-00 00:00:00',0,1,NULL,0),(72,'first reply to first comment','0000-00-00 00:00:00',2,1,31,0),(82,'second reply to first comment','0000-00-00 00:00:00',0,1,31,0),(91,'Lorem Ipsum is simply dummy text of the printing','0000-00-00 00:00:00',0,1,NULL,0),(101,'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen','0000-00-00 00:00:00',0,1,NULL,0),(131,'haaay','0000-00-00 00:00:00',1,1,NULL,0),(141,'hello guys','0000-00-00 00:00:00',0,1,NULL,0),(151,'hello guys','0000-00-00 00:00:00',2,1,NULL,0),(161,'Comment on second Post !','0000-00-00 00:00:00',4,11,NULL,1),(171,'reply on first comment of the second post','0000-00-00 00:00:00',10,11,161,1),(181,'Second Comment on second Post !','0000-00-00 00:00:00',4,11,NULL,1);
+INSERT INTO `comment` VALUES (31,'first comment','0000-00-00 00:00:00',2,1,NULL,1),(41,'second comment','0000-00-00 00:00:00',2,1,NULL,1),(51,'third comment','0000-00-00 00:00:00',0,1,NULL,1),(72,'first reply to first comment','0000-00-00 00:00:00',2,1,31,1),(82,'second reply to first comment','0000-00-00 00:00:00',5,11,161,1),(91,'Lorem Ipsum is simply dummy text of the printing','0000-00-00 00:00:00',0,1,NULL,1),(101,'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen','0000-00-00 00:00:00',0,1,NULL,1),(131,'haaay','0000-00-00 00:00:00',1,1,NULL,1),(141,'hello guys','0000-00-00 00:00:00',0,1,NULL,1),(151,'hello guys','0000-00-00 00:00:00',2,1,NULL,1),(161,'Comment on second Post !','0000-00-00 00:00:00',4,11,NULL,1),(171,'reply on first comment of the second post','0000-00-00 00:00:00',10,11,161,1),(181,'Second Comment on second Post !','0000-00-00 00:00:00',4,11,NULL,1),(182,'TEEST AGAAAIN','2018-06-17 00:07:49',0,1,NULL,1);
 /*!40000 ALTER TABLE `comment` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -256,4 +254,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-06-14 21:43:01
+-- Dump completed on 2018-06-17  0:19:07
